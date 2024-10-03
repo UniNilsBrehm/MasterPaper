@@ -1,0 +1,21 @@
+Fig. 1:
+- Call structure
+- Call statistics histograms
+
+Fig. 2:
+- Auditory Receptor Tuning to Sound Intensity and Frequency
+- Auditory Receptor Temporal Resolution (Gaps)
+
+Fig. 3:
+- Moth Songs: Spike Train Matching and Classification Performance
+- Moth vs. Bat Calls: Spike Train Matching and Classification Performance
+
+Supp. Fig. 1:
+- Example Traces of Moth Songs
+- Example Traces of Bat Echolocation Calls
+
+Supp. Fig. 2 (or normal Fig.?):
+- Example for Gap Detection of Rectangular and Model Pulses (see Master Thesis Fig. 9)
+
+Supp. Fig. 3:
+- Simulation of Poisson Train Distances and Classification (see Master Thesis Fig. 20 and 21)
