@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.10.13)  21 MAR 2025 11:21
+This is LuaHBTeX, Version 1.17.0 (TeX Live 2023/Debian)  (format=lualatex 2024.10.13)  2 JUL 2025 08:48
  restricted system commands enabled.
 **moth_manuscript.tex
 (./moth_manuscript.tex
@@ -736,7 +736,7 @@ Package hyperref Info: Link coloring ON on input line 37.
 
 \openout4 = moth_manuscript.out
 
-Overfull \hbox (3.48914pt too wide) in paragraph at lines 63--64
+Overfull \hbox (3.48914pt too wide) in paragraph at lines 67--68
 []\TU/lmr/m/n/10.95 Arc-tiid moths pro-duce ul-tra-sonic calls dur-ing courtship
  and for pro-tec-tion against
  []
@@ -752,7 +752,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <figures/Fig_01.jpeg, id=557, 398.2077pt x 569.0058pt>
 File: figures/Fig_01.jpeg Graphic file (type jpg)
 <use figures/Fig_01.jpeg>
-Package luatex.def Info: figures/Fig_01.jpeg  used on input line 470.
+Package luatex.def Info: figures/Fig_01.jpeg  used on input line 474.
 (luatex.def)             Requested size: 398.20673pt x 569.00441pt.
 
 
@@ -761,7 +761,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/Fig_02.jpeg, id=558, 398.2077pt x 569.0058pt>
 File: figures/Fig_02.jpeg Graphic file (type jpg)
 <use figures/Fig_02.jpeg>
-Package luatex.def Info: figures/Fig_02.jpeg  used on input line 480.
+Package luatex.def Info: figures/Fig_02.jpeg  used on input line 484.
 (luatex.def)             Requested size: 398.20673pt x 569.00441pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -769,7 +769,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 <figures/Fig_03.jpeg, id=559, 398.2077pt x 569.0058pt>
 File: figures/Fig_03.jpeg Graphic file (type jpg)
 <use figures/Fig_03.jpeg>
-Package luatex.def Info: figures/Fig_03.jpeg  used on input line 487.
+Package luatex.def Info: figures/Fig_03.jpeg  used on input line 491.
 (luatex.def)             Requested size: 398.20673pt x 569.00441pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -824,7 +824,7 @@ amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on moth_manuscript.pdf (27 pages, 1224672 bytes).
+Output written on moth_manuscript.pdf (27 pages, 1224668 bytes).
 
 PDF statistics: 701 PDF objects out of 1000 (max. 8388607)
  618 compressed objects within 7 object streams
