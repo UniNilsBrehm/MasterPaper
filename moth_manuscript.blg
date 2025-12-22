@@ -1,15 +1,15 @@
-[0] Config.pm:307> INFO - This is Biber 2.19
-[0] Config.pm:310> INFO - Logfile is 'moth_manuscript.blg'
-[97] biber:340> INFO - === Fr Mär 21, 2025, 10:01:11
-[115] Biber.pm:419> INFO - Reading 'moth_manuscript.bcf'
-[200] Biber.pm:979> INFO - Found 50 citekeys in bib section 0
-[217] Biber.pm:4419> INFO - Processing section 0
-[230] Biber.pm:4610> INFO - Looking for bibtex file 'mothbib.bib' for section 0
-[277] bibtex.pm:1713> INFO - LaTeX decoding ...
-[772] bibtex.pm:1519> INFO - Found BibTeX data source 'mothbib.bib'
-[1189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1189] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1189] Biber.pm:4239> INFO - Sorting list 'nty/global//global/global' of type 'entry' with template 'nty' and locale 'en-US'
-[1189] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[1245] bbl.pm:660> INFO - Writing 'moth_manuscript.bbl' with encoding 'UTF-8'
-[1274] bbl.pm:763> INFO - Output to moth_manuscript.bbl
+[0] Config.pm:308> INFO - This is Biber 2.20
+[0] Config.pm:311> INFO - Logfile is 'moth_manuscript.blg'
+[125] biber-MSWIN64:340> INFO - === 
+[169] Biber.pm:420> INFO - Reading 'moth_manuscript.bcf'
+[314] Biber.pm:994> INFO - Found 47 citekeys in bib section 0
+[331] Biber.pm:4463> INFO - Processing section 0
+[344] Biber.pm:4654> INFO - Looking for bibtex file 'mothbib.bib' for section 0
+[432] bibtex.pm:1713> INFO - LaTeX decoding ...
+[794] bibtex.pm:1519> INFO - Found BibTeX data source 'mothbib.bib'
+[1114] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1114] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1114] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
+[1114] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-US'
+[1170] bbl.pm:676> INFO - Writing 'moth_manuscript.bbl' with encoding 'UTF-8'
+[1212] bbl.pm:779> INFO - Output to moth_manuscript.bbl
