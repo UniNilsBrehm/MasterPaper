@@ -28,6 +28,7 @@ sorting=nyt        % Sort bibliography by Name, Year, Title
 
 \newcommand{\species}[1]{\textit{#1}}
 \newcommand{\fig}[2]{(Fig.~#1~#2)}
+\newcommand{\suppfig}[2]{(SuppFig.~#1~#2)}
 \newcommand{\fileextension}[1]{\texttt{#1}}
 \newcommand{\percent}[1]{#1~$\%$}
 \newcommand{\relacs}[1]{\href{http://www.relacs.net}{#1}}
@@ -56,10 +57,8 @@ sorting=nyt        % Sort bibliography by Name, Year, Title
 %Current Biology Report:
 %Reports present findings of broad biological interest in a concise, to-the-point style. Reports are typically limited to six journal pages (usually around 2,500 words of main text, i.e., all of the text in the manuscript except for the summary, the STAR Methods text, any supplemental information text, and references section), and there should be no more than four display items (figures and tables). Additional items and details may be published online as supplemental information (please see the supplemental information guidelines for more information).
 
-
-% \section*{\centering{Abstract}}
->>>>>>> 17e062cf43a2f703c37991078ec47aeba3099a7a
 \begin{abstract}
+\notenb{Needs re-writing!}
 Arctiid moths produce ultrasonic calls during courtship and for protection against predators. Every species has its own distinctive call pattern, which leads to a vast variety of different calls. Calls consist of single pulses, each one not longer than 1~ms. Such pulses can then be arranged in broader structures with intervals of around 1~--~100~ms.
 
 Arctiid moths have a very simple ear with only two receptor cells with the same frequency tuning, and, therefore, are tone deaf. Thus, the temporal pattern of calls is, most likely, the salient characteristic that is perceivable for arctiid moths. Calls contain structures of several temporal scales and we could show that auditory receptor cells can resolve gaps longer than 2~--~5~ms, depending on the pulse duration. This makes it impossible for the nervous system to encode intervals between single pulses, but broader temporal structures are feasible. 
@@ -103,32 +102,37 @@ Three moth species (\species{Carales astur} and \species{Estigmene acrea} origin
 
 \subsection{Electrophysiology}
 % \subsubsection{Preparation}
-For recording the neural activity of the auditory nerve (3N1 after \parencite{nuesch1957}) a modified approach by \parencite{roeder1957} was used. Animals were dealated and the dorsal side of the thorax was descaled. Then the legs were removed and the animal was fixed on a table ventral side up using insect wax. The thorax was cut open along the mid-ventral line, whereby exposing the pterothoracic ganglion. The thoracic cavity was flooded with saline and the tympanal branch of the nerve 3N1 was hooked with a monopolar silver hook electrode. This branch consist of two auditory receptor axons (A1 and A2) and projections of a proprioception cell (B cell), which is not excited by acoustic stimuli. Another silver electrode was placed lateral in the thorax, serving as a reference.   
+For recording the neural activity of the auditory nerve (3N1 after \parencite{nuesch1957}) a modified approach by \textcite{roeder1957} was used. Animals were dealated and the dorsal side of the thorax was descaled. Then the legs were removed and the animal was fixed on a table ventral side up using insect wax. The thorax was cut open along the mid-ventral line, whereby exposing the pterothoracic ganglion. The thoracic cavity was flooded with saline and the tympanal branch of the nerve 3N1 was hooked with a monopolar silver hook electrode. This branch consist of two auditory receptor axons (A1 and A2) and projections of a proprioception cell (B cell), which is not excited by acoustic stimuli. Another silver electrode was placed lateral in the thorax, serving as a reference.   
 
 % \subsubsection{Data Acquisition}
-All signals recorded from the auditory nerve were amplified and filtered with two coupled extracellular amplifiers (EXT-10-2F and DPA-2FX, npi electornics Tamm) with a total gain of 10k. The low and high pass filters were set to 3~kHz and 400~Hz, respectively. The amplified signal was then recored using \relacs{RELACS} \footnote{http://relacs.sourceforge.net/index.html}. All experiments were done in a sound proof chamber with no illumination \notejb{in complete darkness?}. Spikes were detected using a dynamic amplitude threshold. B~cell spikes had much higher amplitudes and a regular firing pattern and, based on that, were rejected from the analysis. A1 and A2 spikes could not be discriminated and were treated together as if belonging to a single unit. 
+All signals recorded from the auditory nerve were amplified and filtered with two coupled extracellular amplifiers (EXT-10-2F and DPA-2FX, npi electornics Tamm) with a total gain of 10k. The low and high pass filters were set to 3~kHz and 400~Hz, respectively. The amplified signal was then recored using \relacs{RELACS} \footnote{http://relacs.sourceforge.net/index.html}. All experiments were done in a sound proof chamber with no illumination \notejb{in complete darkness?} \notenb{as far as I remember...}. Spikes were detected using a dynamic amplitude threshold. B~cell spikes had much higher amplitudes and a regular firing pattern and, based on that, were rejected from the analysis. A1 and A2 spikes could not be discriminated and were treated together as if belonging to a single unit. 
 
 
 \subsection{Stimuli}
-For presenting acoustic stimuli, a speaker (TG30 \notejb{details}) connected to the recording computer via an audio amplifier (\notejb{das ist der abschwaecher, aber kein Verstaerker}ATN-01 M, npi electornics Tamm) was placed into the sound proof chamber with a distance of 40\,cm to the preparation. The speaker was calibrated using an ultrasonic microphone (Gras\notejb{details}). This procedure was repeated for several times to make sure the calibrations stayed valid. All stimuli were played back from \relacs{RELACS}.
+For presenting acoustic stimuli, a speaker (TG30 \notejb{details} \notenb{I dont have more details here}) connected to the recording computer via an audio amplifier (NPI Electronics) was placed into the sound proof chamber with a distance of 40\,cm to the preparation. The speaker was calibrated using an ultrasonic microphone (Gras). This procedure was repeated for several times to make sure the calibrations stayed valid. All stimuli were played back using \relacs{RELACS}.
 
 \subsubsection{Intensity and frequency tuning}
 To determine the frequency tuning of the receptors, pure tone pulses (sinusoidal sound waves) with a duration of 20~ms to 50~ms were presented. The carrier frequency was varied in 10~kHz steps between 10~kHz and 100~kHz. Stimulus intensity was increased in 3~dB~SPL steps from 20~dB~SPL to 90~dB~SPL.
 
 \subsubsection{Temporal resolution}
-Moth ears were exposed to amplitude modulated sine waves with a carrier frequency of 50\,kHz. Amplitude modulation was done by using a rectangular function, which sets the intensity to either 0~dB~SPL or 80~dB~SPL and therefore producing a pulsed stimulus with particular gaps in between. The pulse duration was either 5\,ms or 10\,ms and the period was chosen, so that the gap between two successive pulses was 0\,ms to 20\,ms long. A period of 30\,ms with a pulse duration of 10\,ms corresponded to a gap of 20\,ms. Every gap trial was repeated 20 times. In addition, artificial moth pulses with varying intervals were presented to the animals. Moth pulses were approximated by damped sine waves with a carrier frequency ($f_{i}$) of 50\,kHz, a damping time-constant ($\tau$) of 0.1\,ms and 0.4\,ms and a single pulse duration of 0.5\,ms and 2\,ms, respectively.
+Moth ears were exposed to amplitude modulated sine waves with a carrier frequency of 50\,kHz. Amplitude modulation was done by using a rectangular function, which sets the intensity to either 0~dB~SPL or 80~dB~SPL and therefore producing a pulsed stimulus with particular gaps in between. The pulse duration was either 5\,ms or 10\,ms and the period was chosen, so that the gap between two successive pulses was 0\,ms to 20\,ms long. A period of 30\,ms with a pulse duration of 10\,ms corresponded to a gap of 20\,ms. Every gap trial was repeated 20 times. In addition, artificial moth pulses with varying intervals were presented to the animals. Moth pulses were modeled by damped sine waves with a carrier frequency $f_{c}$ of 50\,kHz, an amplitude $a_i$, a damping time-constant $\tau_i$ of 0.1\,ms or 0.4\,ms and a single pulse duration of 0.5\,ms or 2\,ms, respectively.
+
+%\begin{equation}
+%  \label{eq:DampedSine}
+%  Pulse(t) = \sum_{i=1}^{N} a_i \sin(2 \pi f_i t) \; e^{-\frac{t}{\tau}}
+%\end{equation}
 
 \begin{equation}
-  \label{eq:DampedSine}
-  Pulse(t) = \sum_{i=1}^{N} a_i \sin(2 \pi f_i t) \; e^{-\frac{t}{\tau}}
+	\label{eq:DampedSine}
+	Pulse_i(t) =  a_i \sin(2 \pi f_c t) \; e^{-\frac{t}{\tau_i}}
 \end{equation}
-\notejb{$a_i$ is the amplitude (not described yet) and what are you summing over? Is $N=2$ for the two different time constants? But then $\tau$ should be $\tau_i$...}
+
+\notejb{$a_i$ is the amplitude (not described yet) and what are you summing over? Is $N=2$ for the two different time constants? But then $\tau$ should be $\tau_i$...} \notenb{I hope its clearer now.}
 
 \subsubsection{Moth and bat calls}
-The possibility of discriminating different moth and bat calls by looking at the neural response (i.e. spike trains) was tested by using playbacks of moth and bat single calls and call series. A single moth call consisted of one active and one passive pulse train. In a call series, this acoustic unit is repeated several times yielding a longer stimulus time and adding coarser temporal patterns. Every stimulus was presented 20 times at a sound pressure level of 80~dB~SPL. To obtain those calls, animals were fixed between the index finger and thumb. By gently squeezing the animal, it started emitting calls. Those calls were recorded, using a microphone (Knowles Electronics, FG-23329) sensitive to ultrasound, with a sampling rate of either 256~kHz or 480~kHz. Calls that are recored with this method are not distinguishable from calls elicited with play backs of bat calls \parencite{barber2006, corcoran2010}.
+The possibility of discriminating different moth and bat calls by looking at the neural response (i.e. spike trains) was tested by using playbacks of moth and bat call series. Every stimulus was presented 20 times at a sound pressure level of 80~dB~SPL. To obtain those calls, animals were fixed between the index finger and thumb. By gently squeezing the animal, it started emitting calls. Those calls were recorded, using a microphone (Knowles Electronics, FG-23329) sensitive to ultrasound, with a sampling rate of either 256~kHz or 480~kHz. Calls that were recorded with this method are not distinguishable from calls elicited with play backs of bat calls \parencite{barber2006, corcoran2010}.
 
-Many calls did differ in their duration. Therefore we corrected for this difference by extending all calls to the same length. This was done by repeating the particular spike train response, i.e. adding the whole spike train successively with a gap of 10~ms for single calls and 50~ms for call series. Spike trains that were treated this way were called 'extended'. It is important to emphasize that we did not repeat the acoustic stimuli, but the spike trains produced by the receptor cells in response to the untreated calls.
-
+Many calls did differ in their duration. Therefore we corrected for this difference by extending all calls to the same length. This was done by repeating the particular spike train response, i.e. adding the whole spike train successively with a gap of 50~ms. Spike trains that were treated this way were called 'extended'.
 
 \subsection{Analysis}
 Recording data was stored in the \href{https://github.com/G-Node/nix/wiki}{nix} \footnote{https://github.com/G-Node/nix/wiki} (neuroscience information exchange) format and analyzed using the programming language Python (v3.5).
@@ -147,7 +151,7 @@ The intensity value at which the tangent at $I_{0}$ crosses the minimum ($f_{min
 Threshold = I_{0} - \frac{2}{k}
 \end{equation}
 where $k$ is a constant value, corresponding to the slope of the tangent.
-This method of finding a threshold is much more sophisticated than just setting it to an arbitrary spike count which is quite common in the moth literature, yet still yielding similar results.
+This method of finding a threshold is more reliable than just setting it to an arbitrary spike count.
 
 
 \subsubsection{Temporal Resolution}
@@ -156,9 +160,10 @@ For measuring the phase locking of spikes to the stimulus period, we computed th
 \label{eq:VS}
 VS = \left|\frac{1}{n} \sum_{j=1}^{n}e^{i\omega t_j}\right|
 \end{equation}
-All spike times of one trial ($t_{j}$) are put on a unity circle in reference to the stimulus period~$T$, which is included into the angular frequency $\omega = \frac{2\pi}{T}$. The absolute value of the average vector is then called the vector strength. It falls between 0, no locking at all, and 1, indicating perfect locking \parencite{vanhemmen2013}. 
+All spike times of one trial ($t_{j}$) were mapped on a unity circle in reference to the stimulus period~$T$, which is included into the angular frequency $\omega = \frac{2\pi}{T}$. The absolute value of the average vector is then called the vector strength. It falls between 0, no locking at all, and 1, indicating perfect locking \parencite{vanhemmen2013}. 
+
 The VS for a range of periods (0 to 50~ms) was computed for every single spike train and than averaged over trials (second order VS spectrum, \parencite{sinz2017a}). 
-If there is a particular locking to a specific stimulus period the VS spectrum function peaks. To determine if this VS peak yields an significant effect we compared it to the 95 percentile of the bootstrapped VS distribution of a Poisson model neuron. The firing rate was equal to the mean firing rate of the recorded cell and the Poisson spike trains only showed a synchronization pattern by chance. 
+When there was a particular locking to a specific stimulus period the VS spectrum function peaks. To determine if this VS peak yields an significant effect we compared it to the 95 percentile of the bootstrapped VS distribution of a Poisson model neuron, where the firing rate was equal to the mean firing rate of that specific cell.
 
 \subsubsection{Spike train distances}
 \label{spiketraindistances}
@@ -187,7 +192,7 @@ D_{VR}(f,g) = \frac{1}{\tau} \int_{0}^{\infty}[f(t)-g(t)]^2 dt
 This yields a single distance value for every comparison. If $\tau$ is set to a very small value, the Van Rossum distance counts noncoincident spikes. If set to a large value the difference in total spike count is measured.
 
 \subsubsection{Spike train classification.}
-To investigate if a discrimination between calls, just by looking at the spike trains, is possible, a modified procedure by \parencite{machens2003} was applied. For every call stimulus 20 repetitions were recorded. Out of this 20 spike trains, one was selected as a template. This template was then compared to all the other spike trains of the same call, and to all other call stimuli, but not with itself. For 20 different calls this yields a number of 399 comparisons. The spike train that had the smallest distance to the template was treated as the best match. By looking at the corresponding calls, to which this matched spike train belonged, a classification could be conducted. This procedure was repeated for all the other call stimuli and then bootstrapped ten times. The resulting algorithm seems to be a good compromise between doing all possible combinations and tolerable computing time.
+To investigate if a discrimination between calls, just by looking at the spike trains, is possible, a modified procedure by \textcite{machens2003} was applied. For every call stimulus 20 repetitions were recorded. Out of this 20 spike trains, one was selected as a template. This template was then compared to all the other spike trains of the same call, and to all other call stimuli, but not with itself. For 20 different calls this yields a number of 399 comparisons. The spike train that had the smallest distance to the template was treated as the best match. By looking at the corresponding calls, to which this matched spike train belonged, a classification could be conducted. This procedure was repeated for all the other call stimuli and then bootstrapped ten times. The resulting algorithm seems to be a good compromise between doing all possible combinations and tolerable computing time.
 
 \subsubsection{Poisson trains}
 The duration of moth calls was different between the single species. To have a better idea how the spike train distance metrics, used in this study, behave if there is no other information present than the total spike train duration, we computed the distances for groups of Poisson trains and run the classification algorithm on them.
@@ -198,15 +203,13 @@ D^{2} = pT~~,~~~~~~~p:~firing~rate,~T:~total~duration
 \end{equation}
 This means that the Van Rossum distance for Poisson trains only depends on the firing rate and the total spike train duration, and is independent of $ \tau $. However, $ \tau $ strongly influences how large the variance of the metric is. The Van Rossum distance with large $ \tau $ values measures the difference in total number of spikes. Whereas small $ \tau $ values correspond to  a non-coincident counter. The difference in total spike count varies more than the number of non-coincident spikes \parencite{rossum2001}. Therefore the variation among distances computed with large $ \tau $ values is significantly higher \parencite{rossum2001}. 
 
-\newpage
 \subsection{Discrimination of moth and bat calls}
 \label{MvsBMethods}
-Discrimination between different calls is a quite sophisticated task. A more fundamental skill is to classify moth and bat calls. The observer of spike trains is confronted with a task that can be broken down to a 'yes' or 'not' task. When an observer looks at a spike train, it can either say, it is the response to a moth or to a bat call. Table \ref{tab:yesno} shows the classification of decisions based on the Signal Detection Theory. Converting the hits and false alarms to rates, the sensitivity index $d'$ (d prime) can be computed by performing a subtraction of the z-transformations of those rates.
+To discriminate moth and bat calls, the observer of spike trains is confronted with a task that can be broken down to a 'yes' or 'no' decision. When an observer looks at a spike train, it can either say, it is the response to a moth or to a bat call. Table \ref{tab:yesno} shows the classification of decisions based on the Signal Detection Theory. Converting the hits and false alarms to rates, the sensitivity index $d'$ (d prime) can be computed by performing a subtraction of the z-transformations of those rates.
 \begin{equation}
 \label{eq:dprime}
 d' = z(hit~rate) - z(false~alarm~rate)
 \end{equation}
-
 
 \begin{table}[h]
 	\centering
@@ -229,118 +232,27 @@ d' = z(hit~rate) - z(false~alarm~rate)
 \newpage
 \section{Results}
 \subsection{Call structure of moth calls}
-All moth calls used in this study are listed in Tab.~\ref{tab:SC} and Tab.~\ref{tab:CS}. We differentiated between single calls and call series. The minimal unit is the single pulse. Those pulses are then further arranged in one call. A call series is defined as several calls in a row. Fig.~\ref{fig:01}(A, B, C) gives an overview of the different structures of a moth call series.
+\notenb{This is Fig 1 and SuppFig 1 A and B}
+Acrtiid call series are auditory signals, structured on different time scales. The basic unit is the single pulse, that is further arranged into calls, which then build up entire call series. An example of the different components at different time scales is shown in Fig.~\ref{fig:01}{A} for the species \species{Melese sp.}.
+A single pulse can be described by a damped sine wave with a carrier frequency and duration that can vary between different species. In all calls used in this study the pulse duration ranged from 0.1~ms to 0.6~ms \fig{\ref{fig:01}}{C}, therefore all of them were shorter than a millisecond, a duration that is in the same scale of action potentials. The carrier frequency was broadly distributed over different species, ranging from 5~kHz up to 80~kHz  \suppfig{\ref{suppfig:01}}{A,B}.
+As the moth tymbal contracts it produces active pulse train and as it relaxes again a passive pulse train fig{\ref{fig:01}}{A} \notenb{Maybe add labels in Fig 1 A for active and passive} defining one call. The inter pulse interval (IPI), i.e the time between pulses, was mostly below 5~ms \fig{\ref{fig:01}}{D}and the inter train interval (ITI) varied from 2~ms up to 80~ms \fig{\ref{fig:01}}{F}.
 
-\subsubsection{Single pulses}
-A single pulse can be described by a damped sine wave \fig{\ref{fig:01}}{C} and pulse duration was defined as the time between pulse onset and crossing of a threshold that was set according to the standard deviation of the noise. In all calls used in this study it ranged from 0.1~ms to 0.6~ms \fig{\ref{fig:01}}{D}. Thus all pulses produced by the tymbals of different moths were shorter than one millisecond. A duration that is in the same scale of action potentials. Active and passive pulses did not differ in duration in the same call. The interval between two pulses (IPI) was mainly below 5~ms \fig{\ref{fig:01}}{E}. The fundamental frequency of the single pulses varied around 15~kHz to 65~kHz \fig{\ref{fig:01}}{F}, and the frequency for active and passive pulses in the same call did not differ decisively.
+In nature, calls rarely occur isolated, but are repeated in call series \fig{\ref{fig:01}}{B}. Therefore, they are the natural signals of arctiid moths. The duration of call series (audio recordings) used in this study ranged from 0.14~s to 3.99~s \fig{\ref{fig:01}}{G} containing mostly around 100 to 200 pulses \fig{\ref{fig:01}}{E}.
 
-\subsubsection{Single calls}
-Intervals between the active and the passive pulse trains (ITI) varied from 2~ms up to 80~ms \fig{\ref{fig:01}}{H}. The call duration ranged around 20~ms to 180~ms \fig{\ref{fig:01}}{I}. Moth calls were chosen by the experimenter to have the same number of active and passive pulses and only three calls did differ in this aspect. The number of active and passive pulses was between 1 to 24 pulses \fig{\ref{fig:01}}{G}.
+However, calls within a call series are not distributed uniformly. In many species, calls occur in "packages", where the intervals between calls within a package are short, while the intervals between packages are much longer. As a result, the acoustic signals of arctiid moths have a modular structure. They are organized hierarchically, consisting of single pulses (inter-pulse intervals), pulse trains (inter-pulsetrain intervals), individual calls, packages of calls, and ultimately the entire call series. This generates multiple temporal scales that receptor neurons could be tuned to, potentially allowing discrimination between calls of different species.
 
-\begin{table}[h]
-	\centering
-	\caption{Single moth calls used in this study. Shown are the duration, inter train interval (IT) and number of active and passive pulses. Some of the species could not be determined with \percent{100} accuracy and were labeled with an internal code. The recording ID corresponds to the call IDs shown in all figures.}
-	\setlength{\tabcolsep}{6pt} % Default value: 6pt
-	\renewcommand{\arraystretch}{1.5} % Default value: 1
-	\label{tab:SC}
-	\begin{tabular}{llcccc}
-		\rowcolor[HTML]{EFEFEF} 
-		ID & {\color[HTML]{000000} Species}     & \multicolumn{1}{c}{\cellcolor[HTML]{EFEFEF}Duration } & \multicolumn{1}{c}{\cellcolor[HTML]{EFEFEF}ITI} & \multicolumn{1}{l}{\cellcolor[HTML]{EFEFEF}Active} & \multicolumn{1}{l}{\cellcolor[HTML]{EFEFEF}Passive} \\
-		\rowcolor[HTML]{EFEFEF}
-		& & \multicolumn{1}{c}{\cellcolor[HTML]{EFEFEF}[ms]} & \multicolumn{1}{c}{\cellcolor[HTML]{EFEFEF}[ms]} & \multicolumn{1}{l}{\cellcolor[HTML]{EFEFEF}Pulses} &
-		\multicolumn{1}{l}{\cellcolor[HTML]{EFEFEF}Pulses} \\ \hline
-		
-		0            & BCI1062                            & 17.10                                                & 4.79                                            & 7                                                         & 7                                                          \\
-		1            & Aclytia gynamorpha          & 36.79                                                & 5.44                                            & 24                                                        & 24                                                         \\
-		2            & Agaraea semivitrea          & 25.72                                                & 8.58                                            & 7                                                         & 7                                                          \\
-		3            & Carales astur              & 75.64                                                & 7.89                                            & 12                                                        & 12                                                         \\
-		4            & Chrostosoma thoracicum       & 27.25                                                & 5.43                                            & 5                                                         & 5                                                          \\
-		5            & Creatonotos transiens                  & 11.64                                                & 11.64                                           & 1                                                         & 1                                                          \\
-		6            & Elysius conspersus           & 148.45                                               & 28.04                                           & 10                                                        & 11                                                         \\
-		7            & Epidesma oceola              & 45.32                                                & 23.76                                           & 6                                                         & 6                                                          \\
-		8            & Eucereon appunctata          & 32.75                                                & 9.50                                            & 13                                                        & 12                                                         \\
-		9            & Eucereon hampsoni            & 18.94                                                & 3.43                                            & 11                                                        & 11                                                         \\
-		10           & Eucereon obscurum            & 34.83                                                & 9.01                                            & 14                                                        & 14                                                         \\
-		11           & Hypocladia restriata                        & 183.47                                               & 89.49                                           & 11                                                        & 11                                                         \\
-		12           & GL116                        & 42.61                                                & 17.93                                           & 5                                                         & 5                                                          \\
-		13           & Hypocladia militaris         & 54.07                                                & 6.13                                            & 9                                                         & 9                                                          \\
-		14           & Idalu fasciipuncta           & 63.95                                                & 25.88                                           & 5                                                         & 5                                                          \\
-		15           & Idalus daga                & 21.02                                                & 4.73                                            & 18                                                        & 18                                                         \\
-		16           & Melese sp.             & 26.59                                                & 5.44                                            & 12                                                        & 12                                                         \\
-		17           & Neritos cotes               & 23.61                                                & 3.12                                            & 10                                                        & 10                                                         \\
-		18           & Ormetica contraria peruviana & 38.08                                                & 1.08                                            & 7                                                         & 11                                                         \\
-		19           & Syntrichura sp.                  & 56.23                                                & 12.06                                           & 12                                                        & 
-		12   \\ \hline 
-		& Median & 35.81 &	8.24 &	10 &	11 \\
-		& Mean & 48.83 &	14.28	& 9.84 &	10.05 \\
-		& Standard Deviation & 43.55 &	19.36 &	5.12	& 5.06 \\
-		& Minimum & 11.64	& 1.08 &	1	& 1 \\
-		& Maximum &183.47	& 89.49	& 24 &	24
-		
-		
-		
-		                                                    
-	\end{tabular}
-\end{table}
-
-\subsubsection{Call series}
-In nature, calls rarely occur isolated, but are repeated in call series. The call series is therefore the natural signal of arctiid moths. The duration of call series used in this study ranged from 0.14~s to 3.99~s (Fig.~\ref{fig:01}~{I}~and~Tab.~\ref{tab:CS}). About half of the call series were not longer than 1~s. The number of pulses emitted during this time did differ between species. The pulse rates (pulses per second) had a minimum of 12~Hz and a maximum of 795~Hz (Tab.~\ref{tab:CS}). Moreover, calls are not homogeneously distributed in call series. Many species tend to cluster calls in packages with short intervals between the calls in one package and much longer intervals between packages. Hence, the acoustic signal emitted by arctiid moths shows a modular composition. If we sort those modules in increasing duration we then have the single pulse and the inter pulse interval, the pulse train and the inter pulse train interval, the call, the package of calls and the call series. This raises many different temporal scales a receptor neuron could be tuned to \fig{\ref{fig:01}}{A}. 
- 
-\begin{table}[p]
-	\centering
-	\caption{Moth call series used in this study. Shown are the duration, number of pulses and pulse rate of moth call series in seconds. Some of the species could not be determined with \percent{100} accuracy and were labeled with an internal code. The recording ID corresponds to the call IDs shown in all figures.}
-	\setlength{\tabcolsep}{10pt} % Default value: 6pt
-	\renewcommand{\arraystretch}{1.5} % Default value: 1
-	\label{tab:CS}
-\begin{tabular}{llccc}
-	\rowcolor[HTML]{EFEFEF} 
-	ID & {\color[HTML]{000000} Species} & \multicolumn{1}{l}{\cellcolor[HTML]{EFEFEF}Duration {[}s{]}} & \multicolumn{1}{l}{\cellcolor[HTML]{EFEFEF}Pulses} & \multicolumn{1}{l}{\cellcolor[HTML]{EFEFEF}Pulse rate {[}Hz{]}} \\ \hline
-	0  & A7838                          & 0.22                                                         & 84                                                 & 382                                                             \\
-	1  & BCI1348                        & 0.14                                                         & 27                                                 & 193                                                             \\
-	2  & Chrostosoma thoracicum         & 3.5                                                          & 350                                                & 100                                                             \\
-	3  & Creatonotos transiens          & 2.04                                                         & 26                                                 & 13                                                              \\
-	4  & Eucereon appunctata            & 1.03                                                         & 108                                                & 105                                                             \\
-	5  & Eucereon hampsoni              & 0.96                                                         & 92                                                 & 96                                                              \\
-	6  & Eucereon maia                  & 0.76                                                         & 12                                                 & 16                                                              \\
-	7  & Hypocladia restriata           & 0.22                                                         & 23                                                 & 105                                                             \\
-	8  & Hyaleucera erythrotelus        & 2.97                                                         & 42                                                 & 14                                                              \\
-	9  & Hypocladia militaris           & 1.52                                                         & 105                                                & 69                                                              \\
-	10 & Eucereon appunctata            & 0.17                                                         & 88                                                 & 518                                                             \\
-	11 & PP612                          & 2.76                                                         & 505                                                & 183                                                             \\
-	12 & PP643                          & 0.4                                                          & 33                                                 & 83                                                              \\
-	13 & Saurita sp.                    & 0.41                                                         & 44                                                 & 107                                                             \\
-	14 & Uranophora leucotelus          & 0.47                                                         & 292                                                & 621                                                             \\
-	15 & Carales astur                  & 1.87                                                         & 215                                                & 115                                                             \\
-	16 & Melese sp.                     & 3.99                                                         & 795                                                & 
-	199           \\ \hline
-	& Median & 0.96	& 88	& 105 \\
-	& Mean & 1.38	& 167.12 &	171.71 \\
-	& Standard Deviation & 1.26	& 212 &	174.50 \\
-	& Minimum & 0.14	& 12	& 13 \\
-	& Maximum & 3.99 &	795	& 621
-	
-	
-	                                                
-\end{tabular}
-\end{table}
-%\FloatBarrier
 
 \subsection{Intensity and frequency tuning}
-First, we investigated how the moth's auditory receptor cells responded to sine waves that differ in intensity and frequency. Based on neuronal activity measurements, we computed the respective tuning curves for \species{Carales astur} and \species{Estigmene acrea}.  
+\notenb{SuppFig 1 C to F}
+\notenb{Mention first EPhys and an overview of the auditory system, Fig2A,B}
+First we characterized the auditory system by establishing intensity and frequency tuning curves based on the neuronal activity in response to sine waves of different intensity or frequency in the two species \species{Carales astur} and \species{Estigmene acrea}. With increasing intensity at a fixed frequency the firing rate of the auditory receptor cells increased in a sigmoidal fashion that can be well described by a Boltzmann function. By extrapolating the tangent at $I_{0}$, a threshold can be defined by the intersect of that tangent and the minimum ($f_{min}$) value. The dynamic range the auditory neuron covered spanned around 20~dBSPL (linear part of the tuning curve), encoded by firing rates that reached up to 400~Hz \suppfig{\ref{fig:01}}{C}. By computing such tuning curves for a broad range of carrier frequencies we determined the overall frequency tuning of the auditory neurons. Both \species{Carals astur} and \species{Estigmene acrea} showed a broad range, reaching from 10~kHz to 100~kHz. However, \species{Carales astur} was tuned more towards the high frequencies, whereas \species{Estigmene acrea} has a more equal distribution over the same range \suppfig{\ref{fig:01}}{E, F}.
 
-\subsubsection{Intensity tuning}
-With increasing intensity at a fixed frequency the firing rate of the auditory receptor cells increased in a sigmoidal fashion that can be well described by a Boltzmann function \fig{\ref{fig:02}}{A}. By extrapolating the tangent at $I_{0}$, a threshold can be defined by the intersect of that tangent and the minimum ($f_{min}$) value. This is indicated by the red line in Fig.~\ref{fig:02}{A} for a stimulus frequency of 20~kHz and 85~kHz.  
-
-\subsubsection{Frequency tuning}
-By taking all intensity threshold values for different frequencies together, an audiogram can be plotted. This audiogram can differ between species. Both audiograms of \species{Carals astur} and \species{Estigmene acrea} have a broad frequency tuning, reaching from 10~kHz to 100~kHz, but \species{Carales astur} \fig{\ref{fig:02}}{D} was tuned more towards the high frequencies, whereas \species{Estigmene acrea} has a more equal distribution over the same frequency range. For \species{Estigmene acrea} two different stimulus durations were tested. Both yielded nearly the same audiogram curves \fig{\ref{fig:02}}{C}.
- 
-\subsubsection{Matched filter}
-Moths are naturally exposed to more complex sounds coming from other animals. To get a better biological interpretations of the audiograms, we compared them with the power spectrum of their own calls and several bat calls that were used in this study \fig{\ref{fig:02}}{B}. Both calls of \species{Carales astur} and \species{Estigmene acrea} have a broad power spectrum. The power spectrum of \species{Estigmene acrea} is flat with a drop at around 60~kHz. That of \species{Carales astur} is bimodal with the two peaks at around 30~kHz and 70~kHz. Taking all bat calls together, the power is high between 20~kHz and 90~KHz. Above and below this range power drops drastically.
-
+Since moths are not only exposed to signals coming from their con-specifics, we compared the frequency tuning of the auditory system with the power spectra of not only their own calls but also several bat species. Interestingly, the power spectrum of several bats averaged is distributed very broadly, matching the range of the moth's frequency tuning, showing it is a matched filter. The power spectra from calls of the two moth species used in this study were even broader, covering up to 100~kHz.  \suppfig{\ref{fig:01}}{D}.
+  
 \subsection{Temporal resolution}
+\notenb{This is Fig 2 C to H and SuppFig 2}
 The temporal structure of moth calls is one of the major properties a discrimination can be based on. Therefore we recorded the response of auditory receptor cells of \species{Estigmene acrea} to rectangular stimuli and model pulses with different gap length.
 
-\subsubsection{Gap detection}
 For gap length as long as 20~ms the firing rate followed the stimulus precisely and approximated a sinusoidal curve with same temporal structure as the stimulus (SuppFig???). However, with decreasing gap size this pattern was becoming more irregular. Therefore, the exact matching between firing rate and stimulus was lost at shorter gaps (SuppFig???). 
 When exposing the animal to a constant pure tone with no gaps in between, the temporal pattern vanished completely and the response resembles a typical adaptation to constant sounds (SuppFig???).
 The inter spike interval (ISI) histogram of the response to long gaps is bimodal. With one peak around 5~ms and the other at 25~ms. Those two peaks corresponded to the mean firing rate and the stimulus gap size, respectively. The ISI distribution for such gaps was clearly different from a Poisson ISI distribution with its typical exponential decay (SuppFig???). 
@@ -350,6 +262,7 @@ With decreasing gap size, the bimodal distribution turned into a monomodal one, 
 Beside the strong locking to the stimulus period, we could observe high vector strength values for harmonics of the stimulus period and mean firing rate, as well. For a long gap duration, spikes were locked to the first half of the stimulus phase, shifting to the end of the phase for decreasing gap sizes. When there were no gaps in the stimuli, there was no specific locking to any part of the phase, resembling more the Poisson neuron model (SuppFig???).
 
 \subsection{Encoding of moth calls}
+\notenb{This is Fig 3 A and B}
 \label{mothcalls}
 We recorded the response of auditory receptor cells to different moth call series. To investigate if calls can be classified by looking at the spike trains we used a classification algorithm based on spike train distances.
 \subsubsection{Spike train classification}
@@ -364,6 +277,7 @@ Spike times that are determined by a Poisson process are a valuable tool to cont
 To have a comparable set of data, we performed a classification algorithm on 17 groups, all with different total duration, equal to the different duration of the moth call series (Tab.~\ref{tab:CS}). Each group had 20 trials (Poisson spike trains with a firing rate of 100~Hz). Furthermore there was a set of 17 groups that all had a duration of 2~s, again each with 20 trials each. The performance of the Van Rossum based classification for the groups with different durations is shown in Fig.~\ref{fig:03}~B. After 1~s around \percent{50} of the spike trains were correctly classified. Beyond 2~s it increased to \percent{75}. The optimal temporal resolution ($ \tau $) window was between 10~ms and 300~ms. With a firing rate of 100~Hz, 10~ms corresponds to the inter spike interval of the Poisson trains.
 
 \subsection{Moth vs. bat calls}
+\notenb{This is Fig 3 C and D and SuppFig 3}
 \subsubsection{Classification based on percentage}
 Moth and bat calls were analyzed based on the Van Rossum metric, as described before. However, this time the classification algorithm concentrated on discriminating between bat and moth calls. Therefore, the classification was based on the two broader groups, moths and bats, and not on single species. 
 Fig.~\ref{fig:03}~C~ shows the percentage of spike trains classified as moth calls based on the Van Rossum distance with a temporal resolution ($ \tau $) of 1~ms, 10~ms and 1000~ms. 
@@ -459,37 +373,61 @@ Concerning that arctiid moths can distinguish between moth calls, and that infor
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Figures
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\notejb{To have the figures at the end is some stupid medival
-  tradition of the journals. As a reader and reviewer I hate
-  it. Please move the figures where they approximately belong. Most
-  journals are actually fine with this.}
+% The 3 Main Figures
+\notenb{Match figure size to page (including caption)}
 \begin{figure}[h!]
 	\centering
-	\includegraphics{figures/Fig_01.jpeg}
-        \notejb{NEVER ever put JPG figures in a paper. Use pdf instead.}\\
-        \notejb{A: Graphically point out what a pulse is, and what active and passive pulse trains are (like in Fig 2 of your thesis). Actually, what all the measures in D -- I are. Also add back the grey boxes from Fig 3 in your thesis.}
-        \notejb{Remove C and have instead an example of another species.}
-        \notejb{Are D -- I histograms over all species or only from Melese?.}
-        \notejb{Put Fig 25 -- 30 of your thesis into the supplement.}
-    % \includesvg[width=0.75\columnwidth]{figures/Fig_01.svg}
-	\caption{\label{fig:01}(A) Call structure of \species{Melese sp.}. From top bottom: Packages, package with three calls, single call, active pulse train. (B) Spectrogram of the active pulse train above. (C) Single active pulse. Scale bars in each panel indicate time in milliseconds.
-    Histograms of (D) Pulse Duration, (E) Inter Pulse Interval, (F) Carrier Frequency, (G) Pulse Count, (H) Inter Train Interval and (I) Total Call Series Duration. The sample size is in each panel is indicated by n.}
+	\includegraphics[width=\textwidth]{figures/Fig_01_Call_structure.pdf}
+	\caption{\label{fig:01}(A)}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics{figures/Fig_02.jpeg}
-        \notejb{A -- D could go into supplement}
-        \notejb{show example recording and spike raster on top, a combination of Fig 1 and Fig 9A in your thesis}
+	\includegraphics[width=\textwidth]{figures/Fig_02_GapDetection.pdf}
 	\caption{\label{fig:02}(A)}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics{figures/Fig_03.jpeg}
-        \notejb{Split this in two figures (A, B and C, D)}
-        \notejb{Then you could add on top a few (2 --4) examples from Fig 25--30 of your thesis.}
+	\includegraphics[width=\textwidth]{figures/Fig_03_Classification.pdf}
 	\caption{\label{fig:03}(A)}
+\end{figure}
+
+% Supp Figures
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/Supp_Fig_01.pdf}
+	\caption{\label{suppfig:01}(A)}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/Supp_Fig_02.pdf}
+	\caption{\label{suppfig:02}(A)}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/Supp_Fig_03.pdf}
+	\caption{\label{suppfig:03}(A)}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/Supp_Fig_04_moth01.pdf}
+	\caption{\label{suppfig:04}(A)}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/Supp_Fig_05_moth02.pdf}
+	\caption{\label{suppfig:05}(A)}
+\end{figure}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=\textwidth]{figures/Supp_Fig_06_bats.pdf}
+	\caption{\label{suppfig:06}(A)}
 \end{figure}
 
 %\FloatBarrier
