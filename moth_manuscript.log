@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.4.29)  21 MAR 2026 16:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2025.4.29)  22 MAR 2026 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -719,13 +719,6 @@ Overfull \hbox (10.04544pt too wide) in paragraph at lines 68--70
 
 {C:/Users/Nils/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 96.
-
-
-LaTeX Warning: Reference `fig:02' on page 2 undefined on input line 96.
-
-
-
 [2]
 
 [3]
@@ -741,51 +734,31 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 [7]
-<figures/Fig_01_Call_structure.pdf, id=317, 455.2441pt x 455.2441pt>
+<figures/Fig_01_Call_structure.pdf, id=296, 455.2441pt x 455.2441pt>
 File: figures/Fig_01_Call_structure.pdf Graphic file (type pdf)
 <use figures/Fig_01_Call_structure.pdf>
 Package pdftex.def Info: figures/Fig_01_Call_structure.pdf  used on input line 
-253.
+249.
 (pdftex.def)             Requested size: 455.24411pt x 455.26381pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-LaTeX Warning: Reference `fig:02' on page 8 undefined on input line 263.
-
-
-LaTeX Warning: Reference `fig:02' on page 8 undefined on input line 263.
-
-
 
 [8]
 
 [9 <./figures/Fig_01_Call_structure.pdf>]
-
-LaTeX Warning: Reference `fig:02' on page 10 undefined on input line 272.
-
-
-LaTeX Warning: Reference `fig:02' on page 10 undefined on input line 274.
-
-
-LaTeX Warning: Reference `fig:02' on page 10 undefined on input line 274.
-
-
-LaTeX Warning: Reference `fig:02' on page 10 undefined on input line 276.
-
-
-LaTeX Warning: Reference `fig:02' on page 10 undefined on input line 276.
-
-
-LaTeX Warning: Reference `fig:02' on page 10 undefined on input line 276.
-
-<figures/Fig_02_GapDetection.pdf, id=385, 597.50786pt x 845.04686pt>
+<figures/Fig_02_GapDetection.pdf, id=372, 455.2441pt x 725.54529pt>
 File: figures/Fig_02_GapDetection.pdf Graphic file (type pdf)
 <use figures/Fig_02_GapDetection.pdf>
-Package pdftex.def Info: figures/Fig_02_GapDetection.pdf  used on input line 28
-2.
-(pdftex.def)             Requested size: 455.24411pt x 643.84119pt.
+Package pdftex.def Info: figures/Fig_02_GapDetection.pdf  used on input line 26
+8.
+(pdftex.def)             Requested size: 455.24411pt x 725.57672pt.
+
+
+LaTeX Warning: Float too large for page by 8.56726pt on input line 269.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -796,27 +769,24 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [11 <./figures/Fig_02_GapDetection.pdf>]
 
 Package caption Warning: \setcaptiontype
-(caption)                outside box or environment on input line 285.
+(caption)                outside box or environment on input line 271.
 See the caption package documentation for explanation.
 
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 294.
+(caption)                particular \caption on input line 280.
 See the caption package documentation for explanation.
-
-
-LaTeX Warning: Reference `tab:CS' on page 12 undefined on input line 310.
 
 
 
 [12
 
 ]
-<figures/Fig_03_Classification.pdf, id=6440, 398.3386pt x 569.05513pt>
+<figures/Fig_03_Classification.pdf, id=6407, 398.3386pt x 569.05513pt>
 File: figures/Fig_03_Classification.pdf Graphic file (type pdf)
 <use figures/Fig_03_Classification.pdf>
 Package pdftex.def Info: figures/Fig_03_Classification.pdf  used on input line 
-323.
+294.
 (pdftex.def)             Requested size: 455.24411pt x 650.38806pt.
 
 
@@ -829,7 +799,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [14 <./figures/Fig_03_Classification.pdf>]
 
 Package caption Warning: The option `hypcap=true' will be ignored for this
-(caption)                particular \caption on input line 332.
+(caption)                particular \caption on input line 302.
 See the caption package documentation for explanation.
 
 
@@ -838,23 +808,19 @@ See the caption package documentation for explanation.
 
 ]
 
-LaTeX Warning: Reference `fig:02' on page 16 undefined on input line 348.
+LaTeX Warning: Reference `tab:SC' on page 16 undefined on input line 331.
 
 
 
 [16]
 
-LaTeX Warning: Reference `tab:SC' on page 17 undefined on input line 362.
-
-
-
 [17]
 
+LaTeX Warning: Reference `tab:CS' on page 18 undefined on input line 351.
+
+
+
 [18]
-
-LaTeX Warning: Reference `tab:CS' on page 19 undefined on input line 382.
-
-
 
 [19]
 
@@ -863,69 +829,69 @@ LaTeX Warning: Reference `tab:CS' on page 19 undefined on input line 382.
 [21]
 
 [22]
-
-[23]
-<figures/Supp_Fig_01.pdf, id=6657, 455.2441pt x 398.3386pt>
+<figures/Supp_Fig_01.pdf, id=6605, 455.2441pt x 398.3386pt>
 File: figures/Supp_Fig_01.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_01.pdf>
-Package pdftex.def Info: figures/Supp_Fig_01.pdf  used on input line 428.
+Package pdftex.def Info: figures/Supp_Fig_01.pdf  used on input line 392.
 (pdftex.def)             Requested size: 455.24411pt x 398.35585pt.
 Package hyperref Info: bookmark level for unknown suppfigure defaults to 0 on i
-nput line 436.
-
-
-[24]
-<figures/Supp_Fig_02.pdf, id=6666, 597.50786pt x 845.04686pt>
+nput line 400.
+<figures/Supp_Fig_02.pdf, id=6606, 455.2441pt x 611.73422pt>
 File: figures/Supp_Fig_02.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_02.pdf>
-Package pdftex.def Info: figures/Supp_Fig_02.pdf  used on input line 441.
-(pdftex.def)             Requested size: 455.24411pt x 643.84119pt.
-<figures/Supp_Fig_02b.pdf, id=6667, 398.3386pt x 426.79132pt>
+Package pdftex.def Info: figures/Supp_Fig_02.pdf  used on input line 405.
+(pdftex.def)             Requested size: 455.24411pt x 611.76073pt.
+
+
+LaTeX Warning: Float too large for page by 54.35132pt on input line 413.
+
+<figures/Supp_Fig_02b.pdf, id=6607, 398.3386pt x 426.79132pt>
 File: figures/Supp_Fig_02b.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_02b.pdf>
-Package pdftex.def Info: figures/Supp_Fig_02b.pdf  used on input line 447.
+Package pdftex.def Info: figures/Supp_Fig_02b.pdf  used on input line 417.
 (pdftex.def)             Requested size: 455.24411pt x 487.79102pt.
-<figures/Supp_Fig_03.pdf, id=6668, 398.3386pt x 341.43306pt>
+<figures/Supp_Fig_03.pdf, id=6608, 398.3386pt x 341.43306pt>
 File: figures/Supp_Fig_03.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_03.pdf>
-Package pdftex.def Info: figures/Supp_Fig_03.pdf  used on input line 453.
+Package pdftex.def Info: figures/Supp_Fig_03.pdf  used on input line 429.
 (pdftex.def)             Requested size: 455.24411pt x 390.23279pt.
-<figures/Supp_Fig_04_moth01.pdf, id=6669, 597.50786pt x 845.04686pt>
+<figures/Supp_Fig_04_moth01.pdf, id=6609, 455.2441pt x 654.41339pt>
 File: figures/Supp_Fig_04_moth01.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_04_moth01.pdf>
-Package pdftex.def Info: figures/Supp_Fig_04_moth01.pdf  used on input line 459
+Package pdftex.def Info: figures/Supp_Fig_04_moth01.pdf  used on input line 441
 .
-(pdftex.def)             Requested size: 455.24411pt x 643.84119pt.
-<figures/Supp_Fig_05_moth02.pdf, id=6670, 597.50786pt x 845.04686pt>
+(pdftex.def)             Requested size: 455.24411pt x 654.44174pt.
+
+LaTeX Warning: Float too large for page by 1.83229pt on input line 448.
+
+<figures/Supp_Fig_05_moth02.pdf, id=6610, 455.2441pt x 569.05513pt>
 File: figures/Supp_Fig_05_moth02.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_05_moth02.pdf>
-Package pdftex.def Info: figures/Supp_Fig_05_moth02.pdf  used on input line 465
+Package pdftex.def Info: figures/Supp_Fig_05_moth02.pdf  used on input line 452
 .
-(pdftex.def)             Requested size: 455.24411pt x 643.84119pt.
-<figures/Supp_Fig_06_bats.pdf, id=6671, 597.50786pt x 845.04686pt>
+(pdftex.def)             Requested size: 455.24411pt x 569.07979pt.
+<figures/Supp_Fig_06_bats.pdf, id=6611, 455.2441pt x 569.05513pt>
 File: figures/Supp_Fig_06_bats.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_06_bats.pdf>
-Package pdftex.def Info: figures/Supp_Fig_06_bats.pdf  used on input line 471.
-(pdftex.def)             Requested size: 455.24411pt x 643.84119pt.
+Package pdftex.def Info: figures/Supp_Fig_06_bats.pdf  used on input line 463.
+(pdftex.def)             Requested size: 455.24411pt x 569.07979pt.
 
 
-[25]
+[23]
 
-[26 <./figures/Supp_Fig_01.pdf>]
+[24 <./figures/Supp_Fig_01.pdf>]
 
-[27 <./figures/Supp_Fig_02.pdf>]
+[25 <./figures/Supp_Fig_02.pdf>]
 
-[28 <./figures/Supp_Fig_02b.pdf>]
+[26 <./figures/Supp_Fig_02b.pdf>]
 
-[29 <./figures/Supp_Fig_03.pdf>]
+[27 <./figures/Supp_Fig_03.pdf>]
 
-[30 <./figures/Supp_Fig_04_moth01.pdf>]
+[28 <./figures/Supp_Fig_04_moth01.pdf>]
 
-[31 <./figures/Supp_Fig_05_moth02.pdf>]
+[29 <./figures/Supp_Fig_05_moth02.pdf>]
 
-[32 <./figures/Supp_Fig_06_bats.pdf>]
-
-[33] (moth_manuscript.aux)
+[30 <./figures/Supp_Fig_06_bats.pdf>] (moth_manuscript.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
@@ -935,19 +901,24 @@ L3 programming layer <2024-08-30>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `moth_manuscript.out' has not changed.
-(rerunfilecheck)             Checksum: 3DCFB98EA353C86D752A802F6DEA71A1;5780.
+(rerunfilecheck)             Checksum: 176D74AB6217DA0A42ACFA88145BD7CF;4901.
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                moth_manuscript
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'moth_manuscript.run.xml'.
 \openout1 = `moth_manuscript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19588 strings out of 473899
- 349216 string characters out of 5726972
- 1181685 words of memory out of 5000000
- 42136 multiletter control sequences out of 15000+600000
+ 19562 strings out of 473899
+ 348909 string characters out of 5726972
+ 1191748 words of memory out of 5000000
+ 42120 multiletter control sequences out of 15000+600000
  566014 words of font info for 64 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 66i,11n,81p,1700b,1538s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 66i,11n,81p,3176b,1538s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/Nils/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
 mbx10.pfb><C:/Users/Nils/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
 nts/cm/cmbx12.pfb><C:/Users/Nils/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -968,9 +939,9 @@ e1/public/amsfonts/cm/cmsy6.pfb><C:/Users/Nils/AppData/Local/Programs/MiKTeX/fo
 nts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Users/Nils/AppData/Local/Programs/Mi
 KTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/Nils/AppData/Local/Pro
 grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on moth_manuscript.pdf (33 pages, 11199704 bytes).
+Output written on moth_manuscript.pdf (30 pages, 11185316 bytes).
 PDF statistics:
- 50217 PDF objects out of 55141 (max. 8388607)
- 143 named destinations out of 1000 (max. 500000)
- 331 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 50157 PDF objects out of 55141 (max. 8388607)
+ 133 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 

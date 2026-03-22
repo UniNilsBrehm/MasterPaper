@@ -2431,33 +2431,24 @@
     <bcf:citekey order="32" intorder="1">rossum2001</bcf:citekey>
     <bcf:citekey order="33" intorder="1">rossum2001</bcf:citekey>
     <bcf:citekey order="34" intorder="1">rossum2001</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">fullard1998</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">waters2003</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">rossum2001</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">fullard1998</bcf:citekey>
     <bcf:citekey order="37" intorder="1">fullard1984b</bcf:citekey>
     <bcf:citekey order="37" intorder="2">terhofstede2013</bcf:citekey>
     <bcf:citekey order="37" intorder="3">nakano2014</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">surlykke1988</bcf:citekey>
-    <bcf:citekey order="38" intorder="2">tougaard1996</bcf:citekey>
-    <bcf:citekey order="38" intorder="3">tougaard1998</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">waters1996</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">plomp1959</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">waters1996</bcf:citekey>
+    <bcf:citekey order="38" intorder="2">plomp1959</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">waters2003</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">sanderford1998</bcf:citekey>
     <bcf:citekey order="41" intorder="1">surlykke1988</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">waters1996</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">tougaard1998</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">surlykke1988</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">surlykke1988</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">viemeister1991</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">waters2003</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">sanderford1998</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">surlykke1988</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">yack2004</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">machens2001a</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">machens2003</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">machens2003</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">machens2003</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">rossum2001</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">rossum2001</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">rossum2001</bcf:citekey>
+    <bcf:citekey order="42" intorder="1">yack2004</bcf:citekey>
+    <bcf:citekey order="43" intorder="1">machens2001a</bcf:citekey>
+    <bcf:citekey order="44" intorder="1">machens2003</bcf:citekey>
+    <bcf:citekey order="45" intorder="1">machens2003</bcf:citekey>
+    <bcf:citekey order="46" intorder="1">machens2003</bcf:citekey>
+    <bcf:citekey order="47" intorder="1">rossum2001</bcf:citekey>
+    <bcf:citekey order="48" intorder="1">rossum2001</bcf:citekey>
+    <bcf:citekey order="49" intorder="1">rossum2001</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
