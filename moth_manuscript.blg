@@ -1,29 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'moth_manuscript.blg'
 [89] biber-MSWIN64:342> INFO - === 
-[118] Biber.pm:421> INFO - Reading 'moth_manuscript.bcf'
-[218] Biber.pm:1002> INFO - Found 57 citekeys in bib section 0
-[230] Biber.pm:4487> INFO - Processing section 0
-[239] Biber.pm:4678> INFO - Looking for bibtex file 'mothbib.bib' for section 0
-[288] bibtex.pm:1713> INFO - LaTeX decoding ...
-[555] bibtex.pm:1519> INFO - Found BibTeX data source 'mothbib.bib'
-[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[116] Biber.pm:421> INFO - Reading 'moth_manuscript.bcf'
+[215] Biber.pm:1002> INFO - Found 55 citekeys in bib section 0
+[227] Biber.pm:4487> INFO - Processing section 0
+[236] Biber.pm:4678> INFO - Looking for bibtex file 'mothbib.bib' for section 0
+[284] bibtex.pm:1713> INFO - LaTeX decoding ...
+[538] bibtex.pm:1519> INFO - Found BibTeX data source 'mothbib.bib'
 [799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[799] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
 [799] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-US'
 [799] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[841] bbl.pm:676> INFO - Writing 'moth_manuscript.bbl' with encoding 'UTF-8'
-[869] bbl.pm:779> INFO - Output to moth_manuscript.bbl
-[869] Biber.pm:132> WARN - I didn't find a database entry for 'machens2003' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'waters2003' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'fullard1998' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'fullard1984b' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'terhofstede2013' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'nakano2014' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'waters1996' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'plomp1959' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'sanderford1998' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'surlykke1988' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'yack2004' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'machens2001a' (section 0)
-[870] Biber.pm:132> WARN - I didn't find a database entry for 'rossum2001' (section 0)
-[870] Biber.pm:134> INFO - WARNINGS: 13
+[844] bbl.pm:676> INFO - Writing 'moth_manuscript.bbl' with encoding 'UTF-8'
+[875] bbl.pm:779> INFO - Output to moth_manuscript.bbl
+[875] Biber.pm:132> WARN - I didn't find a database entry for 'machens2003' (section 0)
+[875] Biber.pm:134> INFO - WARNINGS: 1

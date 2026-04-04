@@ -21,27 +21,25 @@
   \datalist[entry]{nyt/global//global/global/global}
     \entry{acharya_bat_1999}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f2894186fbc025f32940c11cfe4910c2}{%
+        {{hash=f2894186fbc025f32940c11cfe4910c2}{%
            family={Acharya},
            familyi={A\bibinitperiod},
            given={Lalita},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=899dcee69bf19a9a2e8817630735dea8}{%
+           giveni={L\bibinitperiod}}}%
+        {{hash=1716b62766ef9bae6ea0d7b4375b4cf5}{%
            family={Fenton},
            familyi={F\bibinitperiod},
-           given={M\bibnamedelima Brock},
-           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=2}}%
+           given={Brock},
+           giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{57a39ffc527033222cbe0e21ada452d7}
-      \strng{fullhash}{57a39ffc527033222cbe0e21ada452d7}
-      \strng{fullhashraw}{57a39ffc527033222cbe0e21ada452d7}
-      \strng{bibnamehash}{57a39ffc527033222cbe0e21ada452d7}
-      \strng{authorbibnamehash}{57a39ffc527033222cbe0e21ada452d7}
-      \strng{authornamehash}{57a39ffc527033222cbe0e21ada452d7}
-      \strng{authorfullhash}{57a39ffc527033222cbe0e21ada452d7}
-      \strng{authorfullhashraw}{57a39ffc527033222cbe0e21ada452d7}
+      \strng{namehash}{5de7a89e22e00a0992c5c0cdd7257b3b}
+      \strng{fullhash}{5de7a89e22e00a0992c5c0cdd7257b3b}
+      \strng{fullhashraw}{5de7a89e22e00a0992c5c0cdd7257b3b}
+      \strng{bibnamehash}{5de7a89e22e00a0992c5c0cdd7257b3b}
+      \strng{authorbibnamehash}{5de7a89e22e00a0992c5c0cdd7257b3b}
+      \strng{authornamehash}{5de7a89e22e00a0992c5c0cdd7257b3b}
+      \strng{authorfullhash}{5de7a89e22e00a0992c5c0cdd7257b3b}
+      \strng{authorfullhashraw}{5de7a89e22e00a0992c5c0cdd7257b3b}
       \field{sortinit}{A}
       \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
       \field{extradatescope}{labelyear}
@@ -64,36 +62,33 @@
     \endentry
     \entry{baker_acoustic_2019}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=851049f92ff42139d5568fb608af742d}{%
+        {{hash=bc5584e11e867db82b7fdfe4a7b70438}{%
            family={Baker},
            familyi={B\bibinitperiod},
-           given={Christa\bibnamedelima A.},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a2d5d9f296e8da1c1447cc2d86f121ea}{%
+           given={Christa},
+           giveni={C\bibinitperiod}}}%
+        {{hash=a2d5d9f296e8da1c1447cc2d86f121ea}{%
            family={Clemens},
            familyi={C\bibinitperiod},
            given={Jan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1e5150a6f117b3cee6994d6ba20d75fb}{%
+           giveni={J\bibinitperiod}}}%
+        {{hash=1e5150a6f117b3cee6994d6ba20d75fb}{%
            family={Murthy},
            familyi={M\bibinitperiod},
            given={Mala},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
+           giveni={M\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{e47cc31c47af382dec261718fa93c25e}
-      \strng{fullhash}{1bcae5ca3bfd5194ee719ca52fea6560}
-      \strng{fullhashraw}{1bcae5ca3bfd5194ee719ca52fea6560}
-      \strng{bibnamehash}{1bcae5ca3bfd5194ee719ca52fea6560}
-      \strng{authorbibnamehash}{1bcae5ca3bfd5194ee719ca52fea6560}
-      \strng{authornamehash}{e47cc31c47af382dec261718fa93c25e}
-      \strng{authorfullhash}{1bcae5ca3bfd5194ee719ca52fea6560}
-      \strng{authorfullhashraw}{1bcae5ca3bfd5194ee719ca52fea6560}
+      \strng{namehash}{9af36a3e4677b0f29a09110b5670a281}
+      \strng{fullhash}{ebfef7b33a25d061b04b4dbc988f2fc2}
+      \strng{fullhashraw}{ebfef7b33a25d061b04b4dbc988f2fc2}
+      \strng{bibnamehash}{ebfef7b33a25d061b04b4dbc988f2fc2}
+      \strng{authorbibnamehash}{ebfef7b33a25d061b04b4dbc988f2fc2}
+      \strng{authornamehash}{9af36a3e4677b0f29a09110b5670a281}
+      \strng{authorfullhash}{ebfef7b33a25d061b04b4dbc988f2fc2}
+      \strng{authorfullhashraw}{ebfef7b33a25d061b04b4dbc988f2fc2}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -130,27 +125,25 @@
     \endentry
     \entry{barber_tiger_2006}{article}{}{}
       \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=4be9657be3b1ae890e49d7ae3124aa8d}{%
+        {{hash=6e5a7298445b73c80025187a2d5fda21}{%
            family={Barber},
            familyi={B\bibinitperiod},
-           given={J\bibnamedelima R},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=d1403c677da8d1e83e8318c2ebf341ec}{%
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={W\bibnamedelima E},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{9a4bb50ad294f3ce317811ec0cdd3347}
-      \strng{fullhash}{9a4bb50ad294f3ce317811ec0cdd3347}
-      \strng{fullhashraw}{9a4bb50ad294f3ce317811ec0cdd3347}
-      \strng{bibnamehash}{9a4bb50ad294f3ce317811ec0cdd3347}
-      \strng{authorbibnamehash}{9a4bb50ad294f3ce317811ec0cdd3347}
-      \strng{authornamehash}{9a4bb50ad294f3ce317811ec0cdd3347}
-      \strng{authorfullhash}{9a4bb50ad294f3ce317811ec0cdd3347}
-      \strng{authorfullhashraw}{9a4bb50ad294f3ce317811ec0cdd3347}
+      \strng{namehash}{4712d9b8b891746e2126de5ee1a68403}
+      \strng{fullhash}{4712d9b8b891746e2126de5ee1a68403}
+      \strng{fullhashraw}{4712d9b8b891746e2126de5ee1a68403}
+      \strng{bibnamehash}{4712d9b8b891746e2126de5ee1a68403}
+      \strng{authorbibnamehash}{4712d9b8b891746e2126de5ee1a68403}
+      \strng{authornamehash}{4712d9b8b891746e2126de5ee1a68403}
+      \strng{authorfullhash}{4712d9b8b891746e2126de5ee1a68403}
+      \strng{authorfullhashraw}{4712d9b8b891746e2126de5ee1a68403}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -172,27 +165,25 @@
     \endentry
     \entry{benda_spike-frequency_2008}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=f0049b5905ec2af7caf4cdf6b716a30a}{%
+        {{hash=f0049b5905ec2af7caf4cdf6b716a30a}{%
            family={Benda},
            familyi={B\bibinitperiod},
            given={Jan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1215182dcee84bc670d002887895824e}{%
+           giveni={J\bibinitperiod}}}%
+        {{hash=c46eed8c990e6a2b5b5590cef9f9035c}{%
            family={Hennig},
            familyi={H\bibinitperiod},
-           given={R.\bibnamedelimi Matthias},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{e9bcb8a5f476117f2b2aacc091240639}
-      \strng{fullhash}{e9bcb8a5f476117f2b2aacc091240639}
-      \strng{fullhashraw}{e9bcb8a5f476117f2b2aacc091240639}
-      \strng{bibnamehash}{e9bcb8a5f476117f2b2aacc091240639}
-      \strng{authorbibnamehash}{e9bcb8a5f476117f2b2aacc091240639}
-      \strng{authornamehash}{e9bcb8a5f476117f2b2aacc091240639}
-      \strng{authorfullhash}{e9bcb8a5f476117f2b2aacc091240639}
-      \strng{authorfullhashraw}{e9bcb8a5f476117f2b2aacc091240639}
+      \strng{namehash}{0fae13cfc316b35214b74201cfdc42df}
+      \strng{fullhash}{0fae13cfc316b35214b74201cfdc42df}
+      \strng{fullhashraw}{0fae13cfc316b35214b74201cfdc42df}
+      \strng{bibnamehash}{0fae13cfc316b35214b74201cfdc42df}
+      \strng{authorbibnamehash}{0fae13cfc316b35214b74201cfdc42df}
+      \strng{authornamehash}{0fae13cfc316b35214b74201cfdc42df}
+      \strng{authorfullhash}{0fae13cfc316b35214b74201cfdc42df}
+      \strng{authorfullhashraw}{0fae13cfc316b35214b74201cfdc42df}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -215,27 +206,25 @@
     \endentry
     \entry{bergomaz_simple_1986}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=e6898f2bf944488e5893b246a8b3f86d}{%
+        {{hash=4646f8b23d47a5182ac966adcd1d060e}{%
            family={Bergomaz},
            familyi={B\bibinitperiod},
-           given={RAINER},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=3281f02f6b82ad385b1a1eca8aa2de18}{%
+           given={Rainer},
+           giveni={R\bibinitperiod}}}%
+        {{hash=668716c2a614a11d54dc822db0c72cb8}{%
            family={Boppré},
            familyi={B\bibinitperiod},
-           given={MICHAEL},
-           giveni={M\bibinitperiod},
-           givenun=2}}%
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
       }
-      \strng{namehash}{0ea25569f7a8fc3c2879cbe61922bac0}
-      \strng{fullhash}{0ea25569f7a8fc3c2879cbe61922bac0}
-      \strng{fullhashraw}{0ea25569f7a8fc3c2879cbe61922bac0}
-      \strng{bibnamehash}{0ea25569f7a8fc3c2879cbe61922bac0}
-      \strng{authorbibnamehash}{0ea25569f7a8fc3c2879cbe61922bac0}
-      \strng{authornamehash}{0ea25569f7a8fc3c2879cbe61922bac0}
-      \strng{authorfullhash}{0ea25569f7a8fc3c2879cbe61922bac0}
-      \strng{authorfullhashraw}{0ea25569f7a8fc3c2879cbe61922bac0}
+      \strng{namehash}{45672ee5128819fe436cc66b35f8e085}
+      \strng{fullhash}{45672ee5128819fe436cc66b35f8e085}
+      \strng{fullhashraw}{45672ee5128819fe436cc66b35f8e085}
+      \strng{bibnamehash}{45672ee5128819fe436cc66b35f8e085}
+      \strng{authorbibnamehash}{45672ee5128819fe436cc66b35f8e085}
+      \strng{authornamehash}{45672ee5128819fe436cc66b35f8e085}
+      \strng{authorfullhash}{45672ee5128819fe436cc66b35f8e085}
+      \strng{authorfullhashraw}{45672ee5128819fe436cc66b35f8e085}
       \field{sortinit}{B}
       \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
@@ -251,24 +240,21 @@
     \endentry
     \entry{blest_generation_1963}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=43ef847c0c227155925dca868b6a8863}{%
+        {{hash=43ef847c0c227155925dca868b6a8863}{%
            family={Blest},
            familyi={B\bibinitperiod},
            given={A.\bibnamedelimi D.},
-           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=4cafa89f2172af39c83983d3e7cd1fee}{%
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=4cafa89f2172af39c83983d3e7cd1fee}{%
            family={Collett},
            familyi={C\bibinitperiod},
            given={T.\bibnamedelimi S.},
-           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=c6184de50862d4ba37e44425f69a6ecf}{%
+           giveni={T\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c6184de50862d4ba37e44425f69a6ecf}{%
            family={Pye},
            familyi={P\bibinitperiod},
            given={J.\bibnamedelimi D.},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
+           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \strng{namehash}{d954fd533318e7e4c04959252863fa01}
       \strng{fullhash}{038def6e3f649457c3d3e0c1e4728881}
@@ -299,12 +285,11 @@
     \endentry
     \entry{boppre_ecological_2011}{article}{}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=668716c2a614a11d54dc822db0c72cb8}{%
+        {{hash=668716c2a614a11d54dc822db0c72cb8}{%
            family={Boppré},
            familyi={B\bibinitperiod},
            given={Michael},
-           giveni={M\bibinitperiod},
-           givenun=2}}%
+           giveni={M\bibinitperiod}}}%
       }
       \strng{namehash}{668716c2a614a11d54dc822db0c72cb8}
       \strng{fullhash}{668716c2a614a11d54dc822db0c72cb8}
@@ -338,21 +323,20 @@
     \endentry
     \entry{conner_ultrasound_1987}{article}{}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=d1403c677da8d1e83e8318c2ebf341ec}{%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={W.\bibnamedelimi E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{fullhash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{fullhashraw}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{bibnamehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authorbibnamehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authornamehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authorfullhash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authorfullhashraw}{d1403c677da8d1e83e8318c2ebf341ec}
+      \strng{namehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{fullhash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{fullhashraw}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{bibnamehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authorbibnamehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authornamehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authorfullhash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authorfullhashraw}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
       \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -374,24 +358,23 @@
     \endentry
     \entry{conner_chant_1999}{article}{}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=d1403c677da8d1e83e8318c2ebf341ec}{%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={W.\bibnamedelimi E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{fullhash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{fullhashraw}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{bibnamehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authorbibnamehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authornamehash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authorfullhash}{d1403c677da8d1e83e8318c2ebf341ec}
-      \strng{authorfullhashraw}{d1403c677da8d1e83e8318c2ebf341ec}
+      \strng{namehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{fullhash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{fullhashraw}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{bibnamehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authorbibnamehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authornamehash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authorfullhash}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
+      \strng{authorfullhashraw}{0826bd637bfa72e9ff4e0e56d3c7d5d6}
       \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
@@ -413,27 +396,25 @@
     \endentry
     \entry{conner_sound_2012}{article}{}{}
       \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=47103eb53c48863a69aeab7400a3df6d}{%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={William\bibnamedelima E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=6eba338a99742f0dc0314a8d0ad930c8}{%
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=f55e3f636fc831e29bfefd6897fb3190}{%
            family={Corcoran},
            familyi={C\bibinitperiod},
-           given={Aaron\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=2}}%
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{18810a484bcf947ea9e565109067b01c}
-      \strng{fullhash}{18810a484bcf947ea9e565109067b01c}
-      \strng{fullhashraw}{18810a484bcf947ea9e565109067b01c}
-      \strng{bibnamehash}{18810a484bcf947ea9e565109067b01c}
-      \strng{authorbibnamehash}{18810a484bcf947ea9e565109067b01c}
-      \strng{authornamehash}{18810a484bcf947ea9e565109067b01c}
-      \strng{authorfullhash}{18810a484bcf947ea9e565109067b01c}
-      \strng{authorfullhashraw}{18810a484bcf947ea9e565109067b01c}
+      \strng{namehash}{8d275fac52341fd2ba370c6b962143b3}
+      \strng{fullhash}{8d275fac52341fd2ba370c6b962143b3}
+      \strng{fullhashraw}{8d275fac52341fd2ba370c6b962143b3}
+      \strng{bibnamehash}{8d275fac52341fd2ba370c6b962143b3}
+      \strng{authorbibnamehash}{8d275fac52341fd2ba370c6b962143b3}
+      \strng{authornamehash}{8d275fac52341fd2ba370c6b962143b3}
+      \strng{authorfullhash}{8d275fac52341fd2ba370c6b962143b3}
+      \strng{authorfullhashraw}{8d275fac52341fd2ba370c6b962143b3}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -456,33 +437,31 @@
     \endentry
     \entry{corcoran_anti-bat_2010}{article}{}{}
       \name{author}{3}{}{%
-        {{un=2,uniquepart=given,hash=6eba338a99742f0dc0314a8d0ad930c8}{%
+        {{hash=f55e3f636fc831e29bfefd6897fb3190}{%
            family={Corcoran},
            familyi={C\bibinitperiod},
-           given={Aaron\bibnamedelima J},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=47103eb53c48863a69aeab7400a3df6d}{%
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={William\bibnamedelima E},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=47a8d9e8c9c0ce65241ed02cb47b11a2}{%
+           given={William},
+           giveni={W\bibinitperiod}}}%
+        {{hash=6e5a7298445b73c80025187a2d5fda21}{%
            family={Barber},
            familyi={B\bibinitperiod},
-           given={Jesse\bibnamedelima R},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{420ec7703e154293f95d37e7e74610f8}
-      \strng{fullhash}{e821bb176f96546833b7b5ecc777df2c}
-      \strng{fullhashraw}{e821bb176f96546833b7b5ecc777df2c}
-      \strng{bibnamehash}{e821bb176f96546833b7b5ecc777df2c}
-      \strng{authorbibnamehash}{e821bb176f96546833b7b5ecc777df2c}
-      \strng{authornamehash}{420ec7703e154293f95d37e7e74610f8}
-      \strng{authorfullhash}{e821bb176f96546833b7b5ecc777df2c}
-      \strng{authorfullhashraw}{e821bb176f96546833b7b5ecc777df2c}
+      \strng{namehash}{193af72b1620e7590efa6dead7f8df99}
+      \strng{fullhash}{a562c9dfbba9647f8ce2346949c20987}
+      \strng{fullhashraw}{a562c9dfbba9647f8ce2346949c20987}
+      \strng{bibnamehash}{a562c9dfbba9647f8ce2346949c20987}
+      \strng{authorbibnamehash}{a562c9dfbba9647f8ce2346949c20987}
+      \strng{authornamehash}{193af72b1620e7590efa6dead7f8df99}
+      \strng{authorfullhash}{a562c9dfbba9647f8ce2346949c20987}
+      \strng{authorfullhashraw}{a562c9dfbba9647f8ce2346949c20987}
+      \field{extraname}{1}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -495,44 +474,84 @@
       \field{volume}{56}
       \field{year}{2010}
     \endentry
-    \entry{corcoran_how_2011}{article}{}{}
-      \name{author}{4}{ul=2}{%
-        {{un=2,uniquepart=given,hash=6eba338a99742f0dc0314a8d0ad930c8}{%
+    \entry{corcoran_convergent_2014}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=f55e3f636fc831e29bfefd6897fb3190}{%
            family={Corcoran},
            familyi={C\bibinitperiod},
-           given={Aaron\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=47a8d9e8c9c0ce65241ed02cb47b11a2}{%
-           family={Barber},
-           familyi={B\bibinitperiod},
-           given={Jesse\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=114afdf9df1bb1dddec1c79b2953a557}{%
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=59779d581b0dab8d5550bbb9ab22bfdc}{%
            family={Hristov},
            familyi={H\bibinitperiod},
-           given={Nickolay\bibnamedelima I.},
-           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=47103eb53c48863a69aeab7400a3df6d}{%
-           family={Conner},
-           familyi={C\bibinitperiod},
-           given={William\bibnamedelima E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           given={Nickolay},
+           giveni={N\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{a7c70a836f1089abfb55d28271128ad6}
-      \strng{fullhash}{8f1a19d1bfc9f1420f04b2e168b2347b}
-      \strng{fullhashraw}{8f1a19d1bfc9f1420f04b2e168b2347b}
-      \strng{bibnamehash}{a7c70a836f1089abfb55d28271128ad6}
-      \strng{authorbibnamehash}{a7c70a836f1089abfb55d28271128ad6}
-      \strng{authornamehash}{a7c70a836f1089abfb55d28271128ad6}
-      \strng{authorfullhash}{8f1a19d1bfc9f1420f04b2e168b2347b}
-      \strng{authorfullhashraw}{8f1a19d1bfc9f1420f04b2e168b2347b}
+      \strng{namehash}{f68715a2bf3a558e303c5732e624c8e6}
+      \strng{fullhash}{f68715a2bf3a558e303c5732e624c8e6}
+      \strng{fullhashraw}{f68715a2bf3a558e303c5732e624c8e6}
+      \strng{bibnamehash}{f68715a2bf3a558e303c5732e624c8e6}
+      \strng{authorbibnamehash}{f68715a2bf3a558e303c5732e624c8e6}
+      \strng{authornamehash}{f68715a2bf3a558e303c5732e624c8e6}
+      \strng{authorfullhash}{f68715a2bf3a558e303c5732e624c8e6}
+      \strng{authorfullhashraw}{f68715a2bf3a558e303c5732e624c8e6}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0340-7594, 1432-1351}
+      \field{journaltitle}{Journal of Comparative Physiology A}
+      \field{month}{9}
+      \field{number}{9}
+      \field{title}{Convergent {Evolution} of {Anti}-{Bat} {Sounds}}
+      \field{volume}{200}
+      \field{year}{2014}
+      \field{pages}{811\bibrangedash 821}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1007/s00359-014-0924-0
+      \endverb
+    \endentry
+    \entry{corcoran_how_2011}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=f55e3f636fc831e29bfefd6897fb3190}{%
+           family={Corcoran},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod}}}%
+        {{hash=6e5a7298445b73c80025187a2d5fda21}{%
+           family={Barber},
+           familyi={B\bibinitperiod},
+           given={Jesse},
+           giveni={J\bibinitperiod}}}%
+        {{hash=59779d581b0dab8d5550bbb9ab22bfdc}{%
+           family={Hristov},
+           familyi={H\bibinitperiod},
+           given={Nickolay},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
+           family={Conner},
+           familyi={C\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \strng{namehash}{193af72b1620e7590efa6dead7f8df99}
+      \strng{fullhash}{3f7b3b03ddb7ad0f34a1c0ec49c00e64}
+      \strng{fullhashraw}{3f7b3b03ddb7ad0f34a1c0ec49c00e64}
+      \strng{bibnamehash}{193af72b1620e7590efa6dead7f8df99}
+      \strng{authorbibnamehash}{193af72b1620e7590efa6dead7f8df99}
+      \strng{authornamehash}{193af72b1620e7590efa6dead7f8df99}
+      \strng{authorfullhash}{3f7b3b03ddb7ad0f34a1c0ec49c00e64}
+      \strng{authorfullhashraw}{3f7b3b03ddb7ad0f34a1c0ec49c00e64}
+      \field{extraname}{2}
       \field{sortinit}{C}
       \field{sortinithash}{4d103a86280481745c9c897c925753c0}
       \field{extradatescope}{labelyear}
@@ -553,59 +572,13 @@
       \verb 10.1242/jeb.054783
       \endverb
     \endentry
-    \entry{corcoran_convergent_2014}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=6eba338a99742f0dc0314a8d0ad930c8}{%
-           family={Corcoran},
-           familyi={C\bibinitperiod},
-           given={Aaron\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=114afdf9df1bb1dddec1c79b2953a557}{%
-           family={Hristov},
-           familyi={H\bibinitperiod},
-           given={Nickolay\bibnamedelima I.},
-           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{language}{1}{%
-        {en}%
-      }
-      \strng{namehash}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \strng{fullhash}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \strng{fullhashraw}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \strng{bibnamehash}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \strng{authorbibnamehash}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \strng{authornamehash}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \strng{authorfullhash}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \strng{authorfullhashraw}{24d1a45dc28f7f54ad15aa301ecd0012}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0340-7594, 1432-1351}
-      \field{journaltitle}{Journal of Comparative Physiology A}
-      \field{month}{9}
-      \field{number}{9}
-      \field{title}{Convergent {Evolution} of {Anti}-{Bat} {Sounds}}
-      \field{volume}{200}
-      \field{year}{2014}
-      \field{pages}{811\bibrangedash 821}
-      \range{pages}{11}
-      \verb{doi}
-      \verb 10.1007/s00359-014-0924-0
-      \endverb
-    \endentry
     \entry{eskov_diversity_2017}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=874d5082d8f899a5bc57a869232454bd}{%
+        {{hash=874d5082d8f899a5bc57a869232454bd}{%
            family={Eskov},
            familyi={E\bibinitperiod},
            given={E.\bibnamedelimi K.},
-           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
+           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
       }
       \strng{namehash}{874d5082d8f899a5bc57a869232454bd}
       \strng{fullhash}{874d5082d8f899a5bc57a869232454bd}
@@ -632,25 +605,98 @@
       \verb{doi}
       \verb 10.1134/S0006350917030034
       \endverb
-      \keyw{10,1134,acoustic communication,anti-jamming,doi,eco-,generation and perception of,insects,logical circumstances,physiological state,s0006350917030034,sound signals}
+      \keyw{insects,10,1134,acoustic communication,anti-jamming,doi,eco-,generation and perception of,logical circumstances,physiological state,s0006350917030034,sound signals}
+    \endentry
+    \entry{fullard_listening_1984}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
+           family={Fullard},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{fullhash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{fullhashraw}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{bibnamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorbibnamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authornamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorfullhash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorfullhashraw}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The tympanate, arctiid moth, Cycnia tenera responds to pulsed, 30 kHz acoustic stimuli resembling bat echolocation signals by emitting trains of clicks. This phonoresponse was used to determine that this moth is maximally sensitive to stimulus pulse repetition rates of 30-50 pulses per sec., rates typically emitted by bats shortly before they close with their targets. At rates both above and below this optimum moths exhibit higher thresholds and reduced responsiveness. These data suggest that C. tenera is capable of using the repetition rate emitted by an approaching bat as a cue in determining the relative proximity of the bat. The use of repetition rate information should allow this moth both an unambiguous indication of a bat at very close range as well as the ability to distinguish sources of nocturnal, high-frequency sounds not emitted by predators.}
+      \field{journaltitle}{Journal of Comparative Physiology}
+      \field{number}{2}
+      \field{title}{Listening for {Bats} - {Pulse} {Repetition} {Rate} {As} a {Cue} for a {Defensive} {Behavior} in {Cycnia}-{Tenera} ({Lepidoptera}, {Arctiidae})}
+      \field{volume}{154}
+      \field{year}{1984}
+      \field{pages}{249\bibrangedash 252}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1007/bf00604990
+      \endverb
+      \keyw{Fullard8 1984}
+    \endentry
+    \entry{fullard_neuroethology_1992}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
+           family={Fullard},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{fullhash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{fullhashraw}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{bibnamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorbibnamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authornamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorfullhash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorfullhashraw}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{1. Certain species of tiger moths emit clicks when stimulated by bat-like sounds. These clicks are generated by modified thoracic episterna (tymbals) (Fig. 1) and constitute a rhythmic behaviour activated by simple sensory input. 2. Tymbal periods are indirectly related to stimulus intensity and periods (Fig. 3). Moths initiate sounds with the tymbal opposite to the stimulated ear and once a sequence commences it continues in an undisrupted fashion. 3. The tymbal is innervated by a pleural branch (IIIN2a) of the metathoracic leg nerve, a similar anatomy to that in the unmodified episterna of silent moths (Fig. 5). Backfills of the IIIN2a in Cycnia tenera reveal sensory fibres and a cluster of 5-9 motor neurons with densely overlying dendritic fields (Fig. 6). 4. Extracellular recordings of the IIIN2a reveal a large impulse preceding each tymbal sound (Fig. 7). I suggest that this impulse results from the synchronous firing of 2-3 motor neurons and is the motor output of the tymbal central pattern generator (CPG). The spikes alternate (Figs. 9, 10) and are bilaterally co-related (Fig. 11) but with an phase asymmetry of 2-3 ms (Fig. 12). 5. Normal motor output continues in the absence of tymbal sounds (Fig. 13) and when all nerve-tymbal connections are severed (Fig. 14, Table 1) therefore this CPG operates independent of sensory feedback. A model is proposed for the tymbal circuitry based upon the present data and the auditory organization of related noctuid moths (Fig. 15). I propose that the tymbal response in modern arctiids evolved from either flight or walking CPGs and that preadaptive circuitry ancestral to tymbal movements still exists in modern silent Lepidoptera.}
+      \field{issn}{0340-7594}
+      \field{journaltitle}{Journal of Comparative Physiology A}
+      \field{number}{5}
+      \field{title}{The {Neuroethology} of {Sound} {Production} in {Tiger} {Moths} ({Lepidoptera}, {Arctiidae})}
+      \field{volume}{170}
+      \field{year}{1992}
+      \field{pages}{575\bibrangedash 588}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1007/BF00199334
+      \endverb
+      \keyw{abbreviations,c o p e,cns central nervous system,i p p e,ipp interpulse period,moth - sensorimotor integration,neu-,r contralateral spike period,r ipsilateral spike period,roethology - evolution}
     \endentry
     \entry{fullard_auditory_2003}{article}{}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=cf8c059106b24a97279affe551cfb10c}{%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
            family={Fullard},
            familyi={F\bibinitperiod},
-           given={J.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=2}}%
+           given={James},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{cf8c059106b24a97279affe551cfb10c}
-      \strng{fullhash}{cf8c059106b24a97279affe551cfb10c}
-      \strng{fullhashraw}{cf8c059106b24a97279affe551cfb10c}
-      \strng{bibnamehash}{cf8c059106b24a97279affe551cfb10c}
-      \strng{authorbibnamehash}{cf8c059106b24a97279affe551cfb10c}
-      \strng{authornamehash}{cf8c059106b24a97279affe551cfb10c}
-      \strng{authorfullhash}{cf8c059106b24a97279affe551cfb10c}
-      \strng{authorfullhashraw}{cf8c059106b24a97279affe551cfb10c}
+      \strng{namehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{fullhash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{fullhashraw}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{bibnamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorbibnamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authornamehash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorfullhash}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \strng{authorfullhashraw}{a0a9dec8ea749022cc753506e8c1b6a0}
+      \field{extraname}{3}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -673,27 +719,25 @@
     \endentry
     \entry{fullard_acoustic_1977}{article}{}{}
       \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=cf8c059106b24a97279affe551cfb10c}{%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
            family={Fullard},
            familyi={F\bibinitperiod},
-           given={J.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=253c5a5b795059c983eb634dde595ffa}{%
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=253c5a5b795059c983eb634dde595ffa}{%
            family={Fenton},
            familyi={F\bibinitperiod},
            given={M.\bibnamedelimi B.},
-           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=2}}%
+           giveni={M\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
       }
-      \strng{namehash}{a3af4a401c7209df94401aa3d78b5f45}
-      \strng{fullhash}{a3af4a401c7209df94401aa3d78b5f45}
-      \strng{fullhashraw}{a3af4a401c7209df94401aa3d78b5f45}
-      \strng{bibnamehash}{a3af4a401c7209df94401aa3d78b5f45}
-      \strng{authorbibnamehash}{a3af4a401c7209df94401aa3d78b5f45}
-      \strng{authornamehash}{a3af4a401c7209df94401aa3d78b5f45}
-      \strng{authorfullhash}{a3af4a401c7209df94401aa3d78b5f45}
-      \strng{authorfullhashraw}{a3af4a401c7209df94401aa3d78b5f45}
+      \strng{namehash}{c2e7c06920bb610ac2f1ad1fbda9e79d}
+      \strng{fullhash}{c2e7c06920bb610ac2f1ad1fbda9e79d}
+      \strng{fullhashraw}{c2e7c06920bb610ac2f1ad1fbda9e79d}
+      \strng{bibnamehash}{c2e7c06920bb610ac2f1ad1fbda9e79d}
+      \strng{authorbibnamehash}{c2e7c06920bb610ac2f1ad1fbda9e79d}
+      \strng{authornamehash}{c2e7c06920bb610ac2f1ad1fbda9e79d}
+      \strng{authorfullhash}{c2e7c06920bb610ac2f1ad1fbda9e79d}
+      \strng{authorfullhashraw}{c2e7c06920bb610ac2f1ad1fbda9e79d}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -712,29 +756,69 @@
       \verb 10.1139/z77-160
       \endverb
     \endentry
-    \entry{fullard_functional_1990}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=cf8c059106b24a97279affe551cfb10c}{%
+    \entry{fullard_intensity_1998}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
            family={Fullard},
            familyi={F\bibinitperiod},
-           given={J.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=457459843a3e84f0cd16aebc477dfe92}{%
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=98c93160e2d44aa47023b3a3950c5673}{%
+           family={Forrest},
+           familyi={F\bibinitperiod},
+           given={E},
+           giveni={E\bibinitperiod}}}%
+        {{hash=70de264cbc80419db1506006c9b305c7}{%
+           family={Surlykke},
+           familyi={S\bibinitperiod},
+           given={Annemarie},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{681b91f4870090b11ea9a960a592be6f}
+      \strng{fullhash}{8815f220bdfe5cf08a5643c12cd5464f}
+      \strng{fullhashraw}{8815f220bdfe5cf08a5643c12cd5464f}
+      \strng{bibnamehash}{8815f220bdfe5cf08a5643c12cd5464f}
+      \strng{authorbibnamehash}{8815f220bdfe5cf08a5643c12cd5464f}
+      \strng{authornamehash}{681b91f4870090b11ea9a960a592be6f}
+      \strng{authorfullhash}{8815f220bdfe5cf08a5643c12cd5464f}
+      \strng{authorfullhashraw}{8815f220bdfe5cf08a5643c12cd5464f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{It has been proposed that the most sensitive auditory receptor cell (A1) in the two-celled ears of certain noctuoid moths is inhibited by its partner, the A2 cell, at high stimulus intensities. We used the single-celled ears of notodontid moths, also noctuoids, to test this hypothesis. The A1 cells of all but one of the moths tested exhibited non-monotonic firing rates, with reduced firing rates at high stimulus intensities and showing no relationship to the firing rate of the only other receptor, the non-auditory B cell. These results challenge the peripheral interaction hypothesis for A1 firing patterns in two-celled moth ears. An examination of notodontid A1 adaptation rates and laser vibrometry results suggests that receptor adaptation and tympanal motion non-linearity are more likely explanations for the non-monotonic receptor firing observed in both single- and multi-celled moth ears.}
+      \field{issn}{0022-0949}
+      \field{journaltitle}{The Journal of experimental biology}
+      \field{title}{Intensity {Responses} of the {Single} {Auditory} {Receptor} of {Notodontid} {Moths}: {A} {Test} of the {Peripheral} {Interaction} {Hypothesis} in {Moth} {Ears}}
+      \field{volume}{201 (Pt 24}
+      \field{year}{1998}
+      \field{pages}{3419\bibrangedash 24}
+      \range{pages}{6}
+      \keyw{auditory receptor,cell,hearing,intensity response,moth,notodontid,peripheral interaction,these results challenge the}
+    \endentry
+    \entry{fullard_functional_1990}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
+           family={Fullard},
+           familyi={F\bibinitperiod},
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=457459843a3e84f0cd16aebc477dfe92}{%
            family={Heller},
            familyi={H\bibinitperiod},
            given={B.},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
+           giveni={B\bibinitperiod}}}%
       }
-      \strng{namehash}{275960ce2450e6a53cebef2a32404714}
-      \strng{fullhash}{275960ce2450e6a53cebef2a32404714}
-      \strng{fullhashraw}{275960ce2450e6a53cebef2a32404714}
-      \strng{bibnamehash}{275960ce2450e6a53cebef2a32404714}
-      \strng{authorbibnamehash}{275960ce2450e6a53cebef2a32404714}
-      \strng{authornamehash}{275960ce2450e6a53cebef2a32404714}
-      \strng{authorfullhash}{275960ce2450e6a53cebef2a32404714}
-      \strng{authorfullhashraw}{275960ce2450e6a53cebef2a32404714}
+      \strng{namehash}{630f4eff59b36f0e30684e88d338a98f}
+      \strng{fullhash}{630f4eff59b36f0e30684e88d338a98f}
+      \strng{fullhashraw}{630f4eff59b36f0e30684e88d338a98f}
+      \strng{bibnamehash}{630f4eff59b36f0e30684e88d338a98f}
+      \strng{authorbibnamehash}{630f4eff59b36f0e30684e88d338a98f}
+      \strng{authornamehash}{630f4eff59b36f0e30684e88d338a98f}
+      \strng{authorfullhash}{630f4eff59b36f0e30684e88d338a98f}
+      \strng{authorfullhashraw}{630f4eff59b36f0e30684e88d338a98f}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
@@ -753,181 +837,32 @@
       \verb 10.1002/jmor.1052040107
       \endverb
     \endentry
-    \entry{fullard_intensity_1998}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=2,uniquepart=given,hash=6870d4ee538175f13ef9f13556a131fd}{%
-           family={Fullard},
-           familyi={F\bibinitperiod},
-           given={James\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=98c93160e2d44aa47023b3a3950c5673}{%
-           family={Forrest},
-           familyi={F\bibinitperiod},
-           given={E},
-           giveni={E\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=6100deb66166c9473f6c6fddf76634a7}{%
-           family={Surlykke},
-           familyi={S\bibinitperiod},
-           given={a},
-           giveni={a\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{8e3ceac867f99c68b996afe46b624024}
-      \strng{fullhash}{217a2b16578d58a5790237517eddb9d6}
-      \strng{fullhashraw}{217a2b16578d58a5790237517eddb9d6}
-      \strng{bibnamehash}{217a2b16578d58a5790237517eddb9d6}
-      \strng{authorbibnamehash}{217a2b16578d58a5790237517eddb9d6}
-      \strng{authornamehash}{8e3ceac867f99c68b996afe46b624024}
-      \strng{authorfullhash}{217a2b16578d58a5790237517eddb9d6}
-      \strng{authorfullhashraw}{217a2b16578d58a5790237517eddb9d6}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{It has been proposed that the most sensitive auditory receptor cell (A1) in the two-celled ears of certain noctuoid moths is inhibited by its partner, the A2 cell, at high stimulus intensities. We used the single-celled ears of notodontid moths, also noctuoids, to test this hypothesis. The A1 cells of all but one of the moths tested exhibited non-monotonic firing rates, with reduced firing rates at high stimulus intensities and showing no relationship to the firing rate of the only other receptor, the non-auditory B cell. These results challenge the peripheral interaction hypothesis for A1 firing patterns in two-celled moth ears. An examination of notodontid A1 adaptation rates and laser vibrometry results suggests that receptor adaptation and tympanal motion non-linearity are more likely explanations for the non-monotonic receptor firing observed in both single- and multi-celled moth ears.}
-      \field{issn}{0022-0949}
-      \field{journaltitle}{The Journal of experimental biology}
-      \field{title}{Intensity {Responses} of the {Single} {Auditory} {Receptor} of {Notodontid} {Moths}: {A} {Test} of the {Peripheral} {Interaction} {Hypothesis} in {Moth} {Ears}}
-      \field{volume}{201 (Pt 24}
-      \field{year}{1998}
-      \field{pages}{3419\bibrangedash 24}
-      \range{pages}{6}
-      \keyw{auditory receptor,cell,hearing,intensity response,moth,notodontid,peripheral interaction,these results challenge the}
-    \endentry
-    \entry{fullard_neuroethology_1992}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=7aa62de495b8b6c2131f2a47847f93e1}{%
-           family={Fullard},
-           familyi={F\bibinitperiod},
-           given={JamesH.\bibnamedelimi H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=2}}%
-      }
-      \strng{namehash}{7aa62de495b8b6c2131f2a47847f93e1}
-      \strng{fullhash}{7aa62de495b8b6c2131f2a47847f93e1}
-      \strng{fullhashraw}{7aa62de495b8b6c2131f2a47847f93e1}
-      \strng{bibnamehash}{7aa62de495b8b6c2131f2a47847f93e1}
-      \strng{authorbibnamehash}{7aa62de495b8b6c2131f2a47847f93e1}
-      \strng{authornamehash}{7aa62de495b8b6c2131f2a47847f93e1}
-      \strng{authorfullhash}{7aa62de495b8b6c2131f2a47847f93e1}
-      \strng{authorfullhashraw}{7aa62de495b8b6c2131f2a47847f93e1}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{1. Certain species of tiger moths emit clicks when stimulated by bat-like sounds. These clicks are generated by modified thoracic episterna (tymbals) (Fig. 1) and constitute a rhythmic behaviour activated by simple sensory input. 2. Tymbal periods are indirectly related to stimulus intensity and periods (Fig. 3). Moths initiate sounds with the tymbal opposite to the stimulated ear and once a sequence commences it continues in an undisrupted fashion. 3. The tymbal is innervated by a pleural branch (IIIN2a) of the metathoracic leg nerve, a similar anatomy to that in the unmodified episterna of silent moths (Fig. 5). Backfills of the IIIN2a in Cycnia tenera reveal sensory fibres and a cluster of 5-9 motor neurons with densely overlying dendritic fields (Fig. 6). 4. Extracellular recordings of the IIIN2a reveal a large impulse preceding each tymbal sound (Fig. 7). I suggest that this impulse results from the synchronous firing of 2-3 motor neurons and is the motor output of the tymbal central pattern generator (CPG). The spikes alternate (Figs. 9, 10) and are bilaterally co-related (Fig. 11) but with an phase asymmetry of 2-3 ms (Fig. 12). 5. Normal motor output continues in the absence of tymbal sounds (Fig. 13) and when all nerve-tymbal connections are severed (Fig. 14, Table 1) therefore this CPG operates independent of sensory feedback. A model is proposed for the tymbal circuitry based upon the present data and the auditory organization of related noctuid moths (Fig. 15). I propose that the tymbal response in modern arctiids evolved from either flight or walking CPGs and that preadaptive circuitry ancestral to tymbal movements still exists in modern silent Lepidoptera.}
-      \field{issn}{0340-7594}
-      \field{journaltitle}{Journal of Comparative Physiology A}
-      \field{number}{5}
-      \field{title}{The {Neuroethology} of {Sound} {Production} in {Tiger} {Moths} ({Lepidoptera}, {Arctiidae})}
-      \field{volume}{170}
-      \field{year}{1992}
-      \field{pages}{575\bibrangedash 588}
-      \range{pages}{14}
-      \verb{doi}
-      \verb 10.1007/BF00199334
-      \endverb
-      \keyw{abbreviations,c o p e,cns central nervous system,i p p e,ipp interpulse period,moth - sensorimotor integration,neu-,r contralateral spike period,r ipsilateral spike period,roethology - evolution}
-    \endentry
-    \entry{ter_hofstede_simple_2013}{article}{}{}
-      \name{author}{5}{}{%
-        {{un=2,uniquepart=given,hash=a136d924ccdac62383982fc4773bfec5}{%
-           family={Hofstede},
-           familyi={H\bibinitperiod},
-           given={H.\bibnamedelimi M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=2,
-           prefix={ter},
-           prefixi={t\bibinitperiod},
-           prefixun=0}}%
-        {{un=0,uniquepart=base,hash=3d4ab75e40bc93b291ce0a11a1de7c86}{%
-           family={Goerlitz},
-           familyi={G\bibinitperiod},
-           given={H.\bibnamedelimi R.},
-           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=57f653cd3291dbde2f414b305b947aa4}{%
-           family={Ratcliffe},
-           familyi={R\bibinitperiod},
-           given={J.\bibnamedelimi M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=0d64a3b63a3fe78ec703b092dbdbe875}{%
-           family={Holderied},
-           familyi={H\bibinitperiod},
-           given={M.\bibnamedelimi W.},
-           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3da8e8883fda0874b474c0e0af1c02fb}{%
-           family={Surlykke},
-           familyi={S\bibinitperiod},
-           given={A.},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{367c4841dcd83f47250e8883101a6369}
-      \strng{fullhash}{face20e07d093d6b3af223ea286f0730}
-      \strng{fullhashraw}{face20e07d093d6b3af223ea286f0730}
-      \strng{bibnamehash}{367c4841dcd83f47250e8883101a6369}
-      \strng{authorbibnamehash}{367c4841dcd83f47250e8883101a6369}
-      \strng{authornamehash}{367c4841dcd83f47250e8883101a6369}
-      \strng{authorfullhash}{face20e07d093d6b3af223ea286f0730}
-      \strng{authorfullhashraw}{face20e07d093d6b3af223ea286f0730}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Insects with bat-detecting ears are ideal animals for investigating sensory system adaptations to predator cues. Noctuid moths have two auditory receptors (A1 and A2) sensitive to the ultrasonic echolocation calls of insectivorous bats. Larger moths are detected at greater distances by bats than smaller moths. Larger moths also have lower A1 best thresholds, allowing them to detect bats at greater distances and possibly compensating for their increased conspicuousness. Interestingly, the sound frequency at the lowest threshold is lower in larger than in smaller moths, suggesting that the relationship between threshold and size might vary across frequencies used by different bat species. Here, we demonstrate that the relationships between threshold and size in moths were only significant at some frequencies, and these frequencies differed between three locations (UK, Canada and Denmark). The relationships were more likely to be significant at call frequencies used by proportionately more bat species in the moths' specific bat community, suggesting an association between the tuning of moth ears and the cues provided by sympatric predators. Additionally, we found that the best threshold and best frequency of the less sensitive A2 receptor are also related to size, and that these relationships hold when controlling for evolutionary relationships. The slopes of best threshold versus size differ, however, such that the difference in threshold between A1 and A2 is greater for larger than for smaller moths. The shorter time from A1 to A2 excitation in smaller than in larger moths could potentially compensate for shorter absolute detection distances in smaller moths.}
-      \field{issn}{0022-0949; 1477-9145}
-      \field{journaltitle}{Journal of Experimental Biology}
-      \field{number}{21}
-      \field{title}{The {Simple} {Ears} of {Noctuoid} {Moths} {Are} {Tuned} to the {Calls} of {Their} {Sympatric} {Bat} {Community}}
-      \field{volume}{216}
-      \field{year}{2013}
-      \field{pages}{3954\bibrangedash 3962}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1242/jeb.093294
-      \endverb
-      \keyw{accepted 14 july 2013,allotonic frequency hypothesis,constant-frequency echolocation,horseshoe bats,predator,prey interactions,received 30 june 2013,sensory ecology}
-    \endentry
     \entry{ter_hofstede_evolutionary_2016}{article}{}{}
       \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=85d7b554eb3ad97f88bf145ab6472651}{%
+        {{hash=5eee5cdb9477882345349822e12d61bf}{%
            family={Hofstede},
            familyi={H\bibinitperiod},
-           given={Hannah\bibnamedelima M.},
-           giveni={H\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=2,
+           given={Hannah},
+           giveni={H\bibinitperiod},
            prefix={ter},
-           prefixi={t\bibinitperiod},
-           prefixun=0}}%
-        {{un=2,uniquepart=given,hash=20c04ee8d3d7c52ef78d63adde286571}{%
+           prefixi={t\bibinitperiod}}}%
+        {{hash=b26873b8b281b612e1852c7dd2bb4cd0}{%
            family={Ratcliffe},
            familyi={R\bibinitperiod},
-           given={John\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=2}}%
+           given={John},
+           giveni={J\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{b2efc906aa3ade9e0d82c58409e04e27}
-      \strng{fullhash}{b2efc906aa3ade9e0d82c58409e04e27}
-      \strng{fullhashraw}{b2efc906aa3ade9e0d82c58409e04e27}
-      \strng{bibnamehash}{b2efc906aa3ade9e0d82c58409e04e27}
-      \strng{authorbibnamehash}{b2efc906aa3ade9e0d82c58409e04e27}
-      \strng{authornamehash}{b2efc906aa3ade9e0d82c58409e04e27}
-      \strng{authorfullhash}{b2efc906aa3ade9e0d82c58409e04e27}
-      \strng{authorfullhashraw}{b2efc906aa3ade9e0d82c58409e04e27}
+      \strng{namehash}{3610d998dfec1d77a4f111bec6415c13}
+      \strng{fullhash}{3610d998dfec1d77a4f111bec6415c13}
+      \strng{fullhashraw}{3610d998dfec1d77a4f111bec6415c13}
+      \strng{bibnamehash}{3610d998dfec1d77a4f111bec6415c13}
+      \strng{authorbibnamehash}{3610d998dfec1d77a4f111bec6415c13}
+      \strng{authornamehash}{3610d998dfec1d77a4f111bec6415c13}
+      \strng{authorfullhash}{3610d998dfec1d77a4f111bec6415c13}
+      \strng{authorfullhashraw}{3610d998dfec1d77a4f111bec6415c13}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -949,29 +884,85 @@
       \verb 10.1242/jeb.086686
       \endverb
     \endentry
+    \entry{ter_hofstede_simple_2013}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=5eee5cdb9477882345349822e12d61bf}{%
+           family={Hofstede},
+           familyi={H\bibinitperiod},
+           given={Hannah},
+           giveni={H\bibinitperiod},
+           prefix={ter},
+           prefixi={t\bibinitperiod}}}%
+        {{hash=fd4c61839fd1f27657127a1887c24d5e}{%
+           family={Goerlitz},
+           familyi={G\bibinitperiod},
+           given={Holger},
+           giveni={H\bibinitperiod}}}%
+        {{hash=b26873b8b281b612e1852c7dd2bb4cd0}{%
+           family={Ratcliffe},
+           familyi={R\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=0d64a3b63a3fe78ec703b092dbdbe875}{%
+           family={Holderied},
+           familyi={H\bibinitperiod},
+           given={M.\bibnamedelimi W.},
+           giveni={M\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=70de264cbc80419db1506006c9b305c7}{%
+           family={Surlykke},
+           familyi={S\bibinitperiod},
+           given={Annemarie},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c701487e20acd1046ad22e6b30693b66}
+      \strng{fullhash}{c62d85d4cbe201f2cac5da30e9920f68}
+      \strng{fullhashraw}{c62d85d4cbe201f2cac5da30e9920f68}
+      \strng{bibnamehash}{c701487e20acd1046ad22e6b30693b66}
+      \strng{authorbibnamehash}{c701487e20acd1046ad22e6b30693b66}
+      \strng{authornamehash}{c701487e20acd1046ad22e6b30693b66}
+      \strng{authorfullhash}{c62d85d4cbe201f2cac5da30e9920f68}
+      \strng{authorfullhashraw}{c62d85d4cbe201f2cac5da30e9920f68}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Insects with bat-detecting ears are ideal animals for investigating sensory system adaptations to predator cues. Noctuid moths have two auditory receptors (A1 and A2) sensitive to the ultrasonic echolocation calls of insectivorous bats. Larger moths are detected at greater distances by bats than smaller moths. Larger moths also have lower A1 best thresholds, allowing them to detect bats at greater distances and possibly compensating for their increased conspicuousness. Interestingly, the sound frequency at the lowest threshold is lower in larger than in smaller moths, suggesting that the relationship between threshold and size might vary across frequencies used by different bat species. Here, we demonstrate that the relationships between threshold and size in moths were only significant at some frequencies, and these frequencies differed between three locations (UK, Canada and Denmark). The relationships were more likely to be significant at call frequencies used by proportionately more bat species in the moths' specific bat community, suggesting an association between the tuning of moth ears and the cues provided by sympatric predators. Additionally, we found that the best threshold and best frequency of the less sensitive A2 receptor are also related to size, and that these relationships hold when controlling for evolutionary relationships. The slopes of best threshold versus size differ, however, such that the difference in threshold between A1 and A2 is greater for larger than for smaller moths. The shorter time from A1 to A2 excitation in smaller than in larger moths could potentially compensate for shorter absolute detection distances in smaller moths.}
+      \field{issn}{0022-0949; 1477-9145}
+      \field{journaltitle}{Journal of Experimental Biology}
+      \field{number}{21}
+      \field{title}{The {Simple} {Ears} of {Noctuoid} {Moths} {Are} {Tuned} to the {Calls} of {Their} {Sympatric} {Bat} {Community}}
+      \field{volume}{216}
+      \field{year}{2013}
+      \field{pages}{3954\bibrangedash 3962}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1242/jeb.093294
+      \endverb
+      \keyw{accepted 14 july 2013,allotonic frequency hypothesis,constant-frequency echolocation,horseshoe bats,predator,prey interactions,received 30 june 2013,sensory ecology}
+    \endentry
     \entry{hristov_sound_2005}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=114afdf9df1bb1dddec1c79b2953a557}{%
+        {{hash=59779d581b0dab8d5550bbb9ab22bfdc}{%
            family={Hristov},
            familyi={H\bibinitperiod},
-           given={Nickolay\bibnamedelima I.},
-           giveni={N\bibinitperiod\bibinitdelim I\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=47103eb53c48863a69aeab7400a3df6d}{%
+           given={Nickolay},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={William\bibnamedelima E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{944ec99c5f799634a2f796b5e3b64f65}
-      \strng{fullhash}{944ec99c5f799634a2f796b5e3b64f65}
-      \strng{fullhashraw}{944ec99c5f799634a2f796b5e3b64f65}
-      \strng{bibnamehash}{944ec99c5f799634a2f796b5e3b64f65}
-      \strng{authorbibnamehash}{944ec99c5f799634a2f796b5e3b64f65}
-      \strng{authornamehash}{944ec99c5f799634a2f796b5e3b64f65}
-      \strng{authorfullhash}{944ec99c5f799634a2f796b5e3b64f65}
-      \strng{authorfullhashraw}{944ec99c5f799634a2f796b5e3b64f65}
+      \strng{namehash}{bb7720ea55a9cb42fc6a6f71140a469a}
+      \strng{fullhash}{bb7720ea55a9cb42fc6a6f71140a469a}
+      \strng{fullhashraw}{bb7720ea55a9cb42fc6a6f71140a469a}
+      \strng{bibnamehash}{bb7720ea55a9cb42fc6a6f71140a469a}
+      \strng{authorbibnamehash}{bb7720ea55a9cb42fc6a6f71140a469a}
+      \strng{authornamehash}{bb7720ea55a9cb42fc6a6f71140a469a}
+      \strng{authorfullhash}{bb7720ea55a9cb42fc6a6f71140a469a}
+      \strng{authorfullhashraw}{bb7720ea55a9cb42fc6a6f71140a469a}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
@@ -992,36 +983,33 @@
     \endentry
     \entry{low_survival_2021}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=1c236525bff6274c9b1a9ab108107982}{%
+        {{hash=ed476793e6db7a825ee66b519419b545}{%
            family={Low},
            familyi={L\bibinitperiod},
-           given={Melanie\bibnamedelima L.},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a5aad3809ceb0bcbc9c8b0c5236ab18c}{%
+           given={Melanie},
+           giveni={M\bibinitperiod}}}%
+        {{hash=a5aad3809ceb0bcbc9c8b0c5236ab18c}{%
            family={Naranjo},
            familyi={N\bibinitperiod},
            given={Mairelys},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3783e4f8293775b9d9cd2501d76b2ab6}{%
+           giveni={M\bibinitperiod}}}%
+        {{hash=e6f0b281630c48ded41afb8513f48cc4}{%
            family={Yack},
            familyi={Y\bibinitperiod},
-           given={Jayne\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{69783a12811cb5699bb3533b8bf24cbb}
-      \strng{fullhash}{5ea560c80995d1ca9bd52a2ff93677ef}
-      \strng{fullhashraw}{5ea560c80995d1ca9bd52a2ff93677ef}
-      \strng{bibnamehash}{5ea560c80995d1ca9bd52a2ff93677ef}
-      \strng{authorbibnamehash}{5ea560c80995d1ca9bd52a2ff93677ef}
-      \strng{authornamehash}{69783a12811cb5699bb3533b8bf24cbb}
-      \strng{authorfullhash}{5ea560c80995d1ca9bd52a2ff93677ef}
-      \strng{authorfullhashraw}{5ea560c80995d1ca9bd52a2ff93677ef}
+      \strng{namehash}{c9a3f131a423d97b7178b29ea62c90a4}
+      \strng{fullhash}{f852b92447c5c7e507a23509d2c1a63e}
+      \strng{fullhashraw}{f852b92447c5c7e507a23509d2c1a63e}
+      \strng{bibnamehash}{f852b92447c5c7e507a23509d2c1a63e}
+      \strng{authorbibnamehash}{f852b92447c5c7e507a23509d2c1a63e}
+      \strng{authornamehash}{c9a3f131a423d97b7178b29ea62c90a4}
+      \strng{authorfullhash}{f852b92447c5c7e507a23509d2c1a63e}
+      \strng{authorfullhashraw}{f852b92447c5c7e507a23509d2c1a63e}
       \field{sortinit}{L}
       \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
@@ -1055,20 +1043,131 @@
       \verb https://www.frontiersin.org/articles/10.3389/fevo.2021.641740/full
       \endverb
     \endentry
+    \entry{machens_discrimination_2001}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=6ea5ea201568e49761e4a7609ac58aa9}{%
+           family={Machens},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=4887bc6056495e8ee5b9c42360974209}{%
+           family={Prinz},
+           familyi={P\bibinitperiod},
+           given={P},
+           giveni={P\bibinitperiod}}}%
+        {{hash=95e46d20ae5ece75e986b5b304c65ce4}{%
+           family={Stemmler},
+           familyi={S\bibinitperiod},
+           given={MB},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4ce9349f95ced7a4831a5efa0fe5b00f}{%
+           family={Ronacher},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2b9068c410e1077d29bedf897ca7ea7e}{%
+           family={Herz},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{fullhash}{c281a0f0078c8843e04c0fbc0df57f16}
+      \strng{fullhashraw}{c281a0f0078c8843e04c0fbc0df57f16}
+      \strng{bibnamehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{authorbibnamehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{authornamehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{authorfullhash}{c281a0f0078c8843e04c0fbc0df57f16}
+      \strng{authorfullhashraw}{c281a0f0078c8843e04c0fbc0df57f16}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In hearing insects, discrimination of auditory signals is vital to mate selection. We tested the capability of single auditory receptor neurons to discriminate calling songs from di!erent individual grasshoppers of the same species. Spike trains elicited from di!erent songs were studied using the metric-space analysis of Victor and Purpura (Networks: Comput. Neural Syst. 8 (1997) 127{\textbackslash}vphantom\{\}164). Our data show that the natural songs can be distinguished perfectly after a mere 100 msec if spike trains are evaluated on time scales of about 10 msec. This time scale is well matched to the temporal structure of the grasshopper songs.}
+      \field{journaltitle}{Neurocomputing}
+      \field{number}{40}
+      \field{title}{Discrimination of {Behaviorally} {Relevant} {Signals} by {Auditory} {Receptor} {Neurons}}
+      \field{volume}{38}
+      \field{year}{2001}
+      \field{pages}{263\bibrangedash 268}
+      \range{pages}{6}
+      \keyw{Auditory receptor,Metric-space analysis,Neural code,Stimulus discrimination}
+    \endentry
+    \entry{machens_single_2003}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=6ea5ea201568e49761e4a7609ac58aa9}{%
+           family={Machens},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=d4da34eda9dbbc64f3dcd0ccbc47a19a}{%
+           family={Schütze},
+           familyi={S\bibinitperiod},
+           given={Hartmut},
+           giveni={H\bibinitperiod}}}%
+        {{hash=4acfc6a24f6b3ceb917a95ea7cb3ce0c}{%
+           family={Franz},
+           familyi={F\bibinitperiod},
+           given={Astrid},
+           giveni={A\bibinitperiod}}}%
+        {{hash=fa9ac5e64c6774f0ac86b35aee3552e9}{%
+           family={Kolesnikova},
+           familyi={K\bibinitperiod},
+           given={Olga},
+           giveni={O\bibinitperiod}}}%
+        {{hash=7d539ac482c0f2b1e3fa4cb7947a7dbe}{%
+           family={Stemmler},
+           familyi={S\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+        {{hash=4ce9349f95ced7a4831a5efa0fe5b00f}{%
+           family={Ronacher},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+        {{hash=2b9068c410e1077d29bedf897ca7ea7e}{%
+           family={Herz},
+           familyi={H\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{fullhash}{88e3a82610880932e80956774f1c96b4}
+      \strng{fullhashraw}{88e3a82610880932e80956774f1c96b4}
+      \strng{bibnamehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{authorbibnamehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{authornamehash}{dea4579a6753dcd8d6fba3848cde4000}
+      \strng{authorfullhash}{88e3a82610880932e80956774f1c96b4}
+      \strng{authorfullhashraw}{88e3a82610880932e80956774f1c96b4}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Animals that rely on acoustic communication to find mates, such as grasshoppers, are astonishingly accurate in recognizing song patterns that are specific to their own species 1,2 . This raises the question of whether they can also solve a far more complicated task that might provide a basis for mate preference and sexual selection: to distinguish individual songs by detecting slight vari-ations around the common species-specific theme. Using spike-train discriminability to quantify the precision of neural responses from the auditory periphery of a model grasshopper species, we show that information sufficient to distinguish songs is readily available at the single-cell level when the spike trains are analyzed on a millisecond time scale. To investigate whether information about variations between conspecific songs is available for discrimination, we made electrophysiological recordings in Chorthippus biguttulus females and recorded spike trains from single auditory receptors in response to songs from different conspecific males (Fig. 1a and b). To eliminate simple discrimination cues such as vari-ations in syllable length, we also recorded responses to songs that were rescaled to have a common syllable duration and car-rier spectrum. To obtain these song variants, the original ampli-tude modulations were calculated using the Hilbert transform 3 , rescaled in time, and then combined with the spectrum of one of the songs (Fig. 1c). The resulting mean firing rates are indis-tinguishable (Fig. 1d). Successful discrimination would demand that spike trains elicit-ed by repeated presentations of the same song be more similar to each other than spike trains elicited by different songs (Fig. 1d). To compute the similarity between two spike trains, each spike was replaced by a function f(t) that mimics the time course of an exci-tatory postsynaptic potential (EPSP) in a hypothetical downstream neuron of the grasshopper's auditory system (Fig. 1e). A distance between the two spike trains was then defined as the mean square distance between their EPSP-convolved traces 4 . By varying the width (τ) of the EPSP function, effects of the temporal resolution can be studied: if τ is large, only differences in the average spike rate contribute to the distance measure; if τ is small, even small differences in spike timing matter. We analyzed responses to songs from eight Ch. biguttulus males. For each song, one spike train was arbitrarily chosen as a template. The remaining spike trains were classified by assigning each one to the closest of the eight templates. Averages were then computed by permuting all possible template choices, yielding classification matri-ces (Fig. 2a). The diagonal elements of the matrices correspond to correctly classified spike trains, and the off-diagonal elements to misclassified spike trains. When insisting on a very high time reso-lution (τ łeq 1 ms) or when largely neglecting temporal informa-tion (τ {\textbackslash}geq 100 ms), the songs cannot be discriminated well, as brief communications nature neuroscience • volume 6 no 4 • april 2003 341 Fig. 1. Acoustic communication signals, artificial songs and sample responses. (a) Grasshoppers produce species-specific sound patterns by rasping their hindlegs across their forewings. Shown are songs generated by one Chorthippus mollis and two Chorthippus biguttulus males. Each song consists of many repetitions of a basic pattern, termed 'syllable'. Scale bar, 500 ms. (b) Within each syllable, the amplitude of the high-frequency broadband carrier is strongly modulated in time as illustrated by the two spectrograms. (c) Equalizing the song spectra and rescaling the length of each syllable to 100 ms yields artificial songs that differ only in their ampli-tude modulation. (d) Spike raster plots of responses from a single audi-tory receptor to five presentations of the two songs shown in (c). (e) The EPSP function f(t) = t * exp(–αt) used to compute spike-train distances. The full width at half maximum, τ, is τ {\textbackslash}approx 2.45/α. Details of the experimental protocols, which complied with German law governing animal care, are described elsewhere 5 . Stimulus intensities were 50–70 dB SPL, yielding spike rates between 100 and 200 Hz; temperature during the measure-ment was 33–35 {\textasciicircum}{\textbackslash}circC. Responses to at least six repetitions of the rescaled songs were recorded from n = 18 receptors; for three of these neurons, responses to the original songs were also obtained. a b c d e 342 nature neuroscience • volume 6 no 4 • april 2003 indicated by the many off-diagonal entries in the corresponding matrices. For τ {\textbackslash}approx 5 ms, however, most spike trains are correctly assigned, suggesting that this time scale corresponds to unique song features that auditory receptors accurately encode. Signal variations on a scale of a few milliseconds are thus well suited for song eval-uation; downstream neurons with much longer EPSPs will hardly be able to process the information relevant for discrimination. To investigate how the discrimination ability unfolds in time, we computed how many spike trains are correctly classified as a function of both the spike-train length T and EPSP width τ (con-tour plot in Fig. 2b). Already at T = 400 ms, after just a few syl-lables or roughly 50 action potentials, the songs are correctly recognized in over 80\% of all trials. Differences in the songs' amplitude modulations, syllable length and carrier spectrum all contribute to this surprisingly rapid and accurate discrimination. Notably, variations in spectral composition often lead to different firing rates, thereby facilitating discrimination. Successful discrimination of the rescaled songs with equal-ized carrier spectrum and uniform syllable length, however, must be based solely on differences in the detailed structure of amplitude modulations within a syllable. Nevertheless, the neural performance does not decrease substantially (Fig. 2c and d). For small T or very small τ, discrimination may even slightly improve as the adjusted spectra lead to higher firing rates and lower trial-to-trial spike time variability for some of the songs. Together, our results show that auditory receptor neurons react to rapid amplitude modulations with high tem-poral accuracy, so even slight differences among stimuli can be recovered. This finding coincides with the observation that quickly varying stimuli lead to greater precision in receptor spike timing than slowly varying stimuli 5 , just as neocortical neurons respond more precisely to fluctuating current injec-tions than to constant currents 6 . Our data indicate that short segments of single spike trains from one auditory receptor suffice to rapidly discriminate the songs of conspecific grasshoppers, provided that a time reso-lution of a few milliseconds is maintained. With 40–50 recep-tors per ear, even more information is available for spike-time based computations by downstream neurons. That the female grasshopper's auditory system could, in principle, distinguish individual male songs does not prove, however, that female grasshoppers use this capability. But if near-perfect discrimi-nation is possible, then so is the easier task of preferring cer-tain male songs over others, which female grasshoppers do 7 . The precise role of song discriminability in sexual selection remains an open question for further investigation.}
+      \field{title}{Single {Auditory} {Neurons} {Rapidly} {Discriminate} {Conspecific} {Communication} {Signals}}
+      \field{year}{2003}
+      \verb{doi}
+      \verb 10.1038/nn1036
+      \endverb
+    \endentry
     \entry{miller_how_2001}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=3a4d13993954cd2a6e28ba37d69653c2}{%
+        {{hash=3a4d13993954cd2a6e28ba37d69653c2}{%
            family={Miller},
            familyi={M\bibinitperiod},
            given={Lee},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=70de264cbc80419db1506006c9b305c7}{%
+           giveni={L\bibinitperiod}}}%
+        {{hash=70de264cbc80419db1506006c9b305c7}{%
            family={Surlykke},
            familyi={S\bibinitperiod},
            given={Annemarie},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
+           giveni={A\bibinitperiod}}}%
       }
       \strng{namehash}{8eaa247cd09a7e3d16b1faedf27bf15e}
       \strng{fullhash}{8eaa247cd09a7e3d16b1faedf27bf15e}
@@ -1099,24 +1198,21 @@
     \endentry
     \entry{nakano_moth_2014}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=c2c707348bd8df9d4d8dc350a2e20e01}{%
+        {{hash=c2c707348bd8df9d4d8dc350a2e20e01}{%
            family={Nakano},
            familyi={N\bibinitperiod},
            given={Ryo},
-           giveni={R\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5f0b15ae6cc644c81dcb092330e07daa}{%
+           giveni={R\bibinitperiod}}}%
+        {{hash=5f0b15ae6cc644c81dcb092330e07daa}{%
            family={Takanashi},
            familyi={T\bibinitperiod},
            given={Takuma},
-           giveni={T\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=70de264cbc80419db1506006c9b305c7}{%
+           giveni={T\bibinitperiod}}}%
+        {{hash=70de264cbc80419db1506006c9b305c7}{%
            family={Surlykke},
            familyi={S\bibinitperiod},
            given={Annemarie},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
+           giveni={A\bibinitperiod}}}%
       }
       \strng{namehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
       \strng{fullhash}{2615d8c28c806d898bd3c2f71e575676}
@@ -1126,6 +1222,7 @@
       \strng{authornamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
       \strng{authorfullhash}{2615d8c28c806d898bd3c2f71e575676}
       \strng{authorfullhashraw}{2615d8c28c806d898bd3c2f71e575676}
+      \field{extraname}{1}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -1143,25 +1240,79 @@
       \verb{doi}
       \verb 10.1007/s00359-014-0945-8
       \endverb
-      \keyw{Co-evolution,Echolocating bats,Predator-prey,Sensory exploitation,Ultrasound}
+      \keyw{Ultrasound,Co-evolution,Echolocating bats,Predator-prey,Sensory exploitation}
+    \endentry
+    \entry{nakano_evolution_2013}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=c2c707348bd8df9d4d8dc350a2e20e01}{%
+           family={Nakano},
+           familyi={N\bibinitperiod},
+           given={Ryo},
+           giveni={R\bibinitperiod}}}%
+        {{hash=5f0b15ae6cc644c81dcb092330e07daa}{%
+           family={Takanashi},
+           familyi={T\bibinitperiod},
+           given={Takuma},
+           giveni={T\bibinitperiod}}}%
+        {{hash=70de264cbc80419db1506006c9b305c7}{%
+           family={Surlykke},
+           familyi={S\bibinitperiod},
+           given={Annemarie},
+           giveni={A\bibinitperiod}}}%
+        {{hash=9497511304cf681a294946f973a2b7fe}{%
+           family={Skals},
+           familyi={S\bibinitperiod},
+           given={Niels},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f1b078acb1968d04a5583fdeb6d55241}{%
+           family={Ishikawa},
+           familyi={I\bibinitperiod},
+           given={Yukio},
+           giveni={Y\bibinitperiod}}}%
+      }
+      \strng{namehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
+      \strng{fullhash}{05e8eac25cf5e30795c76475e4576756}
+      \strng{fullhashraw}{05e8eac25cf5e30795c76475e4576756}
+      \strng{bibnamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
+      \strng{authorbibnamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
+      \strng{authornamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
+      \strng{authorfullhash}{05e8eac25cf5e30795c76475e4576756}
+      \strng{authorfullhashraw}{05e8eac25cf5e30795c76475e4576756}
+      \field{extraname}{2}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ultrasonic mating signals in moths are argued to have evolved via exploitation of the receivers' sensory bias towards bat echolocation calls. We have demonstrated that female moths of the Asian corn borer are unable to distinguish between the male courtship song and bat calls. Females react to both the male song and bat calls by "freezing", which males take advantage of in mating (deceptive courtship song). In contrast, females of the Japanese lichen moth are able to distinguish between the male song and bat calls by the structure of the sounds; females emit warning clicks against bats, but accept males (true courtship song). Here, we propose a hypothesis that deceptive and true signals evolved independently from slightly different precursory sounds; deceptive/true courtship songs in moths evolved from the sounds males incidentally emitted in a sexual context, which females could not/could distinguish, respectively, from bat calls.}
+      \field{issn}{2045-2322}
+      \field{journaltitle}{Scientific Reports}
+      \field{title}{Evolution of {Deceptive} and {True} {Courtship} {Songs} in {Moths}}
+      \field{volume}{3}
+      \field{year}{2013}
+      \field{pages}{21\bibrangedash 23}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/srep02003
+      \endverb
     \endentry
     \entry{nuesch_morphologie_1957}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=cea52db8d43dd0f12c76fe94d1f7fd18}{%
+        {{hash=3777cf927be643289773619553449df4}{%
            family={Nuesch},
            familyi={N\bibinitperiod},
-           given={H},
-           giveni={H\bibinitperiod},
-           givenun=0}}%
+           given={Hans},
+           giveni={H\bibinitperiod}}}%
       }
-      \strng{namehash}{cea52db8d43dd0f12c76fe94d1f7fd18}
-      \strng{fullhash}{cea52db8d43dd0f12c76fe94d1f7fd18}
-      \strng{fullhashraw}{cea52db8d43dd0f12c76fe94d1f7fd18}
-      \strng{bibnamehash}{cea52db8d43dd0f12c76fe94d1f7fd18}
-      \strng{authorbibnamehash}{cea52db8d43dd0f12c76fe94d1f7fd18}
-      \strng{authornamehash}{cea52db8d43dd0f12c76fe94d1f7fd18}
-      \strng{authorfullhash}{cea52db8d43dd0f12c76fe94d1f7fd18}
-      \strng{authorfullhashraw}{cea52db8d43dd0f12c76fe94d1f7fd18}
+      \strng{namehash}{3777cf927be643289773619553449df4}
+      \strng{fullhash}{3777cf927be643289773619553449df4}
+      \strng{fullhashraw}{3777cf927be643289773619553449df4}
+      \strng{bibnamehash}{3777cf927be643289773619553449df4}
+      \strng{authorbibnamehash}{3777cf927be643289773619553449df4}
+      \strng{authornamehash}{3777cf927be643289773619553449df4}
+      \strng{authorfullhash}{3777cf927be643289773619553449df4}
+      \strng{authorfullhashraw}{3777cf927be643289773619553449df4}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -1177,21 +1328,20 @@
     \endentry
     \entry{paul_central_1973}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=49f51853f761b886652d38b68a8cb632}{%
+        {{hash=c6dc5b03dd0cf145ec84c813d0e74738}{%
            family={Paul},
            familyi={P\bibinitperiod},
-           given={Dorothy\bibnamedelima Hayman},
-           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
+           given={Dorothy},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{49f51853f761b886652d38b68a8cb632}
-      \strng{fullhash}{49f51853f761b886652d38b68a8cb632}
-      \strng{fullhashraw}{49f51853f761b886652d38b68a8cb632}
-      \strng{bibnamehash}{49f51853f761b886652d38b68a8cb632}
-      \strng{authorbibnamehash}{49f51853f761b886652d38b68a8cb632}
-      \strng{authornamehash}{49f51853f761b886652d38b68a8cb632}
-      \strng{authorfullhash}{49f51853f761b886652d38b68a8cb632}
-      \strng{authorfullhashraw}{49f51853f761b886652d38b68a8cb632}
+      \strng{namehash}{c6dc5b03dd0cf145ec84c813d0e74738}
+      \strng{fullhash}{c6dc5b03dd0cf145ec84c813d0e74738}
+      \strng{fullhashraw}{c6dc5b03dd0cf145ec84c813d0e74738}
+      \strng{bibnamehash}{c6dc5b03dd0cf145ec84c813d0e74738}
+      \strng{authorbibnamehash}{c6dc5b03dd0cf145ec84c813d0e74738}
+      \strng{authornamehash}{c6dc5b03dd0cf145ec84c813d0e74738}
+      \strng{authorfullhash}{c6dc5b03dd0cf145ec84c813d0e74738}
+      \strng{authorfullhashraw}{c6dc5b03dd0cf145ec84c813d0e74738}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1212,24 +1362,23 @@
     \endentry
     \entry{phelan_evolution_1997}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0e420f18d385a1e529ee99128d38cf16}{%
+        {{hash=e449ba46e0e283905648f988ce1a9d0c}{%
            family={Phelan},
            familyi={P\bibinitperiod},
-           given={P\bibnamedelima LARRY},
-           giveni={P\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
+           given={Larry},
+           giveni={L\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Cambridge University Press Cambridge, UK}%
       }
-      \strng{namehash}{0e420f18d385a1e529ee99128d38cf16}
-      \strng{fullhash}{0e420f18d385a1e529ee99128d38cf16}
-      \strng{fullhashraw}{0e420f18d385a1e529ee99128d38cf16}
-      \strng{bibnamehash}{0e420f18d385a1e529ee99128d38cf16}
-      \strng{authorbibnamehash}{0e420f18d385a1e529ee99128d38cf16}
-      \strng{authornamehash}{0e420f18d385a1e529ee99128d38cf16}
-      \strng{authorfullhash}{0e420f18d385a1e529ee99128d38cf16}
-      \strng{authorfullhashraw}{0e420f18d385a1e529ee99128d38cf16}
+      \strng{namehash}{e449ba46e0e283905648f988ce1a9d0c}
+      \strng{fullhash}{e449ba46e0e283905648f988ce1a9d0c}
+      \strng{fullhashraw}{e449ba46e0e283905648f988ce1a9d0c}
+      \strng{bibnamehash}{e449ba46e0e283905648f988ce1a9d0c}
+      \strng{authorbibnamehash}{e449ba46e0e283905648f988ce1a9d0c}
+      \strng{authornamehash}{e449ba46e0e283905648f988ce1a9d0c}
+      \strng{authorfullhash}{e449ba46e0e283905648f988ce1a9d0c}
+      \strng{authorfullhashraw}{e449ba46e0e283905648f988ce1a9d0c}
       \field{sortinit}{P}
       \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
@@ -1242,35 +1391,72 @@
       \field{pages}{240\bibrangedash 256}
       \range{pages}{17}
     \endentry
+    \entry{plomp_relation_1959}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=55707e780a91b49de44aa6ba7431b9eb}{%
+           family={Plomp},
+           familyi={P\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=b1f91c8ed019bdc4ef719e5f4ae7b701}{%
+           family={Bouman},
+           familyi={B\bibinitperiod},
+           given={M.\bibnamedelimi A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+      }
+      \strng{namehash}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \strng{fullhash}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \strng{fullhashraw}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \strng{bibnamehash}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \strng{authorbibnamehash}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \strng{authornamehash}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \strng{authorfullhash}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \strng{authorfullhashraw}{bbdb17013d11e2db77aedd8afdfcddf3}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This paper deals with some measurements concerning the threshold versus duration for tone pulses. A new hypothesis is introduced: Switching on a tone pulse of intensity I results in an effect s somewhere in the hearing pathway, that approaches its final value asymptotically according to an exponential function; this final value is proportional to I; perception occurs when s exceeds a critical value so. The experiments show that this hypothesis gives a better description than the hypotheses thus far used. The time constant varies from ca 375 msec at 250 cps to ca 150 msec at 8000 cps. For short pulse durations the data deviate from the hypothesis. This deviation can be explained by the assumption that energy integration around each fre- quency is restricted to a fixed band width. A formula is derived which gives a correction to the mentioned relationship for short durations. In this way the band width at the different test frequencies could be deter- mined. The general course of this band width as a function of frequency agrees with the "Kopplungsbreite" after Gässler.}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{number}{6}
+      \field{title}{Relation between {Hearing} {Threshold} and {Duration} for {Tone} {Pulses}}
+      \field{volume}{31}
+      \field{year}{1959}
+      \field{pages}{749\bibrangedash 758}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1121/1.1907781
+      \endverb
+    \endentry
     \entry{ratcliffe_adaptive_2005}{article}{}{}
       \name{author}{3}{}{%
-        {{un=2,uniquepart=given,hash=20c04ee8d3d7c52ef78d63adde286571}{%
+        {{hash=b26873b8b281b612e1852c7dd2bb4cd0}{%
            family={Ratcliffe},
            familyi={R\bibinitperiod},
-           given={John\bibnamedelima M},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=6870d4ee538175f13ef9f13556a131fd}{%
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
            family={Fullard},
            familyi={F\bibinitperiod},
-           given={James\bibnamedelima H},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=2eafac81987acb4722700ca054d7986a}{%
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=2eafac81987acb4722700ca054d7986a}{%
            family={Brodfuehrer},
            familyi={B\bibinitperiod},
            given={P},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
+           giveni={P\bibinitperiod}}}%
       }
-      \strng{namehash}{4dc590612a0efa997cbef45d904af806}
-      \strng{fullhash}{c3fcd372792f20caaabd97c19383c4ae}
-      \strng{fullhashraw}{c3fcd372792f20caaabd97c19383c4ae}
-      \strng{bibnamehash}{c3fcd372792f20caaabd97c19383c4ae}
-      \strng{authorbibnamehash}{c3fcd372792f20caaabd97c19383c4ae}
-      \strng{authornamehash}{4dc590612a0efa997cbef45d904af806}
-      \strng{authorfullhash}{c3fcd372792f20caaabd97c19383c4ae}
-      \strng{authorfullhashraw}{c3fcd372792f20caaabd97c19383c4ae}
+      \strng{namehash}{6d382b427ffcb83cc1e6a737ad9933e3}
+      \strng{fullhash}{b2c18d8dd6e89338738baa7134d30ceb}
+      \strng{fullhashraw}{b2c18d8dd6e89338738baa7134d30ceb}
+      \strng{bibnamehash}{b2c18d8dd6e89338738baa7134d30ceb}
+      \strng{authorbibnamehash}{b2c18d8dd6e89338738baa7134d30ceb}
+      \strng{authornamehash}{6d382b427ffcb83cc1e6a737ad9933e3}
+      \strng{authorfullhash}{b2c18d8dd6e89338738baa7134d30ceb}
+      \strng{authorfullhashraw}{b2c18d8dd6e89338738baa7134d30ceb}
       \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -1293,39 +1479,35 @@
     \endentry
     \entry{ratcliffe_tiger_2009}{article}{}{}
       \name{author}{4}{}{%
-        {{un=2,uniquepart=given,hash=20c04ee8d3d7c52ef78d63adde286571}{%
+        {{hash=b26873b8b281b612e1852c7dd2bb4cd0}{%
            family={Ratcliffe},
            familyi={R\bibinitperiod},
-           given={John\bibnamedelima M.},
-           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=2}}%
-        {{un=0,uniquepart=base,hash=6870d4ee538175f13ef9f13556a131fd}{%
+           given={John},
+           giveni={J\bibinitperiod}}}%
+        {{hash=a0a9dec8ea749022cc753506e8c1b6a0}{%
            family={Fullard},
            familyi={F\bibinitperiod},
-           given={James\bibnamedelima H.},
-           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e67c6924f6d8adf7fdfd9c094b125db4}{%
+           given={James},
+           giveni={J\bibinitperiod}}}%
+        {{hash=26301c94c7a523e61b7cbd87de3e20fd}{%
            family={Arthur},
            familyi={A\bibinitperiod},
-           given={Benjamin\bibnamedelima J.},
-           giveni={B\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=b95b800abb6aac3c2c9261440dfc9d90}{%
+           given={Benjamin},
+           giveni={B\bibinitperiod}}}%
+        {{hash=233c5eb7f7cde58900d7732c3ab52ea9}{%
            family={Hoy},
            familyi={H\bibinitperiod},
-           given={Ronald\bibnamedelima R.},
-           giveni={R\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
+           given={Ronald},
+           giveni={R\bibinitperiod}}}%
       }
-      \strng{namehash}{4dc590612a0efa997cbef45d904af806}
-      \strng{fullhash}{ac6b3edb50ea1ca12b2172e460b66275}
-      \strng{fullhashraw}{ac6b3edb50ea1ca12b2172e460b66275}
-      \strng{bibnamehash}{4dc590612a0efa997cbef45d904af806}
-      \strng{authorbibnamehash}{4dc590612a0efa997cbef45d904af806}
-      \strng{authornamehash}{4dc590612a0efa997cbef45d904af806}
-      \strng{authorfullhash}{ac6b3edb50ea1ca12b2172e460b66275}
-      \strng{authorfullhashraw}{ac6b3edb50ea1ca12b2172e460b66275}
+      \strng{namehash}{6d382b427ffcb83cc1e6a737ad9933e3}
+      \strng{fullhash}{0f12bcaaecf6d83d4b61bbb5ca7b5631}
+      \strng{fullhashraw}{0f12bcaaecf6d83d4b61bbb5ca7b5631}
+      \strng{bibnamehash}{6d382b427ffcb83cc1e6a737ad9933e3}
+      \strng{authorbibnamehash}{6d382b427ffcb83cc1e6a737ad9933e3}
+      \strng{authornamehash}{6d382b427ffcb83cc1e6a737ad9933e3}
+      \strng{authorfullhash}{0f12bcaaecf6d83d4b61bbb5ca7b5631}
+      \strng{authorfullhashraw}{0f12bcaaecf6d83d4b61bbb5ca7b5631}
       \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
@@ -1350,21 +1532,20 @@
     \endentry
     \entry{roeder_auditory_1966}{article}{}{}
       \name{author}{1}{}{%
-        {{un=2,uniquepart=given,hash=f86a3ffd87608960a1ded67a69a20dc8}{%
+        {{hash=d5195df71abb12c770d428c7706ea4ba}{%
            family={Roeder},
            familyi={R\bibinitperiod},
-           given={K\bibnamedelima D},
-           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=2}}%
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
       }
-      \strng{namehash}{f86a3ffd87608960a1ded67a69a20dc8}
-      \strng{fullhash}{f86a3ffd87608960a1ded67a69a20dc8}
-      \strng{fullhashraw}{f86a3ffd87608960a1ded67a69a20dc8}
-      \strng{bibnamehash}{f86a3ffd87608960a1ded67a69a20dc8}
-      \strng{authorbibnamehash}{f86a3ffd87608960a1ded67a69a20dc8}
-      \strng{authornamehash}{f86a3ffd87608960a1ded67a69a20dc8}
-      \strng{authorfullhash}{f86a3ffd87608960a1ded67a69a20dc8}
-      \strng{authorfullhashraw}{f86a3ffd87608960a1ded67a69a20dc8}
+      \strng{namehash}{d5195df71abb12c770d428c7706ea4ba}
+      \strng{fullhash}{d5195df71abb12c770d428c7706ea4ba}
+      \strng{fullhashraw}{d5195df71abb12c770d428c7706ea4ba}
+      \strng{bibnamehash}{d5195df71abb12c770d428c7706ea4ba}
+      \strng{authorbibnamehash}{d5195df71abb12c770d428c7706ea4ba}
+      \strng{authornamehash}{d5195df71abb12c770d428c7706ea4ba}
+      \strng{authorfullhash}{d5195df71abb12c770d428c7706ea4ba}
+      \strng{authorfullhashraw}{d5195df71abb12c770d428c7706ea4ba}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1387,27 +1568,26 @@
     \endentry
     \entry{roeder_ultrasonic_1957}{article}{}{}
       \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=fa460fa4f065717b4317105114ba2eb9}{%
+        {{hash=d5195df71abb12c770d428c7706ea4ba}{%
            family={Roeder},
            familyi={R\bibinitperiod},
-           given={Kenneth\bibnamedelima D.},
-           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=3a898b268607b6f57a1c394f4d0f47da}{%
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a4a794fd6a33ca6846aefe54b13d05bb}{%
            family={Treat},
            familyi={T\bibinitperiod},
-           given={Asher\bibnamedelima E.},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={Asher},
+           giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{72843de5a92ae40c34e34d999d8319cb}
-      \strng{fullhash}{72843de5a92ae40c34e34d999d8319cb}
-      \strng{fullhashraw}{72843de5a92ae40c34e34d999d8319cb}
-      \strng{bibnamehash}{72843de5a92ae40c34e34d999d8319cb}
-      \strng{authorbibnamehash}{72843de5a92ae40c34e34d999d8319cb}
-      \strng{authornamehash}{72843de5a92ae40c34e34d999d8319cb}
-      \strng{authorfullhash}{72843de5a92ae40c34e34d999d8319cb}
-      \strng{authorfullhashraw}{72843de5a92ae40c34e34d999d8319cb}
+      \strng{namehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{fullhash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{fullhashraw}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{bibnamehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authorbibnamehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authornamehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authorfullhash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authorfullhashraw}{558bb0871ffc342c95c43f01596cc87d}
+      \field{extraname}{1}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1427,30 +1607,29 @@
     \endentry
     \entry{roeder_detection_1961}{article}{}{}
       \name{author}{2}{}{%
-        {{un=2,uniquepart=given,hash=e37c5dd044fc390bd2756484d8e2c759}{%
+        {{hash=d5195df71abb12c770d428c7706ea4ba}{%
            family={Roeder},
            familyi={R\bibinitperiod},
-           given={Kenneth\bibnamedelima David},
-           giveni={K\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=2}}%
-        {{un=2,uniquepart=given,hash=abe8fc1d0966b3c77cc1f75219c1e182}{%
+           given={Kenneth},
+           giveni={K\bibinitperiod}}}%
+        {{hash=a4a794fd6a33ca6846aefe54b13d05bb}{%
            family={Treat},
            familyi={T\bibinitperiod},
-           given={Asher\bibnamedelima Eugene},
-           giveni={A\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={Asher},
+           giveni={A\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Ardent Media}%
       }
-      \strng{namehash}{06304cac3b6a0e4fe0b224856f2565cc}
-      \strng{fullhash}{06304cac3b6a0e4fe0b224856f2565cc}
-      \strng{fullhashraw}{06304cac3b6a0e4fe0b224856f2565cc}
-      \strng{bibnamehash}{06304cac3b6a0e4fe0b224856f2565cc}
-      \strng{authorbibnamehash}{06304cac3b6a0e4fe0b224856f2565cc}
-      \strng{authornamehash}{06304cac3b6a0e4fe0b224856f2565cc}
-      \strng{authorfullhash}{06304cac3b6a0e4fe0b224856f2565cc}
-      \strng{authorfullhashraw}{06304cac3b6a0e4fe0b224856f2565cc}
+      \strng{namehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{fullhash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{fullhashraw}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{bibnamehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authorbibnamehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authornamehash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authorfullhash}{558bb0871ffc342c95c43f01596cc87d}
+      \strng{authorfullhashraw}{558bb0871ffc342c95c43f01596cc87d}
+      \field{extraname}{2}
       \field{sortinit}{R}
       \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
@@ -1466,15 +1645,13 @@
     \endentry
     \entry{van_rossum_novel_2001}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bbdc951d921f9911dae1448cabf0b08a}{%
+        {{hash=bbdc951d921f9911dae1448cabf0b08a}{%
            family={Rossum},
            familyi={R\bibinitperiod},
            given={M.\bibnamedelimi C.\bibnamedelimi W.},
            giveni={M\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim W\bibinitperiod},
-           givenun=0,
            prefix={van},
-           prefixi={v\bibinitperiod},
-           prefixun=0}}%
+           prefixi={v\bibinitperiod}}}%
       }
       \strng{namehash}{bbdc951d921f9911dae1448cabf0b08a}
       \strng{fullhash}{bbdc951d921f9911dae1448cabf0b08a}
@@ -1505,30 +1682,28 @@
     \endentry
     \entry{sanderford_courtship_1990}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=87067fbc2f2f1fc12eb297eb1f52842e}{%
+        {{hash=87067fbc2f2f1fc12eb297eb1f52842e}{%
            family={Sanderford},
            familyi={S\bibinitperiod},
            given={M.\bibnamedelimi V.},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=d1403c677da8d1e83e8318c2ebf341ec}{%
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={W.\bibnamedelimi E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{f2200c82d56e50e33f4ba463a7055a5f}
-      \strng{fullhash}{f2200c82d56e50e33f4ba463a7055a5f}
-      \strng{fullhashraw}{f2200c82d56e50e33f4ba463a7055a5f}
-      \strng{bibnamehash}{f2200c82d56e50e33f4ba463a7055a5f}
-      \strng{authorbibnamehash}{f2200c82d56e50e33f4ba463a7055a5f}
-      \strng{authornamehash}{f2200c82d56e50e33f4ba463a7055a5f}
-      \strng{authorfullhash}{f2200c82d56e50e33f4ba463a7055a5f}
-      \strng{authorfullhashraw}{f2200c82d56e50e33f4ba463a7055a5f}
+      \strng{namehash}{2fe2ed108845723f4f97476bd70c1205}
+      \strng{fullhash}{2fe2ed108845723f4f97476bd70c1205}
+      \strng{fullhashraw}{2fe2ed108845723f4f97476bd70c1205}
+      \strng{bibnamehash}{2fe2ed108845723f4f97476bd70c1205}
+      \strng{authorbibnamehash}{2fe2ed108845723f4f97476bd70c1205}
+      \strng{authornamehash}{2fe2ed108845723f4f97476bd70c1205}
+      \strng{authorfullhash}{2fe2ed108845723f4f97476bd70c1205}
+      \strng{authorfullhashraw}{2fe2ed108845723f4f97476bd70c1205}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1550,34 +1725,31 @@
       \keyw{Courtship Sound,Wasp Moth}
     \endentry
     \entry{sanderford_courtship_1998}{article}{}{}
-      \name{author}{3}{ul=2}{%
-        {{un=0,uniquepart=base,hash=87067fbc2f2f1fc12eb297eb1f52842e}{%
+      \name{author}{3}{}{%
+        {{hash=87067fbc2f2f1fc12eb297eb1f52842e}{%
            family={Sanderford},
            familyi={S\bibinitperiod},
            given={M.\bibnamedelimi V.},
-           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d298f034c4c3bb0e18739ea9bb07d965}{%
+           giveni={M\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=546dc54e9fabcf2b55c28259a02081ea}{%
            family={Coro},
            familyi={C\bibinitperiod},
-           given={F.},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d1403c677da8d1e83e8318c2ebf341ec}{%
+           given={Frank},
+           giveni={F\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={W.\bibnamedelimi E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
-      \strng{namehash}{9eb1d46b47620149d1e5730496975a82}
-      \strng{fullhash}{38d10aafb458bd4deb3c93ba807e2567}
-      \strng{fullhashraw}{38d10aafb458bd4deb3c93ba807e2567}
-      \strng{bibnamehash}{38d10aafb458bd4deb3c93ba807e2567}
-      \strng{authorbibnamehash}{38d10aafb458bd4deb3c93ba807e2567}
-      \strng{authornamehash}{9eb1d46b47620149d1e5730496975a82}
-      \strng{authorfullhash}{38d10aafb458bd4deb3c93ba807e2567}
-      \strng{authorfullhashraw}{38d10aafb458bd4deb3c93ba807e2567}
+      \strng{namehash}{e7346aad14c18a215cb39c417d744523}
+      \strng{fullhash}{97d7f96ac4808dd8ae769ef156439392}
+      \strng{fullhashraw}{97d7f96ac4808dd8ae769ef156439392}
+      \strng{bibnamehash}{97d7f96ac4808dd8ae769ef156439392}
+      \strng{authorbibnamehash}{97d7f96ac4808dd8ae769ef156439392}
+      \strng{authornamehash}{e7346aad14c18a215cb39c417d744523}
+      \strng{authorfullhash}{97d7f96ac4808dd8ae769ef156439392}
+      \strng{authorfullhashraw}{97d7f96ac4808dd8ae769ef156439392}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1597,30 +1769,28 @@
     \endentry
     \entry{schnitzler_echolocation_2001}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=c3b1d80e81523651ae30ff30d92090a7}{%
+        {{hash=c3b1d80e81523651ae30ff30d92090a7}{%
            family={Schnitzler},
            familyi={S\bibinitperiod},
            given={Hans-Ulrich},
-           giveni={H\bibinithyphendelim U\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a6e0070607532d1576d7d395a02c1e53}{%
+           giveni={H\bibinithyphendelim U\bibinitperiod}}}%
+        {{hash=9107d8a289141c3a36696a34e68cda13}{%
            family={Kalko},
            familyi={K\bibinitperiod},
-           given={Elisabeth\bibnamedelimb K.\bibnamedelimi V.},
-           giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod\bibinitdelim V\bibinitperiod},
-           givenun=0}}%
+           given={Elisabeth},
+           giveni={E\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
-      \strng{fullhash}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
-      \strng{fullhashraw}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
-      \strng{bibnamehash}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
-      \strng{authorbibnamehash}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
-      \strng{authornamehash}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
-      \strng{authorfullhash}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
-      \strng{authorfullhashraw}{d5243ae8961fcdbfdeb99fa2f2edb4ae}
+      \strng{namehash}{e67aa185c80de8baac9ad66233022af4}
+      \strng{fullhash}{e67aa185c80de8baac9ad66233022af4}
+      \strng{fullhashraw}{e67aa185c80de8baac9ad66233022af4}
+      \strng{bibnamehash}{e67aa185c80de8baac9ad66233022af4}
+      \strng{authorbibnamehash}{e67aa185c80de8baac9ad66233022af4}
+      \strng{authornamehash}{e67aa185c80de8baac9ad66233022af4}
+      \strng{authorfullhash}{e67aa185c80de8baac9ad66233022af4}
+      \strng{authorfullhashraw}{e67aa185c80de8baac9ad66233022af4}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1643,30 +1813,28 @@
     \endentry
     \entry{simmons_ultrasonic_1996}{article}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=5165b3171600134ec1aba035803b3b8c}{%
+        {{hash=e4160555d94d462e2bb3bc3944c16737}{%
            family={Simmons},
            familyi={S\bibinitperiod},
-           given={Rebecca\bibnamedelima B.},
-           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=2,uniquepart=given,hash=47103eb53c48863a69aeab7400a3df6d}{%
+           given={Rebecca},
+           giveni={R\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={William\bibnamedelima E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=2}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{b8c6edc2028511e72c14b8df4f665baa}
-      \strng{fullhash}{b8c6edc2028511e72c14b8df4f665baa}
-      \strng{fullhashraw}{b8c6edc2028511e72c14b8df4f665baa}
-      \strng{bibnamehash}{b8c6edc2028511e72c14b8df4f665baa}
-      \strng{authorbibnamehash}{b8c6edc2028511e72c14b8df4f665baa}
-      \strng{authornamehash}{b8c6edc2028511e72c14b8df4f665baa}
-      \strng{authorfullhash}{b8c6edc2028511e72c14b8df4f665baa}
-      \strng{authorfullhashraw}{b8c6edc2028511e72c14b8df4f665baa}
+      \strng{namehash}{f91ce3888465347d495b14f236ff7b44}
+      \strng{fullhash}{f91ce3888465347d495b14f236ff7b44}
+      \strng{fullhashraw}{f91ce3888465347d495b14f236ff7b44}
+      \strng{bibnamehash}{f91ce3888465347d495b14f236ff7b44}
+      \strng{authorbibnamehash}{f91ce3888465347d495b14f236ff7b44}
+      \strng{authornamehash}{f91ce3888465347d495b14f236ff7b44}
+      \strng{authorfullhash}{f91ce3888465347d495b14f236ff7b44}
+      \strng{authorfullhashraw}{f91ce3888465347d495b14f236ff7b44}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1691,48 +1859,43 @@
     \endentry
     \entry{sinz_simultaneous_2017}{article}{}{}
       \name{author}{5}{}{%
-        {{un=0,uniquepart=base,hash=8b9e7a5b012db1ece8d9d953e85a365f}{%
+        {{hash=06c67a03eb95b67715523ae756f793f6}{%
            family={Sinz},
            familyi={S\bibinitperiod},
-           given={Fabian\bibnamedelima H.},
-           giveni={F\bibinitperiod\bibinitdelim H\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f24da0adcd3e774e63cd07db11e8b70d}{%
+           given={Fabian},
+           giveni={F\bibinitperiod}}}%
+        {{hash=f24da0adcd3e774e63cd07db11e8b70d}{%
            family={Sachgau},
            familyi={S\bibinitperiod},
            given={Carolin},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1a711d056a5fbcd57270785be663ac46}{%
+           giveni={C\bibinitperiod}}}%
+        {{hash=1a711d056a5fbcd57270785be663ac46}{%
            family={Henninger},
            familyi={H\bibinitperiod},
            given={Jörg},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f0049b5905ec2af7caf4cdf6b716a30a}{%
+           giveni={J\bibinitperiod}}}%
+        {{hash=f0049b5905ec2af7caf4cdf6b716a30a}{%
            family={Benda},
            familyi={B\bibinitperiod},
            given={Jan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=23e27f78671208ddad6a55ffec7d1cce}{%
+           giveni={J\bibinitperiod}}}%
+        {{hash=23e27f78671208ddad6a55ffec7d1cce}{%
            family={Grewe},
            familyi={G\bibinitperiod},
            given={Jan},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
+           giveni={J\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{658aae005e2b2306227e739085c5ed51}
-      \strng{fullhash}{e9772afde5d36ccfc989185d6bd62b05}
-      \strng{fullhashraw}{e9772afde5d36ccfc989185d6bd62b05}
-      \strng{bibnamehash}{658aae005e2b2306227e739085c5ed51}
-      \strng{authorbibnamehash}{658aae005e2b2306227e739085c5ed51}
-      \strng{authornamehash}{658aae005e2b2306227e739085c5ed51}
-      \strng{authorfullhash}{e9772afde5d36ccfc989185d6bd62b05}
-      \strng{authorfullhashraw}{e9772afde5d36ccfc989185d6bd62b05}
+      \strng{namehash}{f94bf9c7706d9ecbfd2c71afa49542a0}
+      \strng{fullhash}{529029edd18e9ee9db7506aef6edb0e9}
+      \strng{fullhashraw}{529029edd18e9ee9db7506aef6edb0e9}
+      \strng{bibnamehash}{f94bf9c7706d9ecbfd2c71afa49542a0}
+      \strng{authorbibnamehash}{f94bf9c7706d9ecbfd2c71afa49542a0}
+      \strng{authornamehash}{f94bf9c7706d9ecbfd2c71afa49542a0}
+      \strng{authorfullhash}{529029edd18e9ee9db7506aef6edb0e9}
+      \strng{authorfullhashraw}{529029edd18e9ee9db7506aef6edb0e9}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
@@ -1750,23 +1913,139 @@
       \verb 10.1101/149906
       \endverb
     \endentry
+    \entry{surlykke_temporal_1988}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=70de264cbc80419db1506006c9b305c7}{%
+           family={Surlykke},
+           familyi={S\bibinitperiod},
+           given={Annemarie},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4c4857731f8b0388601f42c472f7b721}{%
+           family={Larsen},
+           familyi={L\bibinitperiod},
+           given={Ole\bibnamedelima Næsbye},
+           giveni={O\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=52cc9072f3abd1fbff88d8bd16788da4}{%
+           family={Michelsen},
+           familyi={M\bibinitperiod},
+           given={Axel},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{b465ee044b486af08115850e1b9e46b2}
+      \strng{fullhash}{0f96e7e6651bab49a1a8942393d8df41}
+      \strng{fullhashraw}{0f96e7e6651bab49a1a8942393d8df41}
+      \strng{bibnamehash}{0f96e7e6651bab49a1a8942393d8df41}
+      \strng{authorbibnamehash}{0f96e7e6651bab49a1a8942393d8df41}
+      \strng{authornamehash}{b465ee044b486af08115850e1b9e46b2}
+      \strng{authorfullhash}{0f96e7e6651bab49a1a8942393d8df41}
+      \strng{authorfullhashraw}{0f96e7e6651bab49a1a8942393d8df41}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Temporal coding in the moth ear was inferred from the response of the auditory receptor to acoustic stimuli with different temporal characteristics. 1. Determinations of the threshold with different stimulus pulse durations showed that the moth ear behaves as an energy detector with a maximum time constant (the integration time) of 25 ms. Pulse durations beyond this value did not result in decreased thresholds (Fig. 1). 2. The synchronization to amplitude modulations was determined by stimulating the moth ear with amplitude modulated (AM) tones (carrier frequency: 40 kHz) and AM white noise presented as 450 ms pulses separated by pauses of similar length. The modulation depth was constant (100\%) whereas the modulation frequency,f m, was varied. The maximumf m which the auditory receptors could follow was 200 Hz (P{<}0.05) (Figs. 2, 3, 4). 3. The relatively broad tuning of the only receptor which was functional at the relevant stimulus intensities suggested that AM detection could only be based on temporal cues. This was confirmed by the results showing the same degree of synchronization independent of carrier. 4. A minimum time constant for the receptor was also determined by interrupting a 400 ms noise pulse by a gap (Figs. 5, 6). The threshold for gap detection of the moth ear was ca. 2 ms on a 2.5\% significance level (one sided test). 5. The temporal acuity reported here seems to be fine enough to explain the temporal resolution suggested by behavioral results from other insect species. The results are discussed in relation to acoustic communication in insects as well as in relation to temporal resolution in vertebrates.}
+      \field{issn}{0340-7594}
+      \field{journaltitle}{Journal of Comparative Physiology A}
+      \field{number}{3}
+      \field{title}{Temporal {Coding} in the {Auditory} {Receptor} of the {Moth} {Ear}}
+      \field{volume}{162}
+      \field{year}{1988}
+      \field{pages}{367\bibrangedash 374}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1007/BF00606123
+      \endverb
+    \endentry
+    \entry{tougaard_energy_1996}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2597da29749faa12c81b9b49801f9bf8}{%
+           family={Tougaard},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{fullhash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{fullhashraw}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{bibnamehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authorbibnamehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authornamehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authorfullhash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authorfullhashraw}{2597da29749faa12c81b9b49801f9bf8}
+      \field{extraname}{1}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Comparative Physiology A}
+      \field{month}{5}
+      \field{number}{5}
+      \field{title}{Energy {Detection} and {Temporal} {Integration} in the {Noctuid} {A1} {Auditory} {Receptor}}
+      \field{volume}{178}
+      \field{year}{1996}
+      \field{pages}{669\bibrangedash 677}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1007/BF00227379
+      \endverb
+    \endentry
+    \entry{tougaard_detection_1998}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2597da29749faa12c81b9b49801f9bf8}{%
+           family={Tougaard},
+           familyi={T\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{fullhash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{fullhashraw}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{bibnamehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authorbibnamehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authornamehash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authorfullhash}{2597da29749faa12c81b9b49801f9bf8}
+      \strng{authorfullhashraw}{2597da29749faa12c81b9b49801f9bf8}
+      \field{extraname}{2}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Temporal integration in the Al acoustic receptor cell of noctuid moths (Lepidoptera: Noctuidae) was studied. This was done by recording from the auditory nerve of Spodoptera littoralis and Noctua pronuba while stimulating with short-duration tone pulses. Consistent with previous experiments of the same kind, a decrease in threshold was observed with increasing stimulus duration. These threshold improvements, however, were larger than expected from an energy detector model of the receptor based on previous experiments with double clicks. This difference was analysed and could be attributed to a bias introduced by the choice of threshold criterion. If a fixed number of spikes elicited per stimulation is used as criterion, this will tend to lower the measured thresholds for long durations because for long stimuli, more time is available for accumulation of the spikes needed to exceed the criterion. It appears that temporal integration in the noctuid ear can be characterised by different time constants. One, termed the intrinsic time constant, is measured in the double-click experiments and provides information about the temporal integration and resolution within the receptor cell. Behavioural time constants, on the other hand, characterise the temporal integration reflected in the behaviour of the animals.}
+      \field{issn}{4565572222}
+      \field{journaltitle}{Journal of Comparative Physiology - A Sensory, Neural, and Behavioral Physiology}
+      \field{number}{5}
+      \field{title}{Detection of {Short} {Pure}-{Tone} {Stimuli} in the {Noctuid} {Ear}: {What} {Are} {Temporal} {Integration} and {Integration} {Time} {All} {About}?}
+      \field{volume}{183}
+      \field{year}{1998}
+      \field{pages}{563\bibrangedash 572}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1007/s003590050282
+      \endverb
+      \keyw{Hearing,A1-sensory cell,Insect,Threshold,Time constant}
+    \endentry
     \entry{van_hemmen_vector_2013}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=807a54041def878c177ecccdbbbb9e7d}{%
+        {{hash=1de19215d7638efff311b403e1388dba}{%
            family={Van\bibnamedelima Hemmen},
            familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
-           given={J.\bibnamedelimi Leo},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
+           given={Leo},
+           giveni={L\bibinitperiod}}}%
       }
-      \strng{namehash}{807a54041def878c177ecccdbbbb9e7d}
-      \strng{fullhash}{807a54041def878c177ecccdbbbb9e7d}
-      \strng{fullhashraw}{807a54041def878c177ecccdbbbb9e7d}
-      \strng{bibnamehash}{807a54041def878c177ecccdbbbb9e7d}
-      \strng{authorbibnamehash}{807a54041def878c177ecccdbbbb9e7d}
-      \strng{authornamehash}{807a54041def878c177ecccdbbbb9e7d}
-      \strng{authorfullhash}{807a54041def878c177ecccdbbbb9e7d}
-      \strng{authorfullhashraw}{807a54041def878c177ecccdbbbb9e7d}
+      \strng{namehash}{1de19215d7638efff311b403e1388dba}
+      \strng{fullhash}{1de19215d7638efff311b403e1388dba}
+      \strng{fullhashraw}{1de19215d7638efff311b403e1388dba}
+      \strng{bibnamehash}{1de19215d7638efff311b403e1388dba}
+      \strng{authorbibnamehash}{1de19215d7638efff311b403e1388dba}
+      \strng{authornamehash}{1de19215d7638efff311b403e1388dba}
+      \strng{authorfullhash}{1de19215d7638efff311b403e1388dba}
+      \strng{authorfullhashraw}{1de19215d7638efff311b403e1388dba}
       \field{sortinit}{V}
       \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
       \field{extradatescope}{labelyear}
@@ -1786,23 +2065,98 @@
       \verb 10.1007/s00422-013-0561-7
       \endverb
     \endentry
-    \entry{waters_bats_2003}{article}{}{}
+    \entry{viemeister_temporal_1991}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=b07065e609d12427e5a9674da1747c76}{%
+           family={Viemeister},
+           familyi={V\bibinitperiod},
+           given={Neal},
+           giveni={N\bibinitperiod}}}%
+        {{hash=f881a4e1df8aa121ff295a593eff5863}{%
+           family={Wakefield},
+           familyi={W\bibinitperiod},
+           given={Gregory},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{4105afb2f267c43866787f2a8afc3c8b}
+      \strng{fullhash}{4105afb2f267c43866787f2a8afc3c8b}
+      \strng{fullhashraw}{4105afb2f267c43866787f2a8afc3c8b}
+      \strng{bibnamehash}{4105afb2f267c43866787f2a8afc3c8b}
+      \strng{authorbibnamehash}{4105afb2f267c43866787f2a8afc3c8b}
+      \strng{authornamehash}{4105afb2f267c43866787f2a8afc3c8b}
+      \strng{authorfullhash}{4105afb2f267c43866787f2a8afc3c8b}
+      \strng{authorfullhashraw}{4105afb2f267c43866787f2a8afc3c8b}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The decrease in detection and discrimination thresholds with increases in signal duration has often been taken to indicate that a process of relatively long-term temporal integration occurs in hearing. Two experiments are reported that suggest that no such process occurs. The first experiment is similar to the two-pulse experiment reported by Zwislocki [J. Zwislocki, J. Acoust. Soc. Am. 32, 1046-1059 (1960)] in which the threshold in quiet for a pair of brief pulses is measured as a function of the temporal separation between them. Our data indicate that power integration occurs only for separations less than approximately 5 ms. For separations larger than 5-10 ms, thresholds do not change with separation and the pulses appear to be processed independently. In the second experiment, brief 1-kHz tone pulses separated by 100 ms are presented during gaps in a wideband noise. The threshold for a pair of pulses is lower than that for either pulse presented alone, indicating that some type of "integration" occurs. However, the threshold for the pulse pair is not affected by changes in the level of the noise during the interval between the pulses. These data are inconsistent with the classical view of temporal integration that involves long-term integration. They are consistent with the notion that the input is sampled at a fairly high rate and that these samples or "looks" are stored in memory and can be accessed and processed selectively. This multiple-look model can account for the data from the present experiment and also can account for the data on temporal integration for tones and noise.(ABSTRACT TRUNCATED AT 250 WORDS)}
+      \field{issn}{0001-4966}
+      \field{journaltitle}{The Journal of the Acoustical Society of America}
+      \field{number}{2}
+      \field{title}{Temporal {Integration} and {Multiple} {Looks}}
+      \field{volume}{90}
+      \field{year}{1991}
+      \field{pages}{858\bibrangedash 865}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1121/1.401953
+      \endverb
+      \keyw{Attention,Auditory Threshold,Habituation,Humans,Loudness Perception,Pitch Perception,Psychoacoustics,Psychophysiologic,Time Perception}
+    \endentry
+    \entry{waters_peripheral_1996}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ded7fc3d019467d1db4c8c7bce617cc7}{%
+        {{hash=9a55e5aa250f8836bf7e72422fa0b954}{%
            family={Waters},
            familyi={W\bibinitperiod},
-           given={Dean\bibnamedelima A.},
-           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
+           given={Dean},
+           giveni={D\bibinitperiod}}}%
       }
-      \strng{namehash}{ded7fc3d019467d1db4c8c7bce617cc7}
-      \strng{fullhash}{ded7fc3d019467d1db4c8c7bce617cc7}
-      \strng{fullhashraw}{ded7fc3d019467d1db4c8c7bce617cc7}
-      \strng{bibnamehash}{ded7fc3d019467d1db4c8c7bce617cc7}
-      \strng{authorbibnamehash}{ded7fc3d019467d1db4c8c7bce617cc7}
-      \strng{authornamehash}{ded7fc3d019467d1db4c8c7bce617cc7}
-      \strng{authorfullhash}{ded7fc3d019467d1db4c8c7bce617cc7}
-      \strng{authorfullhashraw}{ded7fc3d019467d1db4c8c7bce617cc7}
+      \strng{namehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{fullhash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{fullhashraw}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{bibnamehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authorbibnamehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authornamehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authorfullhash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authorfullhashraw}{9a55e5aa250f8836bf7e72422fa0b954}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The ability of the noctuid A1 cell acoustic receptor to encode biologically relevant information from bat echolocation calls is examined. Short-duration stimuli (less than approximately 6 ms) reduce the dynamic resolution of the receptor, making intensity, and hence range, estimates of foraging bats unreliable. This low dynamic range is further reduced by inaccurate encoding of stimulus intensity, reducing the real dynamic range of the A1 cell to 1 bit at stimulus durations below 3.1 ms. Interspike interval is also an unreliable measure of stimulus intensity at low stimulus levels and/or for short-duration stimuli. The quantity of information encoded per stimulus is reduced as the presentation rate of stimuli is increased. The spontaneous generation of A1 cell action potentials may reduce the ability of the moth to discriminate bat from non-bat signals. Even with a recognition criterion of three A1 cell spikes per call, the moth would regularly make wrong decisions about a bat being present in the immediate environment. Removing this noise would necessitate a considerable loss of information through filtering at the interneurone level. It is proposed that, for bats using short-duration calls, the moth would only be able to recognise an approaching bat from the repetitious nature of the incoming signal.}
+      \field{issn}{0022-0949}
+      \field{journaltitle}{J Exp Biol}
+      \field{number}{Pt 4}
+      \field{title}{The {Peripheral} {Auditory} {Characteristics} of {Noctuid} {Moths}: {Information} {Encoding} and {Endogenous} {Noise}}
+      \field{volume}{199}
+      \field{year}{1996}
+      \field{pages}{857\bibrangedash 868}
+      \range{pages}{12}
+      \keyw{agrotis,audition,auditory sensitivity,bat,echolocation,noctuid moth,segetum}
+    \endentry
+    \entry{waters_bats_2003}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=9a55e5aa250f8836bf7e72422fa0b954}{%
+           family={Waters},
+           familyi={W\bibinitperiod},
+           given={Dean},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{fullhash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{fullhashraw}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{bibnamehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authorbibnamehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authornamehash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authorfullhash}{9a55e5aa250f8836bf7e72422fa0b954}
+      \strng{authorfullhashraw}{9a55e5aa250f8836bf7e72422fa0b954}
+      \field{extraname}{2}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -1825,36 +2179,33 @@
     \endentry
     \entry{weller_evolution_1999}{article}{}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=c56be1785ec02318260298f926ac13e4}{%
+        {{hash=f41231482eefa8002c286b3d548093ec}{%
            family={Weller},
            familyi={W\bibinitperiod},
-           given={Susan\bibnamedelima J.},
-           giveni={S\bibinitperiod\bibinitdelim J\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3cb43d781f2d0a4358ad8e81f1881897}{%
+           given={Susan},
+           giveni={S\bibinitperiod}}}%
+        {{hash=6ea8d3de6eac70e700d1a9c9d19a6ff3}{%
            family={Jacobson},
            familyi={J\bibinitperiod},
-           given={Nancy\bibnamedelima L.},
-           giveni={N\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=47103eb53c48863a69aeab7400a3df6d}{%
+           given={Nancy},
+           giveni={N\bibinitperiod}}}%
+        {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
            family={Conner},
            familyi={C\bibinitperiod},
-           given={William\bibnamedelima E.},
-           giveni={W\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           given={William},
+           giveni={W\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
       }
-      \strng{namehash}{b95903b7ba1820f9593b948e0757301d}
-      \strng{fullhash}{83634bf931985f9020992cfffa880f8e}
-      \strng{fullhashraw}{83634bf931985f9020992cfffa880f8e}
-      \strng{bibnamehash}{83634bf931985f9020992cfffa880f8e}
-      \strng{authorbibnamehash}{83634bf931985f9020992cfffa880f8e}
-      \strng{authornamehash}{b95903b7ba1820f9593b948e0757301d}
-      \strng{authorfullhash}{83634bf931985f9020992cfffa880f8e}
-      \strng{authorfullhashraw}{83634bf931985f9020992cfffa880f8e}
+      \strng{namehash}{589b8f7a568f7d8e0eae5d840d8e3127}
+      \strng{fullhash}{1be934914e971700b6ea67478400b3c8}
+      \strng{fullhashraw}{1be934914e971700b6ea67478400b3c8}
+      \strng{bibnamehash}{1be934914e971700b6ea67478400b3c8}
+      \strng{authorbibnamehash}{1be934914e971700b6ea67478400b3c8}
+      \strng{authornamehash}{589b8f7a568f7d8e0eae5d840d8e3127}
+      \strng{authorfullhash}{1be934914e971700b6ea67478400b3c8}
+      \strng{authorfullhashraw}{1be934914e971700b6ea67478400b3c8}
       \field{sortinit}{W}
       \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
       \field{extradatescope}{labelyear}
@@ -1877,21 +2228,20 @@
     \endentry
     \entry{yack_structure_2004}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=3783e4f8293775b9d9cd2501d76b2ab6}{%
+        {{hash=e6f0b281630c48ded41afb8513f48cc4}{%
            family={Yack},
            familyi={Y\bibinitperiod},
-           given={Jayne\bibnamedelima E.},
-           giveni={J\bibinitperiod\bibinitdelim E\bibinitperiod},
-           givenun=0}}%
+           given={Jayne},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{3783e4f8293775b9d9cd2501d76b2ab6}
-      \strng{fullhash}{3783e4f8293775b9d9cd2501d76b2ab6}
-      \strng{fullhashraw}{3783e4f8293775b9d9cd2501d76b2ab6}
-      \strng{bibnamehash}{3783e4f8293775b9d9cd2501d76b2ab6}
-      \strng{authorbibnamehash}{3783e4f8293775b9d9cd2501d76b2ab6}
-      \strng{authornamehash}{3783e4f8293775b9d9cd2501d76b2ab6}
-      \strng{authorfullhash}{3783e4f8293775b9d9cd2501d76b2ab6}
-      \strng{authorfullhashraw}{3783e4f8293775b9d9cd2501d76b2ab6}
+      \strng{namehash}{e6f0b281630c48ded41afb8513f48cc4}
+      \strng{fullhash}{e6f0b281630c48ded41afb8513f48cc4}
+      \strng{fullhashraw}{e6f0b281630c48ded41afb8513f48cc4}
+      \strng{bibnamehash}{e6f0b281630c48ded41afb8513f48cc4}
+      \strng{authorbibnamehash}{e6f0b281630c48ded41afb8513f48cc4}
+      \strng{authornamehash}{e6f0b281630c48ded41afb8513f48cc4}
+      \strng{authorfullhash}{e6f0b281630c48ded41afb8513f48cc4}
+      \strng{authorfullhashraw}{e6f0b281630c48ded41afb8513f48cc4}
       \field{sortinit}{Y}
       \field{sortinithash}{fd67ad5a9ef0f7456bdd9aab10fe1495}
       \field{extradatescope}{labelyear}
@@ -1914,12 +2264,11 @@
     \endentry
     \entry{yager_structure_1999}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=bcfa9075433c8c40e1c1c5888e91bce1}{%
+        {{hash=bcfa9075433c8c40e1c1c5888e91bce1}{%
            family={Yager},
            familyi={Y\bibinitperiod},
            given={David\bibnamedelima D.},
-           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
+           giveni={D\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
       }
       \list{language}{1}{%
         {en}%
@@ -1953,19 +2302,7 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{fullard1984b}
-  \missing{fullard1998}
-  \missing{machens2001a}
   \missing{machens2003}
-  \missing{nakano2014}
-  \missing{plomp1959}
-  \missing{rossum2001}
-  \missing{sanderford1998}
-  \missing{surlykke1988}
-  \missing{terhofstede2013}
-  \missing{waters1996}
-  \missing{waters2003}
-  \missing{yack2004}
 \endrefsection
 \endinput
 
