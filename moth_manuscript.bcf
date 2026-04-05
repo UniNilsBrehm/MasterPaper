@@ -2384,13 +2384,13 @@
     <bcf:citekey order="5" intorder="1">hristov_sound_2005</bcf:citekey>
     <bcf:citekey order="6" intorder="1">roeder_auditory_1966</bcf:citekey>
     <bcf:citekey order="6" intorder="2">paul_central_1973</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">boppre_ecological_2011</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">boppré_ecological_2011</bcf:citekey>
     <bcf:citekey order="7" intorder="2">ratcliffe_adaptive_2005</bcf:citekey>
     <bcf:citekey order="8" intorder="1">sanderford_courtship_1990</bcf:citekey>
     <bcf:citekey order="8" intorder="2">simmons_ultrasonic_1996</bcf:citekey>
     <bcf:citekey order="8" intorder="3">sanderford_courtship_1998</bcf:citekey>
     <bcf:citekey order="8" intorder="4">conner_ultrasound_1987</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">corcoran_anti-bat_2010</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">corcoran_antibat_2010</bcf:citekey>
     <bcf:citekey order="9" intorder="2">corcoran_how_2011</bcf:citekey>
     <bcf:citekey order="9" intorder="3">corcoran_convergent_2014</bcf:citekey>
     <bcf:citekey order="10" intorder="1">roeder_detection_1961</bcf:citekey>
@@ -2401,8 +2401,8 @@
     <bcf:citekey order="11" intorder="2">phelan_evolution_1997</bcf:citekey>
     <bcf:citekey order="11" intorder="3">weller_evolution_1999</bcf:citekey>
     <bcf:citekey order="12" intorder="1">schnitzler_echolocation_2001</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">ter_hofstede_evolutionary_2016</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">corcoran_anti-bat_2010</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">terhofstede_evolutionary_2016</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">corcoran_antibat_2010</bcf:citekey>
     <bcf:citekey order="14" intorder="2">corcoran_how_2011</bcf:citekey>
     <bcf:citekey order="14" intorder="3">corcoran_convergent_2014</bcf:citekey>
     <bcf:citekey order="15" intorder="1">nuesch_morphologie_1957</bcf:citekey>
@@ -2412,7 +2412,7 @@
     <bcf:citekey order="17" intorder="2">fullard_acoustic_1977</bcf:citekey>
     <bcf:citekey order="17" intorder="3">fullard_functional_1990</bcf:citekey>
     <bcf:citekey order="17" intorder="4">weller_evolution_1999</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">corcoran_anti-bat_2010</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">corcoran_antibat_2010</bcf:citekey>
     <bcf:citekey order="19" intorder="1">fullard_acoustic_1977</bcf:citekey>
     <bcf:citekey order="20" intorder="1">miller_how_2001</bcf:citekey>
     <bcf:citekey order="20" intorder="2">yack_structure_2004</bcf:citekey>
@@ -2420,38 +2420,38 @@
     <bcf:citekey order="22" intorder="1">paul_central_1973</bcf:citekey>
     <bcf:citekey order="23" intorder="1">fullard_intensity_1998</bcf:citekey>
     <bcf:citekey order="23" intorder="2">yager_structure_1999</bcf:citekey>
-    <bcf:citekey order="23" intorder="3">ter_hofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="23" intorder="3">terhofstede_simple_2013</bcf:citekey>
     <bcf:citekey order="23" intorder="4">nakano_moth_2014</bcf:citekey>
     <bcf:citekey order="24" intorder="1">miller_how_2001</bcf:citekey>
     <bcf:citekey order="25" intorder="1">roeder_auditory_1966</bcf:citekey>
-    <bcf:citekey order="25" intorder="2">ter_hofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="25" intorder="2">terhofstede_simple_2013</bcf:citekey>
     <bcf:citekey order="26" intorder="1">fullard_auditory_2003</bcf:citekey>
     <bcf:citekey order="27" intorder="1">waters_bats_2003</bcf:citekey>
     <bcf:citekey order="28" intorder="1">bergomaz_simple_1986</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">ter_hofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">terhofstede_simple_2013</bcf:citekey>
     <bcf:citekey order="30" intorder="1">nuesch_morphologie_1957</bcf:citekey>
     <bcf:citekey order="31" intorder="1">roeder_ultrasonic_1957</bcf:citekey>
     <bcf:citekey order="32" intorder="1">barber_tiger_2006</bcf:citekey>
-    <bcf:citekey order="32" intorder="2">corcoran_anti-bat_2010</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">benda_spike-frequency_2008</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">van_hemmen_vector_2013</bcf:citekey>
+    <bcf:citekey order="32" intorder="2">corcoran_antibat_2010</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">benda_spikefrequency_2008</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">vanhemmen_vector_2013</bcf:citekey>
     <bcf:citekey order="35" intorder="1">sinz_simultaneous_2020</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">van_rossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">vanrossum_novel_2001</bcf:citekey>
     <bcf:citekey order="37" intorder="1">machens_single_2003</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">van_rossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">van_rossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">van_rossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">vanrossum_novel_2001</bcf:citekey>
     <bcf:citekey order="41" intorder="1">waters_bats_2003</bcf:citekey>
     <bcf:citekey order="42" intorder="1">fullard_intensity_1998</bcf:citekey>
     <bcf:citekey order="43" intorder="1">fullard_listening_1984</bcf:citekey>
-    <bcf:citekey order="43" intorder="2">ter_hofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="43" intorder="2">terhofstede_simple_2013</bcf:citekey>
     <bcf:citekey order="43" intorder="3">nakano_moth_2014</bcf:citekey>
     <bcf:citekey order="44" intorder="1">waters_peripheral_1996</bcf:citekey>
     <bcf:citekey order="44" intorder="2">plomp_relation_1959</bcf:citekey>
     <bcf:citekey order="45" intorder="1">fullard_intensity_1998</bcf:citekey>
     <bcf:citekey order="46" intorder="1">waters_bats_2003</bcf:citekey>
     <bcf:citekey order="47" intorder="1">fullard_listening_1984</bcf:citekey>
-    <bcf:citekey order="47" intorder="2">ter_hofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="47" intorder="2">terhofstede_simple_2013</bcf:citekey>
     <bcf:citekey order="47" intorder="3">nakano_evolution_2013</bcf:citekey>
     <bcf:citekey order="48" intorder="1">surlykke_temporal_1988</bcf:citekey>
     <bcf:citekey order="48" intorder="2">tougaard_energy_1996</bcf:citekey>
@@ -2472,9 +2472,9 @@
     <bcf:citekey order="62" intorder="1">machens_single_2003</bcf:citekey>
     <bcf:citekey order="63" intorder="1">machens_single_2003</bcf:citekey>
     <bcf:citekey order="64" intorder="1">machens_single_2003</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">van_rossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">van_rossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">van_rossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">vanrossum_novel_2001</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.4.3)  4 APR 2026 21:44
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2026.4.3)  5 APR 2026 17:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -795,14 +795,14 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 425.
 
 [23] [24] [25]
-<figures/Supp_Fig_01.pdf, id=6671, 455.2441pt x 398.3386pt>
+<figures/Supp_Fig_01.pdf, id=6668, 455.2441pt x 398.3386pt>
 File: figures/Supp_Fig_01.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_01.pdf>
 Package pdftex.def Info: figures/Supp_Fig_01.pdf  used on input line 431.
 (pdftex.def)             Requested size: 455.24411pt x 398.35585pt.
 Package hyperref Info: bookmark level for unknown suppfigure defaults to 0 on i
 nput line 439.
-<figures/Supp_Fig_02.pdf, id=6672, 455.2441pt x 611.73422pt>
+<figures/Supp_Fig_02.pdf, id=6669, 455.2441pt x 611.73422pt>
 File: figures/Supp_Fig_02.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_02.pdf>
 Package pdftex.def Info: figures/Supp_Fig_02.pdf  used on input line 444.
@@ -811,17 +811,17 @@ Package pdftex.def Info: figures/Supp_Fig_02.pdf  used on input line 444.
 
 LaTeX Warning: Float too large for page by 54.35132pt on input line 452.
 
-<figures/Supp_Fig_02b.pdf, id=6673, 398.3386pt x 426.79132pt>
+<figures/Supp_Fig_02b.pdf, id=6670, 398.3386pt x 426.79132pt>
 File: figures/Supp_Fig_02b.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_02b.pdf>
 Package pdftex.def Info: figures/Supp_Fig_02b.pdf  used on input line 456.
 (pdftex.def)             Requested size: 455.24411pt x 487.79102pt.
-<figures/Supp_Fig_03.pdf, id=6674, 398.3386pt x 341.43306pt>
+<figures/Supp_Fig_03.pdf, id=6671, 398.3386pt x 341.43306pt>
 File: figures/Supp_Fig_03.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_03.pdf>
 Package pdftex.def Info: figures/Supp_Fig_03.pdf  used on input line 468.
 (pdftex.def)             Requested size: 455.24411pt x 390.23279pt.
-<figures/Supp_Fig_04_moth01.pdf, id=6675, 455.2441pt x 654.41339pt>
+<figures/Supp_Fig_04_moth01.pdf, id=6672, 455.2441pt x 654.41339pt>
 File: figures/Supp_Fig_04_moth01.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_04_moth01.pdf>
 Package pdftex.def Info: figures/Supp_Fig_04_moth01.pdf  used on input line 480
@@ -830,13 +830,13 @@ Package pdftex.def Info: figures/Supp_Fig_04_moth01.pdf  used on input line 480
 
 LaTeX Warning: Float too large for page by 1.83229pt on input line 487.
 
-<figures/Supp_Fig_05_moth02.pdf, id=6676, 455.2441pt x 569.05513pt>
+<figures/Supp_Fig_05_moth02.pdf, id=6673, 455.2441pt x 569.05513pt>
 File: figures/Supp_Fig_05_moth02.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_05_moth02.pdf>
 Package pdftex.def Info: figures/Supp_Fig_05_moth02.pdf  used on input line 491
 .
 (pdftex.def)             Requested size: 455.24411pt x 569.07979pt.
-<figures/Supp_Fig_06_bats.pdf, id=6677, 455.2441pt x 569.05513pt>
+<figures/Supp_Fig_06_bats.pdf, id=6674, 455.2441pt x 569.05513pt>
 File: figures/Supp_Fig_06_bats.pdf Graphic file (type pdf)
 <use figures/Supp_Fig_06_bats.pdf>
 Package pdftex.def Info: figures/Supp_Fig_06_bats.pdf  used on input line 502.
@@ -860,13 +860,13 @@ Package logreq Info: Writing requests to 'moth_manuscript.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 19886 strings out of 467871
- 357497 string characters out of 5417893
- 1207164 words of memory out of 5000000
- 48441 multiletter control sequences out of 15000+600000
+ 19750 strings out of 467871
+ 354000 string characters out of 5417893
+ 1206154 words of memory out of 5000000
+ 48305 multiletter control sequences out of 15000+600000
  635666 words of font info for 68 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 63i,11n,83p,7630b,1483s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 63i,11n,83p,3196b,1476s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/NilsPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmbx10.pfb><C:/Users/NilsPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
 msfonts/cm/cmbx12.pfb><C:/Users/NilsPC/AppData/Local/Programs/MiKTeX/fonts/type
@@ -888,9 +888,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/User
 s/NilsPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pf
 b><C:/Users/NilsPC/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmtt12.pfb>
-Output written on moth_manuscript.pdf (33 pages, 11204179 bytes).
+Output written on moth_manuscript.pdf (33 pages, 11201395 bytes).
 PDF statistics:
- 50218 PDF objects out of 55141 (max. 8388607)
+ 50215 PDF objects out of 55141 (max. 8388607)
  144 named destinations out of 1000 (max. 500000)
  283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
