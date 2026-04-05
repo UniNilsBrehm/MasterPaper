@@ -323,18 +323,66 @@ After 200~ms most of the original bat calls were classified correctly. The origi
 % 	- Can fire with up to 500 Hz (energy costly...)
 
 % 1. Short Summary of Results
-We demonstrated that the sensory auditory neurons of arctiid moths encode enough information about the temporal structure present in acoustic signals of different moth and bat species to classify them. The intervals these neurons can still resolve is on the order of several milliseconds, allowing to represent most of the different time scales in the acoustic signals of con-specifics. Further, we showed that the acrtiid auditory system is broadly tuned to the frequency range of bat and moth acoustic signals and sound intensity tuning follows a sigmoidal function with ad ynamic range of near-linear encoding and firing rates reaching up to 500~Hz.
-
 % 2. 3-4 important points with comparison to literature (max. 1 page)
 % 3. Limitations (3-4 sentences)
 % 4. Outlook (3-4 sentnces)
 
+\subsection{1. Short summary of results}
+We demonstrated that the sensory auditory neurons of arctiid moths encode enough information about the temporal structure present in acoustic signals of different moth and bat species to classify them. The intervals these neurons can still resolve is on the order of several milliseconds, allowing to represent most of the different time scales in the acoustic signals of con-specifics. Further, we showed that the acrtiid auditory system is broadly tuned to the frequency range of bat and moth acoustic signals and sound intensity tuning follows a sigmoidal function with ad ynamic range of near-linear encoding and firing rates reaching up to 500~Hz.
 
------------------------------------------------------------------------------------
 
+\subsection{2. Main discussion points}
+\begin{itemize}
+	
+	\item Classification performance, biological context, compared to grasshoppers
+	\begin{itemize}
+		\item In the locust \species{Locusta migratoria} nearly \percent{100} of songs from different individuals of the species \species{Chorthippus biguttulus} are matched legitimately during the 200~ms \parencite{machens_discrimination_2001}
+		\item However, in \species{Chorthippus biguttulus} around \percent{50} of different male songs are classified correctly after 200~ms \parencite{machens_single_2003}.
+		\item \parencite{machens_single_2003} used the same classification algorithm based on the Van Rossum distance metric, however the songs of \species{Chorthippus biguttulus} and arctiids moth are quite different in appearance. Instead of a series of single pulses, the grasshopper's song is more like an amplitude modulation of a noisy carrier. Still, the performance is quite comparable. In the case of the grasshoppers the performance keeps on increasing and after 500~ms more than \percent{80} of the male songs are classified correctly. Such a duration corresponds to a moth call series, since the single calls are rarely longer than 200~ms. 
+		When looking at moth call series, after 500~ms the performance reaches \percent{60} and after 1000~ms it is around \percent{75}. Thus, if the animal can listen to the call for at least 500~ms (at best 1~s) it should be able to distinguish its conspecific signal from others by looking at the information encoded in the spike trains. A time window of 500~ms seems to be feasible for the task of species recognition, especially if pheromonal cues play the dominant role in courtship.
+	\end{itemize}
+	
+	\item Temporal resolution neurons and temporal call structures
+	\begin{itemize}
+		\item The reported time constant values range from 25~ms \parencite{surlykke_temporal_1988} to 70~ms \parencite{waters_peripheral_1996} 		
+		\item Its not the frequency content \parencite{waters_bats_2003}
+		\item Its not just duration or spike number (see metrics in SuppFig4)
+		\item The longer the pulse, the lower the threshold, since there is more time for integration \parencite{surlykke_temporal_1988, tougaard_energy_1996, tougaard_detection_1998}
+		\item \parencite{sanderford_courtship_1998} suggested that only the call repetition rate (e.g. the gap between two successive calls) can play an important role in call discrimination, since the receptor cells cannot resolve even the intervals between trains.
+		\item For a stimulus duration of 400~ms, \parencite{surlykke_temporal_1988} report a gap detection threshold of 2~ms. We could find thresholds of $1-2$~ms for a even shorter duration of $5-10$~ms.
+	\end{itemize}
+
+	\item Frequency tuning matches ecological niche (moth and bat signal power)
+		\begin{itemize}
+		\item \parencite{fullard_listening_1984, terhofstede_simple_2013, nakano_moth_2014}
+	\end{itemize}
+	
+	\item High firing rates to encode many bits/s is costly, but may compensate for the low cell count (4 primary auditory neurons)
+	\begin{itemize}
+		\item (Peter Sterling and Simon Laughling?)
+	\end{itemize}
+	
+\end{itemize}
+
+\subsection{3. Limitations}
+\begin{itemize}
+	\item Although we did only investigate one species (\species{Estigmene acrea}), we think that the results are transferable to other arctiid species, since all receptor cells in arctiid moths are descended from the same basic chordotonal organs \parencite{yack_structure_2004}
+	\item Simple classifier
+	\item sound recording method (squeezing)
+	\item more long audio recordings from the wild
+\end{itemize}
+
+\subsection{4. Outlook}
+\begin{itemize}
+	\item How signals from the receptor cells are processed by interneurons and ascending neurons is not well known so far. Somehow, there must be a process that filters specific characteristics of the spike trains so that some neurons respond more strongly to the conspecific signal than to other acoustic stimuli (Jan Clemens Feature Paper?).
+	\item Still unclear why arctiid moths show such a tremendous variety of 'melodies'. Frequency modulations do not change the temporal pattern and can not be encoded by the receptor cells, since both cells have the same frequency tuning. Anyhow, the different sensitivity to frequencies implies varying neuronal thresholds. Therefore calls that differ in their frequency component, but not in their temporal structure, might still lead to detectable differences in the response (spike trains).
+	\item We suppose that there is more to it than meets the ear.
+\end{itemize}
+
+\newpage
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % OLD DISCUSSION MOSTLY FROM THE MSC THESIS
-
+\subsection{Old discussion from MSC thesis ...}
 Since all acrtiid moths investigated so far are tone deaf \parencite{waters_bats_2003}, moths cannot discriminate between different frequencies and must rely on temporal patterns to differentiate between species. We could show that their auditory system can resolve time scales of around 5~ms,
 
 Further, we showed that the acrtiid auditory system is broadly tuned to the frequency range of bat and moth acoustic signals and sound intensity tuning follows a sigmoidal function with with a ~30~dB dynamic range of near-linear encoding and firing rates reaching up to 500~Hz.
@@ -378,7 +426,11 @@ To test if there is enough information encoded in the spike trains, we used a di
 
 
 \subsubsection{Spike train classification}
-\paragraph{Spike train duration.} One of the important factors influencing the classification is the analysis window size, which we termed simply 'the spike train duration'. After 300~ms of presentation the classifier reaches its maximal performance. Longer presentations do not further increase the classification, indication that the important characteristics are available after 300~ms and that afterwards no more crucial information is added. Shorter time scales of single pulse trains are not resolvable by the receptor neurons and therefore play no critical role in discrimination. In the locust \species{Locusta migratoria} nearly \percent{100} of songs from different individuals of the species \species{Chorthippus biguttulus} are matched legitimately during the 200~ms \parencite{machens_discrimination_2001}. However, in \species{Chorthippus biguttulus} around \percent{50} of different male songs are classified correctly after 200~ms \parencite{machens_single_2003}. \parencite{machens_single_2003} used the same classification algorithm based on the Van Rossum distance metric, however the songs of \species{Chorthippus biguttulus} and arctiids moth are quite different in appearance. Instead of a series of single pulses, the grasshopper's song is more like an amplitude modulation of a noisy carrier. Still, the performance is quite comparable. In the case of the grasshoppers the performance keeps on increasing and after 500~ms more than \percent{80} of the male songs are classified correctly. Such a duration corresponds to a moth call series, since the single calls are rarely longer than 200~ms. 
+\paragraph{Spike train duration.} One of the important factors influencing the classification is the analysis window size, which we termed simply 'the spike train duration'. After 300~ms of presentation the classifier reaches its maximal performance. Longer presentations do not further increase the classification, indication that the important characteristics are available after 300~ms and that afterwards no more crucial information is added. Shorter time scales of single pulse trains are not resolvable by the receptor neurons and therefore play no critical role in discrimination. 
+
+In the locust \species{Locusta migratoria} nearly \percent{100} of songs from different individuals of the species \species{Chorthippus biguttulus} are matched legitimately during the 200~ms \parencite{machens_discrimination_2001}. 
+
+However, in \species{Chorthippus biguttulus} around \percent{50} of different male songs are classified correctly after 200~ms \parencite{machens_single_2003}. \parencite{machens_single_2003} used the same classification algorithm based on the Van Rossum distance metric, however the songs of \species{Chorthippus biguttulus} and arctiids moth are quite different in appearance. Instead of a series of single pulses, the grasshopper's song is more like an amplitude modulation of a noisy carrier. Still, the performance is quite comparable. In the case of the grasshoppers the performance keeps on increasing and after 500~ms more than \percent{80} of the male songs are classified correctly. Such a duration corresponds to a moth call series, since the single calls are rarely longer than 200~ms. 
 
 When looking at moth call series, after 500~ms the performance reaches \percent{60} and after 1000~ms it is around \percent{75}. Thus, if the animal can listen to the call for at least 500~ms (at best 1~s) it should be able to distinguish its conspecific signal from others by looking at the information encoded in the spike trains. A time window of 500~ms seems to be feasible for the task of species recognition, especially if pheromonal cues play the dominant role in courtship.
 
