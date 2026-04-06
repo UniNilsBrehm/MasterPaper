@@ -302,6 +302,95 @@
       \verb 10.1080/19440049.2011.555085
       \endverb
     \endentry
+    \entry{clemens_feature_2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a2d5d9f296e8da1c1447cc2d86f121ea}{%
+           family={Clemens},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=4ce9349f95ced7a4831a5efa0fe5b00f}{%
+           family={Ronacher},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{184f56a411db47d87e132e0131a5f8ad}
+      \strng{fullhash}{184f56a411db47d87e132e0131a5f8ad}
+      \strng{fullhashraw}{184f56a411db47d87e132e0131a5f8ad}
+      \strng{bibnamehash}{184f56a411db47d87e132e0131a5f8ad}
+      \strng{authorbibnamehash}{184f56a411db47d87e132e0131a5f8ad}
+      \strng{authornamehash}{184f56a411db47d87e132e0131a5f8ad}
+      \strng{authorfullhash}{184f56a411db47d87e132e0131a5f8ad}
+      \strng{authorfullhashraw}{184f56a411db47d87e132e0131a5f8ad}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0270-6474, 1529-2401}
+      \field{journaltitle}{Journal of Neuroscience}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{29}
+      \field{title}{Feature {{Extraction}} and {{Integration Underlying Perceptual Decision Making}} during {{Courtship Behavior}}}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{33}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{12136\bibrangedash 12145}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1523/JNEUROSCI.0724-13.2013
+      \endverb
+    \endentry
+    \entry{clemens_nonlinear_2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=a2d5d9f296e8da1c1447cc2d86f121ea}{%
+           family={Clemens},
+           familyi={C\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f57e6f83ffdb11ec6fd273f3b6cbee5f}{%
+           family={Wohlgemuth},
+           familyi={W\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod}}}%
+        {{hash=4ce9349f95ced7a4831a5efa0fe5b00f}{%
+           family={Ronacher},
+           familyi={R\bibinitperiod},
+           given={Bernhard},
+           giveni={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{39a327f62bb6970492acfb2416371f4c}
+      \strng{fullhash}{2b27ab7052b1ce723ef623422410f6c8}
+      \strng{fullhashraw}{2b27ab7052b1ce723ef623422410f6c8}
+      \strng{bibnamehash}{2b27ab7052b1ce723ef623422410f6c8}
+      \strng{authorbibnamehash}{2b27ab7052b1ce723ef623422410f6c8}
+      \strng{authornamehash}{39a327f62bb6970492acfb2416371f4c}
+      \strng{authorfullhash}{2b27ab7052b1ce723ef623422410f6c8}
+      \strng{authorfullhashraw}{2b27ab7052b1ce723ef623422410f6c8}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0270-6474}
+      \field{journaltitle}{Journal of Neuroscience}
+      \field{number}{29}
+      \field{title}{Nonlinear {{Computations Underlying Temporal}} and {{Population Sparseness}} in the {{Auditory System}} of the {{Grasshopper}}}
+      \field{volume}{32}
+      \field{year}{2012}
+      \field{pages}{10053\bibrangedash 10062}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1523/JNEUROSCI.5911-11.2012
+      \endverb
+    \endentry
     \entry{conner_ultrasound_1987}{article}{}{}
       \name{author}{1}{}{%
         {{hash=0826bd637bfa72e9ff4e0e56d3c7d5d6}{%
@@ -1036,6 +1125,60 @@
       \verb 10.1641/0006-3568(2001)051[0570:HSIDAA]2.0.CO;2
       \endverb
     \endentry
+    \entry{mora_tonedeaf_2014}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=952fb11b076ea70b34eb99a6780b3de4}{%
+           family={Mora},
+           familyi={M\bibinitperiod},
+           given={Emanuel},
+           giveni={E\bibinitperiod}}}%
+        {{hash=a2891cb620e2aa83b0458033784efa07}{%
+           family={Fernández},
+           familyi={F\bibinitperiod},
+           given={Yohami},
+           giveni={Y\bibinitperiod}}}%
+        {{hash=c69b3c1ef62811d2b3c08c737f1a1399}{%
+           family={Hechavarría},
+           familyi={H\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+        {{hash=ac67217c8c98b56510ab7095beb52fe0}{%
+           family={Pérez},
+           familyi={P\bibinitperiod},
+           given={Martha},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0a22e49dd1216a0e2f3a38a2506449e}
+      \strng{fullhash}{928ba225fed455f47fdb6f9c66d0523f}
+      \strng{fullhashraw}{928ba225fed455f47fdb6f9c66d0523f}
+      \strng{bibnamehash}{d0a22e49dd1216a0e2f3a38a2506449e}
+      \strng{authorbibnamehash}{d0a22e49dd1216a0e2f3a38a2506449e}
+      \strng{authornamehash}{d0a22e49dd1216a0e2f3a38a2506449e}
+      \strng{authorfullhash}{928ba225fed455f47fdb6f9c66d0523f}
+      \strng{authorfullhashraw}{928ba225fed455f47fdb6f9c66d0523f}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0006-8977}
+      \field{journaltitle}{Brain Behavior and Evolution}
+      \field{month}{6}
+      \field{number}{4}
+      \field{title}{Tone-{{Deaf Ears}} in {{Moths May Limit}} the {{Acoustic Detection}} of {{Two-Tone Bats}}}
+      \field{urlday}{6}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{83}
+      \field{year}{2014}
+      \field{urldateera}{ce}
+      \field{pages}{275\bibrangedash 285}
+      \range{pages}{11}
+      \verb{doi}
+      \verb 10.1159/000361035
+      \endverb
+    \endentry
     \entry{nakano_moth_2014}{article}{}{}
       \name{author}{3}{}{%
         {{hash=c2c707348bd8df9d4d8dc350a2e20e01}{%
@@ -1699,6 +1842,39 @@
       \verb{doi}
       \verb 10.1152/jn.00615.2019
       \endverb
+    \endentry
+    \entry{sterling2015principles}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=563352f6f5f948018b20519c7934b96b}{%
+           family={Sterling},
+           familyi={S\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=ad9d8c0607c214d1d9ae55bebed3e658}{%
+           family={Laughlin},
+           familyi={L\bibinitperiod},
+           given={Simon},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \strng{fullhash}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \strng{fullhashraw}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \strng{bibnamehash}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \strng{authorbibnamehash}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \strng{authornamehash}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \strng{authorfullhash}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \strng{authorfullhashraw}{ca7913cdd1842b28ff71eede6b6c72b1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Principles of Neural Design}
+      \field{year}{2015}
     \endentry
     \entry{surlykke_temporal_1988}{article}{}{}
       \name{author}{3}{}{%
