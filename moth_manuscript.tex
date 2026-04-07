@@ -47,9 +47,9 @@ uniquelist=false   % This ensures "et al." behavior is consistent
 
 %%%%% notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \newcommand{\note}[2][]{\textbf{[#1: #2]}}
-%\newcommand{\note}[2][]{}
 \newcommand{\notejb}[1]{\note[JB]{#1}}
 \newcommand{\notenb}[1]{\note[NB]{#1}}
+%\renewcommand{\note}[2][]{}  % toggle comments off
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -63,14 +63,7 @@ uniquelist=false   % This ensures "et al." behavior is consistent
 %Current Biology Report:
 %Reports present findings of broad biological interest in a concise, to-the-point style. Reports are typically limited to six journal pages (usually around 2,500 words of main text, i.e., all of the text in the manuscript except for the summary, the STAR Methods text, any supplemental information text, and references section), and there should be no more than four display items (figures and tables). Additional items and details may be published online as supplemental information (please see the supplemental information guidelines for more information).
 
-% ABSTRACT
-% Background
-% Methods
-% Results
-% Conclusion
-
-%\begin{abstract}
-\section{abstract}
+\begin{abstract}
 Arctiid moths produce ultrasonic calls during courtship and defense against predators. Each species exhibits a distinctive call pattern composed of brief pulses (1~ms) organized across multiple temporal scales, from milliseconds to seconds. However, their auditory system is extremely simple, consisting of only two receptor neurons per ear. Can such a system encode sufficient information to discriminate between species-specific calls?
 
 To address this, we recorded spike times of A1 and A2 auditory neurons in response to call series from different moth and bat species. We show that auditory cells resolve gaps longer than 2–5 ms, depending on pulse duration, indicating that fine temporal features are only partially accessible, while broader temporal patterns are reliably encoded.
@@ -78,7 +71,7 @@ To address this, we recorded spike times of A1 and A2 auditory neurons in respon
 Using these neural responses, a classification algorithm successfully discriminates between species-specific calls. Moreover, differentiation between moth and bat calls—critical for survival—is achieved within tens of milliseconds.
 
 These findings suggest that temporal call characteristics may play a more important role in courtship than previously assumed, potentially compensating for the limited spectral resolution of the auditory system.
-%\end{abstract}
+\end{abstract}
 
 \newpage
 
