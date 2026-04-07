@@ -1522,6 +1522,58 @@
       \field{pages}{35}
       \range{pages}{1}
     \endentry
+    \entry{römer_insect_2020}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}{%
+           family={Römer},
+           familyi={R\bibinitperiod},
+           given={Heiner},
+           giveni={H\bibinitperiod}}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f1f630f92585a4de27f2ec66b9f63476}{%
+           family={Fox},
+           familyi={F\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{fullhash}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{fullhashraw}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{bibnamehash}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{authorbibnamehash}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{authornamehash}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{authorfullhash}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{authorfullhashraw}{3a7c1e0eadfa7b3c3e9fb1e6d36a1a76}
+      \strng{editorbibnamehash}{f1f630f92585a4de27f2ec66b9f63476}
+      \strng{editornamehash}{f1f630f92585a4de27f2ec66b9f63476}
+      \strng{editorfullhash}{f1f630f92585a4de27f2ec66b9f63476}
+      \strng{editorfullhashraw}{f1f630f92585a4de27f2ec66b9f63476}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{issn}{0269-8463, 1365-2435}
+      \field{journaltitle}{Functional Ecology}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shorttitle}{Insect Acoustic Communication}
+      \field{title}{Insect Acoustic Communication: {{The}} Role of Transmission Channel and the Sensory System and Brain of Receivers}
+      \field{urlday}{7}
+      \field{urlmonth}{4}
+      \field{urlyear}{2026}
+      \field{volume}{34}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \field{pages}{310\bibrangedash 321}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1111/1365-2435.13321
+      \endverb
+    \endentry
     \entry{sanderford_courtship_1990}{article}{}{}
       \name{author}{2}{}{%
         {{hash=87067fbc2f2f1fc12eb297eb1f52842e}{%
