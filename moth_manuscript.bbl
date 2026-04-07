@@ -1205,7 +1205,6 @@
       \strng{authornamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
       \strng{authorfullhash}{2615d8c28c806d898bd3c2f71e575676}
       \strng{authorfullhashraw}{2615d8c28c806d898bd3c2f71e575676}
-      \field{extraname}{1}
       \field{sortinit}{N}
       \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
       \field{extradatescope}{labelyear}
@@ -1221,60 +1220,6 @@
       \range{pages}{11}
       \verb{doi}
       \verb 10.1007/s00359-014-0945-8
-      \endverb
-    \endentry
-    \entry{nakano_evolution_2013}{article}{}{}
-      \name{author}{5}{}{%
-        {{hash=c2c707348bd8df9d4d8dc350a2e20e01}{%
-           family={Nakano},
-           familyi={N\bibinitperiod},
-           given={Ryo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=5f0b15ae6cc644c81dcb092330e07daa}{%
-           family={Takanashi},
-           familyi={T\bibinitperiod},
-           given={Takuma},
-           giveni={T\bibinitperiod}}}%
-        {{hash=70de264cbc80419db1506006c9b305c7}{%
-           family={Surlykke},
-           familyi={S\bibinitperiod},
-           given={Annemarie},
-           giveni={A\bibinitperiod}}}%
-        {{hash=9497511304cf681a294946f973a2b7fe}{%
-           family={Skals},
-           familyi={S\bibinitperiod},
-           given={Niels},
-           giveni={N\bibinitperiod}}}%
-        {{hash=f1b078acb1968d04a5583fdeb6d55241}{%
-           family={Ishikawa},
-           familyi={I\bibinitperiod},
-           given={Yukio},
-           giveni={Y\bibinitperiod}}}%
-      }
-      \strng{namehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
-      \strng{fullhash}{05e8eac25cf5e30795c76475e4576756}
-      \strng{fullhashraw}{05e8eac25cf5e30795c76475e4576756}
-      \strng{bibnamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
-      \strng{authorbibnamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
-      \strng{authornamehash}{02af7a7c14e1b9ddf75124b5f909b8b0}
-      \strng{authorfullhash}{05e8eac25cf5e30795c76475e4576756}
-      \strng{authorfullhashraw}{05e8eac25cf5e30795c76475e4576756}
-      \field{extraname}{2}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{2045-2322}
-      \field{journaltitle}{Scientific Reports}
-      \field{title}{Evolution of {{Deceptive}} and {{True Courtship Songs}} in {{Moths}}}
-      \field{volume}{3}
-      \field{year}{2013}
-      \field{pages}{21\bibrangedash 23}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1038/srep02003
       \endverb
     \endentry
     \entry{nuesch_morphologie_1957}{article}{}{}
@@ -1369,45 +1314,6 @@
       \field{year}{1997}
       \field{pages}{240\bibrangedash 256}
       \range{pages}{17}
-    \endentry
-    \entry{plomp_relation_1959}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=55707e780a91b49de44aa6ba7431b9eb}{%
-           family={Plomp},
-           familyi={P\bibinitperiod},
-           given={R.},
-           giveni={R\bibinitperiod}}}%
-        {{hash=b1f91c8ed019bdc4ef719e5f4ae7b701}{%
-           family={Bouman},
-           familyi={B\bibinitperiod},
-           given={M.\bibnamedelimi A.},
-           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
-      }
-      \strng{namehash}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \strng{fullhash}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \strng{fullhashraw}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \strng{bibnamehash}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \strng{authorbibnamehash}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \strng{authornamehash}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \strng{authorfullhash}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \strng{authorfullhashraw}{bbdb17013d11e2db77aedd8afdfcddf3}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0001-4966}
-      \field{journaltitle}{Journal of the Acoustical Society of America}
-      \field{number}{6}
-      \field{title}{Relation between {{Hearing Threshold}} and {{Duration}} for {{Tone Pulses}}}
-      \field{volume}{31}
-      \field{year}{1959}
-      \field{pages}{749\bibrangedash 758}
-      \range{pages}{10}
-      \verb{doi}
-      \verb 10.1121/1.1907781
-      \endverb
     \endentry
     \entry{ratcliffe_adaptive_2005}{article}{}{}
       \name{author}{3}{}{%
@@ -2016,41 +1922,6 @@
       \verb 10.1242/jeb.093294
       \endverb
     \endentry
-    \entry{tougaard_energy_1996}{article}{}{}
-      \name{author}{1}{}{%
-        {{hash=2597da29749faa12c81b9b49801f9bf8}{%
-           family={Tougaard},
-           familyi={T\bibinitperiod},
-           given={J.},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{2597da29749faa12c81b9b49801f9bf8}
-      \strng{fullhash}{2597da29749faa12c81b9b49801f9bf8}
-      \strng{fullhashraw}{2597da29749faa12c81b9b49801f9bf8}
-      \strng{bibnamehash}{2597da29749faa12c81b9b49801f9bf8}
-      \strng{authorbibnamehash}{2597da29749faa12c81b9b49801f9bf8}
-      \strng{authornamehash}{2597da29749faa12c81b9b49801f9bf8}
-      \strng{authorfullhash}{2597da29749faa12c81b9b49801f9bf8}
-      \strng{authorfullhashraw}{2597da29749faa12c81b9b49801f9bf8}
-      \field{extraname}{1}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Comparative Physiology A}
-      \field{month}{5}
-      \field{number}{5}
-      \field{title}{Energy {{Detection}} and {{Temporal Integration}} in the {{Noctuid A1 Auditory Receptor}}}
-      \field{volume}{178}
-      \field{year}{1996}
-      \field{pages}{669\bibrangedash 677}
-      \range{pages}{9}
-      \verb{doi}
-      \verb 10.1007/BF00227379
-      \endverb
-    \endentry
     \entry{tougaard_detection_1998}{article}{}{}
       \name{author}{1}{}{%
         {{hash=2597da29749faa12c81b9b49801f9bf8}{%
@@ -2067,7 +1938,6 @@
       \strng{authornamehash}{2597da29749faa12c81b9b49801f9bf8}
       \strng{authorfullhash}{2597da29749faa12c81b9b49801f9bf8}
       \strng{authorfullhashraw}{2597da29749faa12c81b9b49801f9bf8}
-      \field{extraname}{2}
       \field{sortinit}{T}
       \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
@@ -2152,45 +2022,6 @@
       \range{pages}{13}
       \verb{doi}
       \verb 10.1162/089976601300014321
-      \endverb
-    \endentry
-    \entry{viemeister_temporal_1991}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=b07065e609d12427e5a9674da1747c76}{%
-           family={Viemeister},
-           familyi={V\bibinitperiod},
-           given={Neal},
-           giveni={N\bibinitperiod}}}%
-        {{hash=f881a4e1df8aa121ff295a593eff5863}{%
-           family={Wakefield},
-           familyi={W\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod}}}%
-      }
-      \strng{namehash}{4105afb2f267c43866787f2a8afc3c8b}
-      \strng{fullhash}{4105afb2f267c43866787f2a8afc3c8b}
-      \strng{fullhashraw}{4105afb2f267c43866787f2a8afc3c8b}
-      \strng{bibnamehash}{4105afb2f267c43866787f2a8afc3c8b}
-      \strng{authorbibnamehash}{4105afb2f267c43866787f2a8afc3c8b}
-      \strng{authornamehash}{4105afb2f267c43866787f2a8afc3c8b}
-      \strng{authorfullhash}{4105afb2f267c43866787f2a8afc3c8b}
-      \strng{authorfullhashraw}{4105afb2f267c43866787f2a8afc3c8b}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{issn}{0001-4966}
-      \field{journaltitle}{Journal of the Acoustical Society of America}
-      \field{number}{2}
-      \field{title}{Temporal {{Integration}} and {{Multiple Looks}}}
-      \field{volume}{90}
-      \field{year}{1991}
-      \field{pages}{858\bibrangedash 865}
-      \range{pages}{8}
-      \verb{doi}
-      \verb 10.1121/1.401953
       \endverb
     \endentry
     \entry{waters_peripheral_1996}{article}{}{}

@@ -63,14 +63,22 @@ uniquelist=false   % This ensures "et al." behavior is consistent
 %Current Biology Report:
 %Reports present findings of broad biological interest in a concise, to-the-point style. Reports are typically limited to six journal pages (usually around 2,500 words of main text, i.e., all of the text in the manuscript except for the summary, the STAR Methods text, any supplemental information text, and references section), and there should be no more than four display items (figures and tables). Additional items and details may be published online as supplemental information (please see the supplemental information guidelines for more information).
 
-\begin{abstract}
-\notenb{Needs re-writing!}
-Arctiid moths produce ultrasonic calls during courtship and for protection against predators. Every species has its own distinctive call pattern, which leads to a vast variety of different calls. Calls consist of single pulses, each one not longer than 1~ms. Such pulses can then be arranged in broader structures with intervals of around 1~--~100~ms.
+% ABSTRACT
+% Background
+% Methods
+% Results
+% Conclusion
 
-Arctiid moths have a very simple ear with only two receptor cells with the same frequency tuning, and, therefore, are tone deaf. Thus, the temporal pattern of calls is, most likely, the salient characteristic that is perceivable for arctiid moths. Calls contain structures of several temporal scales and we could show that auditory receptor cells can resolve gaps longer than 2~--~5~ms, depending on the pulse duration. This makes it impossible for the nervous system to encode intervals between single pulses, but broader temporal structures are feasible. 
+%\begin{abstract}
+\section{abstract}
+Arctiid moths produce ultrasonic calls during courtship and defense against predators. Each species exhibits a distinctive call pattern composed of brief pulses (1~ms) organized across multiple temporal scales, from milliseconds to seconds. However, their auditory system is extremely simple, consisting of only two receptor neurons per ear. Can such a system encode sufficient information to discriminate between species-specific calls?
 
-We demonstrate that receptor cells can encode enough temporal information for a classification algorithm to discriminate between calls from different species. Furthermore, an effective differentiation of moth and bat calls, which can mean the difference between life and death, is accomplished after just 50~ms. Based on those findings, we suppose that temporal call characteristics might play a more important role in courtship than thought before.   
-\end{abstract}
+To address this, we recorded spike times of A1 and A2 auditory neurons in response to call series from different moth and bat species. We show that auditory cells resolve gaps longer than 2–5 ms, depending on pulse duration, indicating that fine temporal features are only partially accessible, while broader temporal patterns are reliably encoded.
+
+Using these neural responses, a classification algorithm successfully discriminates between species-specific calls. Moreover, differentiation between moth and bat calls—critical for survival—is achieved within tens of milliseconds.
+
+These findings suggest that temporal call characteristics may play a more important role in courtship than previously assumed, potentially compensating for the limited spectral resolution of the auditory system.
+%\end{abstract}
 
 \newpage
 
@@ -113,10 +121,8 @@ Three moth species (\species{Carales astur} and \species{Estigmene acrea} origin
 \parencite{terhofstede_simple_2013}.        
 
 \subsection{Electrophysiology}
-% \subsubsection{Preparation}
 For recording the neural activity of the auditory nerve (3N1 after \parencite{nuesch_morphologie_1957}) a modified approach by \textcite{roeder_ultrasonic_1957} was used. Animals were dealated and the dorsal side of the thorax was descaled. Then the legs were removed and the animal was fixed on a table ventral side up using insect wax. The thorax was cut open along the mid-ventral line, whereby exposing the pterothoracic ganglion. The thoracic cavity was flooded with saline and the tympanal branch of the nerve 3N1 was hooked with a monopolar silver hook electrode. This branch consist of two auditory receptor axons (A1 and A2) and projections of a proprioception cell (B cell), which is not excited by acoustic stimuli. Another silver electrode was placed lateral in the thorax, serving as a reference.   
 
-% \subsubsection{Data Acquisition}
 All signals recorded from the auditory nerve were amplified and filtered with two coupled extracellular amplifiers (EXT-10-2F and DPA-2FX, npi electornics Tamm) with a total gain of 10k. The low and high pass filters were set to 3~kHz and 400~Hz, respectively. The amplified signal was then recored using \relacs{RELACS} \footnote{http://relacs.sourceforge.net/index.html}. All experiments were done in a sound proof chamber with no illumination \notejb{in complete darkness?} \notenb{as far as I remember...}. Spikes were detected using a dynamic amplitude threshold. B~cell spikes had much higher amplitudes and a regular firing pattern and, based on that, were rejected from the analysis. A1 and A2 spikes could not be discriminated and were treated together as if belonging to a single unit. 
 
 
@@ -128,11 +134,6 @@ To determine the frequency tuning of the receptors, pure tone pulses (sinusoidal
 
 \subsubsection{Temporal resolution}
 Moth ears were exposed to amplitude modulated sine waves with a carrier frequency of 50\,kHz. Amplitude modulation was done by using a rectangular function, which sets the intensity to either 0~dB~SPL or 80~dB~SPL and therefore producing a pulsed stimulus with particular gaps in between. The pulse duration was either 5\,ms or 10\,ms and the period was chosen, so that the gap between two successive pulses was 0\,ms to 20\,ms long. A period of 30\,ms with a pulse duration of 10\,ms corresponded to a gap of 20\,ms. Every gap trial was repeated 20 times. In addition, artificial moth pulses with varying intervals were presented to the animals. Moth pulses were modeled by damped sine waves with a carrier frequency $f_{c}$ of 50\,kHz, an amplitude $a_i$, a damping time-constant $\tau_i$ of 0.1\,ms or 0.4\,ms and a single pulse duration of 0.5\,ms or 2\,ms, respectively.
-
-%\begin{equation}
-%  \label{eq:DampedSine}
-%  Pulse(t) = \sum_{i=1}^{N} a_i \sin(2 \pi f_i t) \; e^{-\frac{t}{\tau}}
-%\end{equation}
 
 \begin{equation}
 	\label{eq:DampedSine}
