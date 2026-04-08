@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<bcf:controlfile version="3.11" bltxversion="3.20" xmlns:bcf="https://sourceforge.net/projects/biblatex">
+<bcf:controlfile version="3.10" bltxversion="3.19" xmlns:bcf="https://sourceforge.net/projects/biblatex">
   <!-- BIBER OPTIONS -->
   <bcf:options component="biber" type="global">
     <bcf:option type="singlevalued">
@@ -502,7 +502,6 @@
     <bcf:option datatype="xml">inheritance</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
     <bcf:option datatype="xml">uniquenametemplate</bcf:option>
-    <bcf:option datatype="xml">namehashtemplate</bcf:option>
     <bcf:option datatype="xml">sortingnamekeytemplate</bcf:option>
     <bcf:option datatype="xml">sortingtemplate</bcf:option>
     <bcf:option datatype="xml">extradatespec</bcf:option>
@@ -750,10 +749,9 @@
   </bcf:optionscope>
   <bcf:optionscope type="ENTRY">
     <bcf:option datatype="string">noinherit</bcf:option>
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">presort</bcf:option>
     <bcf:option datatype="string" backendout="1">indexing</bcf:option>
@@ -830,10 +828,9 @@
     <bcf:option datatype="integer" backendout="1">minalphanames</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAMELIST">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
@@ -847,10 +844,9 @@
     <bcf:option datatype="boolean" backendout="1">useprefix</bcf:option>
   </bcf:optionscope>
   <bcf:optionscope type="NAME">
-    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename,namehashtemplatename">nametemplates</bcf:option>
+    <bcf:option datatype="string" backendin="sortingnamekeytemplatename,uniquenametemplatename,labelalphanametemplatename">nametemplates</bcf:option>
     <bcf:option datatype="string" backendout="1">labelalphanametemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">uniquenametemplatename</bcf:option>
-    <bcf:option datatype="string" backendout="1">namehashtemplatename</bcf:option>
     <bcf:option datatype="string" backendout="1">sortingnamekeytemplatename</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
@@ -1064,13 +1060,6 @@
     <bcf:namepart order="2" base="1">family</bcf:namepart>
     <bcf:namepart order="3">given</bcf:namepart>
   </bcf:uniquenametemplate>
-  <!-- NAME HASH TEMPLATES -->
-  <bcf:namehashtemplate name="global">
-    <bcf:namepart order="1" hashscope="full">family</bcf:namepart>
-    <bcf:namepart order="2" hashscope="full">given</bcf:namepart>
-    <bcf:namepart order="3" hashscope="full">prefix</bcf:namepart>
-    <bcf:namepart order="4" hashscope="full">suffix</bcf:namepart>
-  </bcf:namehashtemplate>
   <!-- SORTING NAME KEY TEMPLATES -->
   <bcf:sortingnamekeytemplate name="global" visibility="sort">
     <bcf:keypart order="1">
@@ -2373,92 +2362,70 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">mothbib.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">acharya_bat_1999</bcf:citekey>
-    <bcf:citekey order="1" intorder="2">waters_bats_2003</bcf:citekey>
-    <bcf:citekey order="1" intorder="3">conner_sound_2012</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">eskov_diversity_2017</bcf:citekey>
-    <bcf:citekey order="2" intorder="2">römer_insect_2020</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">conner_chant_1999</bcf:citekey>
-    <bcf:citekey order="3" intorder="2">baker_acoustic_2019</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">low_survival_2021</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">hristov_sound_2005</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">roeder_auditory_1966</bcf:citekey>
-    <bcf:citekey order="6" intorder="2">paul_central_1973</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">boppré_ecological_2011</bcf:citekey>
-    <bcf:citekey order="7" intorder="2">ratcliffe_adaptive_2005</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">sanderford_courtship_1990</bcf:citekey>
-    <bcf:citekey order="8" intorder="2">simmons_ultrasonic_1996</bcf:citekey>
-    <bcf:citekey order="8" intorder="3">sanderford_courtship_1998</bcf:citekey>
-    <bcf:citekey order="8" intorder="4">conner_ultrasound_1987</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">corcoran_antibat_2010</bcf:citekey>
-    <bcf:citekey order="9" intorder="2">corcoran_how_2011</bcf:citekey>
-    <bcf:citekey order="9" intorder="3">corcoran_convergent_2014</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">roeder_detection_1961</bcf:citekey>
-    <bcf:citekey order="10" intorder="2">miller_how_2001</bcf:citekey>
-    <bcf:citekey order="10" intorder="3">ratcliffe_tiger_2009</bcf:citekey>
-    <bcf:citekey order="10" intorder="4">conner_sound_2012</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">simmons_ultrasonic_1996</bcf:citekey>
-    <bcf:citekey order="11" intorder="2">phelan_evolution_1997</bcf:citekey>
-    <bcf:citekey order="11" intorder="3">weller_evolution_1999</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">schnitzler_echolocation_2001</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">terhofstede_evolutionary_2016</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">corcoran_antibat_2010</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">corcoran_how_2011</bcf:citekey>
-    <bcf:citekey order="14" intorder="3">corcoran_convergent_2014</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">nuesch_morphologie_1957</bcf:citekey>
-    <bcf:citekey order="15" intorder="2">fullard_neuroethology_1992</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">blest_generation_1963</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">blest_generation_1963</bcf:citekey>
-    <bcf:citekey order="17" intorder="2">fullard_acoustic_1977</bcf:citekey>
-    <bcf:citekey order="17" intorder="3">fullard_functional_1990</bcf:citekey>
-    <bcf:citekey order="17" intorder="4">weller_evolution_1999</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">corcoran_antibat_2010</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">fullard_acoustic_1977</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">miller_how_2001</bcf:citekey>
-    <bcf:citekey order="20" intorder="2">yack_structure_2004</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">yager_structure_1999</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">paul_central_1973</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">fullard_intensity_1998</bcf:citekey>
-    <bcf:citekey order="23" intorder="2">yager_structure_1999</bcf:citekey>
-    <bcf:citekey order="23" intorder="3">terhofstede_simple_2013</bcf:citekey>
-    <bcf:citekey order="23" intorder="4">nakano_moth_2014</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">miller_how_2001</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">roeder_auditory_1966</bcf:citekey>
-    <bcf:citekey order="25" intorder="2">terhofstede_simple_2013</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">fullard_auditory_2003</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">waters_bats_2003</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">bergomaz_simple_1986</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">terhofstede_simple_2013</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">nuesch_morphologie_1957</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">roeder_ultrasonic_1957</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">barber_tiger_2006</bcf:citekey>
-    <bcf:citekey order="32" intorder="2">corcoran_antibat_2010</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">benda_spikefrequency_2008</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">vanhemmen_vector_2013</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">sinz_simultaneous_2020</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">vanrossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">machens_single_2003</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">vanrossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">vanrossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">vanrossum_novel_2001</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">machens_discrimination_2001</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">machens_single_2003</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">waters_bats_2003</bcf:citekey>
-    <bcf:citekey order="43" intorder="2">mora_tonedeaf_2014</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">surlykke_temporal_1988</bcf:citekey>
-    <bcf:citekey order="44" intorder="2">waters_peripheral_1996</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">tougaard_detection_1998</bcf:citekey>
-    <bcf:citekey order="45" intorder="2">waters_bats_2003</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">surlykke_temporal_1988</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">sanderford_courtship_1998</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">waters_bats_2003</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">fullard_listening_1984</bcf:citekey>
-    <bcf:citekey order="49" intorder="2">terhofstede_simple_2013</bcf:citekey>
-    <bcf:citekey order="49" intorder="3">nakano_moth_2014</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">sterling2015principles</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">yack_structure_2004</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">clemens_feature_2013</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">clemens_nonlinear_2012</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">schnitzler_echolocation_2001</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">acharya_bat_1999</bcf:citekey>
+    <bcf:citekey order="2" intorder="2">waters_bats_2003</bcf:citekey>
+    <bcf:citekey order="2" intorder="3">conner_sound_2012</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">boppré_ecological_2011</bcf:citekey>
+    <bcf:citekey order="3" intorder="2">ratcliffe_adaptive_2005</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">corcoran_antibat_2010</bcf:citekey>
+    <bcf:citekey order="4" intorder="2">corcoran_how_2011</bcf:citekey>
+    <bcf:citekey order="4" intorder="3">corcoran_convergent_2014</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">sanderford_courtship_1990</bcf:citekey>
+    <bcf:citekey order="5" intorder="2">simmons_ultrasonic_1996</bcf:citekey>
+    <bcf:citekey order="5" intorder="3">sanderford_courtship_1998</bcf:citekey>
+    <bcf:citekey order="5" intorder="4">conner_ultrasound_1987</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">nuesch_morphologie_1957</bcf:citekey>
+    <bcf:citekey order="6" intorder="2">fullard_neuroethology_1992</bcf:citekey>
+    <bcf:citekey order="6" intorder="3">blest_generation_1963</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">blest_generation_1963</bcf:citekey>
+    <bcf:citekey order="7" intorder="2">fullard_acoustic_1977</bcf:citekey>
+    <bcf:citekey order="7" intorder="3">fullard_functional_1990</bcf:citekey>
+    <bcf:citekey order="7" intorder="4">weller_evolution_1999</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">corcoran_antibat_2010</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">miller_how_2001</bcf:citekey>
+    <bcf:citekey order="9" intorder="2">yack_structure_2004</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">yager_structure_1999</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">paul_central_1973</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">fullard_intensity_1998</bcf:citekey>
+    <bcf:citekey order="12" intorder="2">yager_structure_1999</bcf:citekey>
+    <bcf:citekey order="12" intorder="3">terhofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="12" intorder="4">nakano_moth_2014</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">miller_how_2001</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">roeder_auditory_1966</bcf:citekey>
+    <bcf:citekey order="14" intorder="2">terhofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">bergomaz_simple_1986</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">terhofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">nuesch_morphologie_1957</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">roeder_ultrasonic_1957</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">barber_tiger_2006</bcf:citekey>
+    <bcf:citekey order="19" intorder="2">corcoran_antibat_2010</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">benda_spikefrequency_2008</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">vanhemmen_vector_2013</bcf:citekey>
+    <bcf:citekey order="22" intorder="1">sinz_simultaneous_2020</bcf:citekey>
+    <bcf:citekey order="23" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="24" intorder="1">machens_single_2003</bcf:citekey>
+    <bcf:citekey order="25" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="26" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">vanrossum_novel_2001</bcf:citekey>
+    <bcf:citekey order="28" intorder="1">machens_discrimination_2001</bcf:citekey>
+    <bcf:citekey order="29" intorder="1">machens_single_2003</bcf:citekey>
+    <bcf:citekey order="30" intorder="1">waters_bats_2003</bcf:citekey>
+    <bcf:citekey order="30" intorder="2">mora_tonedeaf_2014</bcf:citekey>
+    <bcf:citekey order="31" intorder="1">surlykke_temporal_1988</bcf:citekey>
+    <bcf:citekey order="31" intorder="2">waters_peripheral_1996</bcf:citekey>
+    <bcf:citekey order="32" intorder="1">tougaard_detection_1998</bcf:citekey>
+    <bcf:citekey order="32" intorder="2">waters_bats_2003</bcf:citekey>
+    <bcf:citekey order="33" intorder="1">surlykke_temporal_1988</bcf:citekey>
+    <bcf:citekey order="34" intorder="1">sanderford_courtship_1998</bcf:citekey>
+    <bcf:citekey order="35" intorder="1">waters_bats_2003</bcf:citekey>
+    <bcf:citekey order="36" intorder="1">fullard_listening_1984</bcf:citekey>
+    <bcf:citekey order="36" intorder="2">terhofstede_simple_2013</bcf:citekey>
+    <bcf:citekey order="36" intorder="3">nakano_moth_2014</bcf:citekey>
+    <bcf:citekey order="37" intorder="1">sterling2015principles</bcf:citekey>
+    <bcf:citekey order="38" intorder="1">yack_structure_2004</bcf:citekey>
+    <bcf:citekey order="39" intorder="1">clemens_feature_2013</bcf:citekey>
+    <bcf:citekey order="40" intorder="1">clemens_nonlinear_2012</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">
@@ -2491,13 +2458,12 @@
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
   <bcf:datalist section="0"
-                name="nyt/global//global/global/global"
+                name="nyt/global//global/global"
                 type="entry"
                 sortingtemplatename="nyt"
                 sortingnamekeytemplatename="global"
                 labelprefix=""
                 uniquenametemplatename="global"
-                labelalphanametemplatename="global"
-                namehashtemplatename="global">
+                labelalphanametemplatename="global">
   </bcf:datalist>
 </bcf:controlfile>

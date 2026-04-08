@@ -3,7 +3,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Titel- und Autoreninformation:
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\title{Can moths hear the difference? - Auditory discrimination based on temporal information in arctiid moths}
+\title{Can moths hear the difference? --- Auditory discrimination of friend and foe based on temporal information in arctiid moths}
 \author{Nils Brehm, Hans-Ulrich Schnitzler, Jan Benda}
 \date{\today}
 
@@ -17,6 +17,7 @@
 fileext=los, % list of supp figures (optional)
 name={Supp.\ Figure}
 ]{suppfigure}
+\graphicspath{{figures/}}
 
 % Bib
 \usepackage[
@@ -49,7 +50,7 @@ uniquelist=false   % This ensures "et al." behavior is consistent
 \newcommand{\note}[2][]{\textbf{[#1: #2]}}
 \newcommand{\notejb}[1]{\note[JB]{#1}}
 \newcommand{\notenb}[1]{\note[NB]{#1}}
-\renewcommand{\note}[2][]{}  % toggle comments off
+%\renewcommand{\note}[2][]{}  % toggle comments off
 
 \begin{document}
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -64,12 +65,9 @@ uniquelist=false   % This ensures "et al." behavior is consistent
 %Reports present findings of broad biological interest in a concise, to-the-point style. Reports are typically limited to six journal pages (usually around 2,500 words of main text, i.e., all of the text in the manuscript except for the summary, the STAR Methods text, any supplemental information text, and references section), and there should be no more than four display items (figures and tables). Additional items and details may be published online as supplemental information (please see the supplemental information guidelines for more information).
 
 \begin{abstract}
-Arctiid moths produce ultrasonic calls during courtship and defense against predators. Each species exhibits a distinctive call pattern composed of brief pulses (1~ms) organized across multiple temporal scales, from milliseconds to seconds. However, their auditory system is extremely simple, consisting of only two receptor neurons per ear. Can such a system encode sufficient information to discriminate between species-specific calls?
-
-To address this, we recorded spike times of A1 and A2 auditory neurons in response to call series from different moth and bat species. We show that auditory cells resolve gaps longer than 2–5 ms, depending on pulse duration, indicating that fine temporal features are only partially accessible, while broader temporal patterns are reliably encoded.
-
-Using these neural responses, a classification algorithm successfully discriminates between species-specific calls. Moreover, differentiation between moth and bat calls—critical for survival—is achieved within tens of milliseconds.
-
+Arctiid moths produce ultrasonic calls during courtship and defense against predatory bats. Each species exhibits a distinctive call pattern composed of brief pulses (1\,ms) organized across multiple temporal scales, from milliseconds to seconds. However, their auditory system is extremely simple, consisting of only two receptor neurons per ear. Can such a system encode sufficient information to discriminate between species-specific calls?
+To address this, we recorded spike times of A1 and A2 auditory neurons in response to call series from different moth and bat species. Our data show that auditory cells resolve gaps longer than 2--5\,ms, depending on pulse duration, indicating that fine temporal features are only partially accessible, while broader temporal patterns are reliably encoded.
+A classification algorithm successfully discriminates between species-specific calls based on the recorded neural responses. Moreover, differentiation between moth and bat calls---critical for survival---is achieved within tens of milliseconds.
 These findings suggest that temporal call characteristics may play a more important role in courtship than previously assumed, potentially compensating for the limited spectral resolution of the auditory system.
 \end{abstract}
 
@@ -80,28 +78,40 @@ These findings suggest that temporal call characteristics may play a more import
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Introduction}
 % General Overview Acoustic Signals
-Acoustic communication is a widespread and important mode of information transfer in animals. The evolution of acoustic signals is tightly linked to the constraints and capabilities of sensory systems, often resulting in co-evolution between interacting species such as predators, prey, and parasites. One of the classical examples is the arms-race between insectivorous bats and their prey such as moths \parencite{acharya_bat_1999, waters_bats_2003, conner_sound_2012}.
+Acoustic communication is a widespread and important mode of information transfer in animals. The evolution of acoustic signals is tightly linked to the constraints and capabilities of sensory systems, often resulting in co-evolution between interacting species such as predators, prey, and parasites. One classical examples is the arms-race between insectivorous bats, that emit ultrasonic calls to detect and catch insects \parencite{schnitzler_echolocation_2001}, and their prey such as moths \parencite{acharya_bat_1999, waters_bats_2003, conner_sound_2012}. Arctiid moths, a diverse subfamily within the Erebidae (Lepidoptera: Noctuoidea) \parencite{boppré_ecological_2011, ratcliffe_adaptive_2005}, started not only to hear bats but also to actively produce ultrasonic sounds as a defense against hunting bats \parencite{corcoran_antibat_2010, corcoran_how_2011, corcoran_convergent_2014}. In addition, they produce species-specific songs \parencite{sanderford_courtship_1990, simmons_ultrasonic_1996, sanderford_courtship_1998, conner_ultrasound_1987}. The ability of the moth's auditory system to detect bat calls and distinguish them from their own songs is a key component in this arms-race, but has not been studied yet.
 
-% Insects as model system
-Insects are powerful model systems for studying the evolution, production, and processing of sound due to their enormous diversity and relatively simple nervous systems \parencite{eskov_diversity_2017, römer_insect_2020}. Sound signals are used by insects for species recognition, mate attraction \parencite{conner_chant_1999, baker_acoustic_2019}, territorial defense \parencite{low_survival_2021}, and predator–prey interactions \parencite{hristov_sound_2005}.
+% % Insects as model system
+% Insects are powerful model systems for studying the evolution, production, and processing of sound due to their enormous diversity and relatively simple nervous systems \parencite{eskov_diversity_2017, römer_insect_2020}. Sound signals are used by insects for species recognition, mate attraction \parencite{conner_chant_1999, baker_acoustic_2019}, territorial defense \parencite{low_survival_2021}, and predator–prey interactions \parencite{hristov_sound_2005}.
 
 % Why moth
-Moths are particularly interesting because they act as both senders and receivers in complex acoustic environments dominated by predators. Despite this, they possess one of the simplest auditory systems in the animal kingdom \parencite{roeder_auditory_1966, paul_central_1973}, raising the fundamental question of how information is processed in such systems.
+%Moths are particularly interesting because they act as both senders and receivers in complex acoustic environments dominated by predators, in particular bats. Despite this, they possess one of the simplest auditory systems in the animal kingdom \parencite{roeder_auditory_1966, paul_central_1973}, raising the fundamental question of how information is processed in such systems.
 
 % Brief intro to arctiid moths
-Arctiid moths are a diverse subfamily within the Erebidae (Lepidoptera: Noctuoidea) and are well known for ultrasonic signaling, pheromonal communication, and chemical defenses \parencite{boppré_ecological_2011, ratcliffe_adaptive_2005}, as well as their interactions with bats. Both conspecific communication \parencite{sanderford_courtship_1990, simmons_ultrasonic_1996, sanderford_courtship_1998, conner_ultrasound_1987} and acoustic defense against bats (e.g. interfering with echolocation) \parencite{corcoran_antibat_2010, corcoran_how_2011, corcoran_convergent_2014} have been reported for many moth species. Unlike many other insects, which evolved hearing and acoustic signaling mainly for communication, moths are thought to have evolved these systems primarily for predator detection \parencite{roeder_detection_1961, miller_how_2001, ratcliffe_tiger_2009, conner_sound_2012}. Intraspecific communication may have evolved later and was built upon a sensory system that was not originally selected for this purpose \parencite{simmons_ultrasonic_1996, phelan_evolution_1997, weller_evolution_1999}. Insectivorous bats emit calls in the ultrasonic spectrum to detect and catch insects during the night \parencite{schnitzler_echolocation_2001}. This hunting strategy, based on echolocation, has strongly shaped the evolution of moth auditory systems, influencing sensitivity, tuning, and neural simplicity \parencite{terhofstede_evolutionary_2016}. In this evolutionary arms race, arctiid moths started not only to hear bats but also to actively produce ultrasonic sounds during interaction with hunting bats \parencite{corcoran_antibat_2010, corcoran_how_2011, corcoran_convergent_2014}.
+%Arctiid moths are a diverse subfamily within the Erebidae (Lepidoptera: Noctuoidea) and are well known for ultrasonic signaling, pheromonal communication, and chemical defenses \parencite{boppré_ecological_2011, ratcliffe_adaptive_2005}, as well as their interactions with bats.
+% Both conspecific communication \parencite{sanderford_courtship_1990, simmons_ultrasonic_1996, sanderford_courtship_1998, conner_ultrasound_1987} and acoustic defense against bats (e.g. interfering with echolocation) \parencite{corcoran_antibat_2010, corcoran_how_2011, corcoran_convergent_2014} have been reported for many moth species.
+% TO DISCUSSION? Unlike many other insects, which evolved hearing and acoustic signaling mainly for communication, moths are thought to have evolved these systems primarily for predator detection \parencite{roeder_detection_1961, miller_how_2001, ratcliffe_tiger_2009, conner_sound_2012}. Intraspecific communication may have evolved later and was built upon a sensory system that was not originally selected for this purpose \parencite{simmons_ultrasonic_1996, phelan_evolution_1997, weller_evolution_1999}.
+%Insectivorous bats emit calls in the ultrasonic spectrum to detect and catch insects during the night \parencite{schnitzler_echolocation_2001}.
+%This hunting strategy, based on echolocation, has strongly shaped the evolution of moth auditory systems, influencing sensitivity, tuning, and neural simplicity \parencite{terhofstede_evolutionary_2016}.
+%In this evolutionary arms race, arctiid moths started not only to hear bats but also to actively produce ultrasonic sounds during interaction with hunting bats \parencite{corcoran_antibat_2010, corcoran_how_2011, corcoran_convergent_2014}.
 
-% Description of tymbal 
-To produce ultrasonic pulses, most moth species possess a specialized structure, the tymbal, located on the metepisternum of the thorax. The tymbal consists of a stiff, air-backed membrane. Attached to the membrane are three muscles, innervated by a branch of the metathoracic leg nerve (IIIN2a), which receive input from a cluster of 5–9 motor neurons \parencite{nuesch_morphologie_1957, fullard_neuroethology_1992}, controlling the inward and outward buckling of the tymbal organ \parencite{blest_generation_1963}. Many species have a striated band on top of the tymbal membrane (microtymbals or striae). Those striae act like single instruments and each produces a single pulse \parencite{blest_generation_1963, fullard_acoustic_1977, fullard_functional_1990, weller_evolution_1999}. 
-
+% Description of tymbal and song
+Moth use a tymbal, a stiff, air-backed membrane that can be buckled inward and outward, to produce ultrasonic pulses \parencite{nuesch_morphologie_1957, fullard_neuroethology_1992,blest_generation_1963}.
+% , located on the metepisternum of the thorax
+% Attached to the membrane are three muscles, innervated by a branch of the metathoracic leg nerve (IIIN2a), which receive input from a cluster of 5–9 motor neurons \parencite{nuesch_morphologie_1957, fullard_neuroethology_1992}, controlling the inward and outward buckling of the tymbal organ \parencite{blest_generation_1963}. Many species have a striated band on top of the tymbal membrane (microtymbals or striae).
+Striae on top of the tymbal membrane act like single instruments and each produces a single pulse \parencite{blest_generation_1963, fullard_acoustic_1977, fullard_functional_1990, weller_evolution_1999}. 
 % Song structure
-The frequency components of the sound produced by each stria can vary and in many species the pulses are combined to form a call (pulse series). A call consists of an active and a passive train of pulses, due to the muscle contraction and relaxation, respectively \parencite{corcoran_antibat_2010}. If some pulses differ in their spectral components, this can produce ‘melodies’ within a call \parencite{fullard_acoustic_1977}. Together with their temporal arrangement, most species produce unique calls that can be considered acoustic fingerprints\fig{\ref{fig:01}}{A, B}.
+%The frequency components of the sound produced by each stria can vary and in many species the
+These pulses are combined to form a call (pulse series). A call consists of an active and a passive train of pulses, generated by muscle contraction and relaxation, respectively \parencite{corcoran_antibat_2010}.
+% If some pulses differ in their spectral components, this can produce ‘melodies’ within a call \parencite{fullard_acoustic_1977}.
+Most species produce unique calls that can be considered acoustic fingerprints \fig{\ref{fig:01}}{A, B}.
 
 % Moth ear
-The ear of arctiid moths is a typical insect tympanum, descended from chordotonal organs \parencite{miller_how_2001, yack_structure_2004},  and is positioned between the thorax and abdomen on both sides of the animal. A thin membrane is spanned over several air filled chambers \fig{\ref{fig:02}}{B}. Dendrites of two receptor cells (A1 and A2) are attached to the center of this membrane \parencite{yager_structure_1999}. The axons of these cells project via the acoustic nerve (IIIN1b) \fig{\ref{fig:02}}{A} to the thoracic pteroganglion \parencite{paul_central_1973}. Both A1 and A2 exhibit similar frequency tuning, with the highest sensitivity in the ultra sonic range \parencite{fullard_intensity_1998, yager_structure_1999, terhofstede_simple_2013, nakano_moth_2014}. However, the A2 cell has a higher intensity threshold and is, thus, less sensitive \parencite{miller_how_2001}. This suggests that moths have limited ability to discriminate sound frequency, as changes in frequency and intensity can produce similar neural responses \parencite{roeder_auditory_1966, terhofstede_simple_2013}. In addition to the A1 and A2 cells, another receptor, the B cell, was found in the ears of arctiid moths. However the cell does not respond to sound \parencite{fullard_auditory_2003} and is supposed to have some function in proprioception, like encoding physical stress within the tympanal organ \parencite{waters_bats_2003}.
+The ear of arctiid moths is a typical insect tympanum \parencite{miller_how_2001, yack_structure_2004} and is positioned between the thorax and abdomen on both sides of the animal. A tympanum membrane is spanned over several air filled chambers \fig{\ref{fig:02}}{B}. In chordotonal organs, the dendrites of just two receptor cells (A1 and A2) are attached to the center of this membrane \parencite{yager_structure_1999}. Their axons project via the acoustic nerve (IIIN1b) \fig{\ref{fig:02}}{A} to the thoracic pteroganglion \parencite{paul_central_1973}. Both A1 and A2 exhibit similar sound frequency tuning, with the highest sensitivity in the ultra sonic range \parencite{fullard_intensity_1998, yager_structure_1999, terhofstede_simple_2013, nakano_moth_2014}. However, the A2 cell has a higher intensity threshold and thus is less sensitive \parencite{miller_how_2001}. This suggests that moths have limited ability to discriminate sound frequency, as changes in frequency and intensity can produce similar neural responses \parencite{roeder_auditory_1966, terhofstede_simple_2013}.
+
+% TO DISCUSSION? In addition to the A1 and A2 cells, another receptor, the B cell, was found in the ears of arctiid moths. However the cell does not respond to sound \parencite{fullard_auditory_2003} and is supposed to have some function in proprioception, like encoding physical stress within the tympanal organ \parencite{waters_bats_2003}.
 
 % Final
-Here, we investigate whether spike trains of receptor cells contain sufficient information to discriminate between different moth and bat calls. First, we examine the temporal and spectral resolution of moth auditory neurons. Using the temporal information encoded in spike trains, we show that calls from different moth species can be reliably classified and that the discrimination between bat and moth calls is robust. Our results demonstrate that the temporal structure of calls, particularly on time scales ranging from 5~ms to several seconds, is the key feature enabling this discrimination.
+Here, we investigate whether spike trains of receptor cells contain sufficient information to discriminate between different moth songs and bat calls. First, we examine the temporal and spectral resolution of moth auditory neurons. Using the temporal information encoded in spike trains, we show that calls from different moth species can be reliably classified and that the discrimination between bat and moth calls is robust. Our results demonstrate that the temporal structure of calls, particularly on time scales ranging from 5\,ms to several seconds, is the key discriminatory feature.
 
 \newpage
 
@@ -233,6 +243,7 @@ d' = z(hit~rate) - z(false~alarm~rate)
 \end{table}
 %\FloatBarrier
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % Results
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -243,14 +254,14 @@ d' = z(hit~rate) - z(false~alarm~rate)
 Acrtiid call series are auditory signals, structured on different time scales. The basic unit is the single pulse, that is further arranged into calls, which then build up entire call series. An example of the different components at different time scales is shown in Fig.~\ref{fig:01}{A} for the species \species{Melese sp.}.
 A single pulse can be described by a damped sine wave with a carrier frequency and duration that can vary between different species. In all calls used in this study the pulse duration ranged from 0.1~ms to 0.6~ms \fig{\ref{fig:01}}{C}, all shorter than a millisecond, a duration that is in the same scale of action potentials. The carrier frequency was broadly distributed over different species, ranging from 5~kHz up to 80~kHz, far into the ultrasonic spectrum \suppfig{\ref{suppfig:01}}{A,B}. As the moth tymbal organ contracts, it produces an active pulse train and as it relaxes again a passive pulse train \fig{\ref{fig:01}}{A} defining one call. The inter pulse interval (IPI), i.e the time between pulses, was mostly below 5~ms \fig{\ref{fig:01}}{D}and the inter train interval (ITI) varied from 2~ms up to 80~ms \fig{\ref{fig:01}}{F}. In nature, calls rarely occur isolated, but are repeated in call series \fig{\ref{fig:01}}{B}, the actual auditory signal of arctiid moths. The duration of call series (audio recordings) used in this study ranged from 0.14~s to 3.99~s \fig{\ref{fig:01}}{G} containing mostly around 100 to 200 pulses \fig{\ref{fig:01}}{E}. However, calls within a call series are not distributed uniformly. In many species, calls occur in "packages", where the intervals between calls within a package are short, while the intervals between packages are much longer. As a result, the acoustic signals of arctiid moths have a modular structure. They are organized hierarchically, consisting of single pulses (inter-pulse intervals), pulse trains (inter-pulsetrain intervals), individual calls, packages of calls, and ultimately the entire call series. This generates multiple temporal scales that sensory neurons could be tuned to, potentially allowing discrimination between calls of different species.
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{figures/Fig_01_Call_structure.pdf}
-	\caption{\label{fig:01} Call structure of moth calls
-		(A) Different time scales of the call of Melese sp., from broad to fine temporal structures (top to bottom). ITI: Inter-train interval, IPI: Inter-pulse interval.
-		(B) Example auditory recordings of four different species.
-		Histograms of (C) pulse duration, (D) inter pulse interval, (E) pulse count, (F) inter train interval and (G) total call series duration.
-		}
+\begin{figure}[tp]
+  \centering
+  \includegraphics[width=\textwidth]{Fig_01_Call_structure.pdf}
+  \caption{\label{fig:01} Call structure of moth calls
+    (A) Different time scales of the call of Melese sp., from broad to fine temporal structures (top to bottom). ITI: Inter-train interval, IPI: Inter-pulse interval.
+    (B) Example auditory recordings of four different species.
+    Histograms of (C) pulse duration, (D) inter pulse interval, (E) pulse count, (F) inter train interval and (G) total call series duration.
+  }
 \end{figure}
 
 \subsection{Intensity and frequency tuning}
@@ -262,9 +273,9 @@ First, we characterized the auditory system by establishing intensity and freque
 % This is Fig 2 C to H and SuppFig 2
 We hypothesize that the temporal structure of moth calls is the major parameter for a solid discrimination between different moth species. Therefore we recorded the response of auditory neurons of \species{Estigmene acrea} to rectangular stimuli and model pulses with different gap length \suppfig{\ref{suppfig:02}}{A}, to determine the temporal resolution that these neurons can achieve. For rectangular pulses with a duration of 10~ms and an interval of 20~ms (i.e. a period of 30~ms), spike times followed the stimulus precisely. Therefore, the firing rate resembled the same temporal structure as the stimulus \fig{\ref{fig:02}}{C}. By comparing inter-spike intervals (ISI) of the recorded spike trains with a Poisson spiking model (exponential distribution of ISI), two distinct temporal scales became clear, as indicated by the bimodal distribution that we found  \suppfig{\ref{suppfig:02}}{B}. The first peak at around 5~ms corresponded to the peak firing rate (200~Hz) in response to such a rectangular stimulus. The other peak at around 20~ms to 25~ms represented the inter-stimulus intervals and thus the temporal structure of the stimulus trace. Overall, the spike times lagged the stimulus phase by 90~deg  \suppfig{\ref{suppfig:02}}{C}. To determine the significance of the spike time locking we computed the mean vector strength over a range of periods and compared it to a Poisson spiking model. The maximum mean vector strength was at 30~ms, matching directly the stimulus period \suppfig{\ref{suppfig:02}}{D}. When we now decreased the gap size, the spiking pattern became more irregular and less locked to the stimulus period indicated by lower mean vector strength values. Figure~2~D shows the mean vector curve for three different individuals. A gap detection threshold was determined by the smallest gap size that still yielded a significant mean vector strength. For rectangular pulse trains with a pulse duration of 10~ms this threshold was around 2~ms to 3~ms \fig{\ref{fig:02}}{D}, where as for s pulse duration of only 5~ms it increased to around 5~ms \fig{\ref{fig:02}}{E}. Using artificial moth pulses \fig{\ref{fig:02}}{F} with a duration of 2~ms and 0.5~ms produced gap detection thresholds of 5~ms \fig{\ref{fig:02}}{G} and 7~ms \fig{\ref{fig:02}}{H}, respectively. In contrast to the rectangular pulses with their longer pulse duration, the spikes were now locked to the stimulus with a phase shift of 180~deg \suppfig{\ref{suppfig:02}}{F} and the locking was one spike per period \suppfig{\ref{suppfig:02}}{E, G}. When exposing the animal to a constant pure tone with no gaps in between, the temporal pattern vanished completely and the response resembles a typical adaptation to constant sounds \suppfig{\ref{suppfig:03}}{}. Taken together, these results indicate that auditory neurons maintain temporal resolution on the order of ~5 ms, depending on signal duration, allowing them to resolve most temporal features present in moth call series.
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{figures/Fig_02_GapDetection.pdf}
+\begin{figure}[tp]
+  \centering
+  \includegraphics[width=\textwidth]{Fig_02_GapDetection.pdf}
 \end{figure}
 \clearpage
 \captionof{figure}{\label{fig:02}Temporal resolution of auditory neurons A1/A2.
@@ -288,9 +299,9 @@ We recorded the response of auditory neurons to different moth call series. To i
 Arctiid moths are subject to predation by echolocating insectivorous bats and must reliably distinguish between conspecific mating signals and predator cues. To test this, we applied the classification algorithm to differentiate bat and moth call series. Fig.~\ref{fig:03}~C~ shows the percentage of spike trains classified as moth calls based on the Van Rossum distance with a temporal resolution ($ \tau $) of 1~ms, 10~ms and 1000~ms. When the temporal resolution was as small as 1~ms, the discrimination between moth and bats failed drastically. Interestingly, for the unchanged call series most calls were classified as bat, whereas extended calls were mostly classified as moth \fig{\ref{fig:03}}{C: top panel}. Increasing the temporal resolution to 10~ms led to a clear separation between moth and bat calls, indicating a successful discrimination.
 After 200~ms most of the original bat calls were classified correctly. The original moth calls, however, showed more 'wrong' classification. Some responses (spike trains) were classified as bat calls instead of moth calls. Furthermore, after 200~ms the percentage of moth calls was independent of spike train duration. Extended spike trains showed a higher success in matching moth calls correctly, however, bat calls were misinterpreted as moth calls more often \fig{\ref{fig:03}}{C: middle panel}. Increasing the temporal resolution to 1000~ms diminished the separation again \fig{\ref{fig:03}}{C: bottom panel} and reduced the discrimination performance. To assess the contribution of non-structured properties of the spike trains to classification performance, we applied two simple metrics based on total duration and spike count. For the unchanged spike trains, considering only the trace duration was sufficient to achieve moderate discrimination \suppfig{\ref{suppfig:04}}{A}. However, when recordings were normalized for duration, discrimination performance dropped to chance level \suppfig{\ref{suppfig:04}}{B}. Spike count alone was likewise insufficient \suppfig{\ref{suppfig:04}}{C, D}. Since the discrimination between moth and bat call series can be regarded as a 'yes' or 'no' task, a typical application of Signal Detection Theory, we computed the sensitivity index d-prime to validate classification performance. Fig.~\ref{fig:03}~D shows $d'$ values for the discrimination of moth and bat call series. We found that $d'$ depended on the time resolution $\tau$ and the spike train duration. For unchanged call series there was an optimal temporal resolution ($ \tau $) range of 3~-~100~ms. After a spike train duration of 50~ms, $d'$ reached values of around 1, indicating a fair discrimination between moth and bat calls. If spike trains were longer than 300~ms $d'$ was 2 or higher, illustrating a good discrimination performance. In contrast to the untreated spike trains, extended trains showed a drop in $d'$ from 2 to 1 after 1.2~ms. Furthermore the optimal temporal resolution range was slightly smaller on both ends. Taken together, the temporal information contained in the spike trains is sufficient to robustly distinguish bat from moth call series, even over short time windows, thereby enabling individuals to prepare their subsequent behavioral response.
 
-\begin{figure}[h!]
-	\centering
-	\includegraphics[width=\textwidth]{figures/Fig_03_Classification.pdf}
+\begin{figure}[tp]
+  \centering
+  \includegraphics[width=\textwidth]{Fig_03_Classification.pdf}
 \end{figure}
 \clearpage
 \captionof{figure}{\label{fig:03} Classification of moth and bat calls.
